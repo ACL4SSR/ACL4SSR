@@ -5,8 +5,8 @@
 #
 # 全部规则来自GFWList 没有白名单
 #
-# 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
-# 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+# 更新记录 https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/more/New.md
+# 下载地址 https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/gfwlist-banAD.acl
 #
 #**********************************************************************
 
@@ -46,6 +46,7 @@
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
+(^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\d{0,3}\..*$
@@ -1581,6 +1582,7 @@
 ^.*\.sg$
 ^.*\.tw$
 ^.*\.uk$
+^.*\.us$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$

@@ -1,3 +1,4 @@
+fork from https://github.com/ACL4SSR/ACL4SSR
 # SSR去广告规则/GFWList规则/Clash规则碎片
 
 * 项目基于CC-BY-SA-4.0协议发布  [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
@@ -22,13 +23,13 @@
 
 文件               | 默认  | 去广告  | 局域网 |   国内IP段  |   国内域名    |     国外
 ----              | ----  |  ----  | ----  |   ----     |     ----     |    ----
-[banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/banAD.acl)         |  代理  |   是   |  直连  |    有-直连  | 常用域名-直连  |  代理-常用国外域名增强
-[onlybanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/onlybanAD.acl)     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
-[nobanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/nobanAD.acl)       |  代理  |   否   |  直连  |    有-直连  |  常用域名-直连 |  全局代理
-[backcn-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/backcn-banAD.acl)  |  代理  |   是   |  直连  |    有-代理  |    无         | 直连-gfwlist列表 
-[gfwlist-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-banAD.acl) |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表
-[fullgfwlist.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/fullgfwlist.acl )   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表
-[gfwlist-user.rule](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-user.rule) |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表
+[banAD.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/banAD.acl)         |  代理  |   是   |  直连  |    有-直连  | 常用域名-直连  |  代理-常用国外域名增强
+[onlybanAD.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/onlybanAD.acl)     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
+[nobanAD.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/nobanAD.acl)       |  代理  |   否   |  直连  |    有-直连  |  常用域名-直连 |  全局代理
+[backcn-banAD.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/backcn-banAD.acl)  |  代理  |   是   |  直连  |    有-代理  |    无         | 直连-gfwlist列表 
+[gfwlist-banAD.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/gfwlist-banAD.acl) |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表
+[fullgfwlist.acl](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/fullgfwlist.acl )   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表
+[gfwlist-user.rule](https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/gfwlist-user.rule) |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表
 
 
 
@@ -96,13 +97,13 @@
 
 
 # ♻️ SS/SSR ACL Files Download：
-* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
-* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
-* ACL更新地址（**全局**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
-* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
-* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
-* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
-* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
+* ACL更新地址（**白名单**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/banAD.acl
+* ACL更新地址（**黑名单**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/gfwlist-banAD.acl
+* ACL更新地址（**全局**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/onlybanAD.acl
+* ACL更新地址（**仅GFWList**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/fullgfwlist.acl （原版SS**能且仅能**使用此规则）
+* ACL更新地址（**国内代理**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/backcn-banAD.acl
+* ACL更新地址（**白名单，无去广告**）：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/nobanAD.acl
+* SSR C# GFWList user.rule ：https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/gfwlist-user.rule
 
 
 * SS：https://github.com/shadowsocks

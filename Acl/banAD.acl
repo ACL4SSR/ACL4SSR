@@ -51,6 +51,7 @@
 (^|\.)\w*socdm\w*\.\w*$
 (^|\.)\w*supersonicads\w*\.\w*$
 (^|\.)\w*tracking\w*\.\w*$
+(^|\.)\w*usage\w*\.\w*$
 (^|\.)\w*wlmonitor\w*\.\w*$
 (^|\.)\w*zjtoolbar\w*\.\w*$
 (^|\.)ad\d{0,3}\..*$
@@ -1926,7 +1927,6 @@
 (^|\.)zmzfile\.com$
 
 # Private Tracker
-(^|\.)\w*announce\w*\.\w*$
 (^|\.)\w*torrent\w*\.\w*$
 (^|\.)\w*tracker\w*\.\w*$
 (^|\.)animebytes\.tv$
@@ -8811,6 +8811,7 @@
 ^.*\.sg$
 ^.*\.tw$
 ^.*\.uk$
+^.*\.us$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$

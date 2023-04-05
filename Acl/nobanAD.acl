@@ -8,8 +8,8 @@
 # 参照lhie1的surge规则改编，致谢!! https://github.com/lhie1/Surge
 # 参照scomper的surge规则改编，致谢!! https://gist.github.com/scomper/915b04a974f9e11952babfd0bbb241a8/revisions
 #
-# 更新记录 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/more/New.md
-# 下载地址 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
+# 更新记录 https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/more/New.md
+# 下载地址 https://raw.githubusercontent.com/hudingwen/ACL4SSR/master/banAD.acl
 #
 # 参数解释：
 # [proxy_all] 默认代理-本规则使用
@@ -7369,6 +7369,7 @@
 ^.*\.sg$
 ^.*\.tw$
 ^.*\.uk$
+^.*\.us$
 
 # 国外域名关键字
 (^|\.)\w*1e100\w*\.\w*$
