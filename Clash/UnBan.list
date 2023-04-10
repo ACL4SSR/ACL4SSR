@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,ol.epicgames.com
 DOMAIN-SUFFIX,dizhensubao.getui.com
 
 # Google
-DOMAIN,dl.google.com
 DOMAIN-SUFFIX,googletraveladservices.com
 
 # Mozilla
@@ -37,3 +36,6 @@ DOMAIN,bdtj.tagtic.cn
 
 # Hypixel Network
 DOMAIN,rewards.hypixel.net
+
+#Opendns
+IP-CIDR,208.67.222.222/32,no-resolve
