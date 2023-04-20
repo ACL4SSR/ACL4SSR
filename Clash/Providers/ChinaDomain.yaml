@@ -150,6 +150,7 @@ payload:
   - DOMAIN-SUFFIX,bytetos.com
   - DOMAIN-SUFFIX,bytexservice.com
   - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,douyincdn.com
   - DOMAIN-SUFFIX,douyinpic.com
   - DOMAIN-SUFFIX,douyinstatic.com
   - DOMAIN-SUFFIX,douyinvod.com
