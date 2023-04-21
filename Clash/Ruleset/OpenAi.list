@@ -1,5 +1,7 @@
 # 内容：OpenAi
-# 数量：3条
+# 数量：4条
+# 包含付款验证
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,stripe.com
