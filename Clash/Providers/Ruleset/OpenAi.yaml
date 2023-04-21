@@ -3,4 +3,4 @@ payload:
   # 数量：3条
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,OpenAi.com
