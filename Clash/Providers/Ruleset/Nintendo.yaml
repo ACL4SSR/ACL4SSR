@@ -1,6 +1,6 @@
 payload:
-  # 内容：Nintendo
-  # 数量：15条
+  #内容：Nintendo
+  #数量：15条
   - DOMAIN-SUFFIX,nintendo-europe.com
   - DOMAIN-SUFFIX,nintendo.be
   - DOMAIN-SUFFIX,nintendo.co.jp
