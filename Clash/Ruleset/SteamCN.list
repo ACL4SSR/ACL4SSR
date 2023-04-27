@@ -1,5 +1,5 @@
 # 内容：SteamCN
-# 数量：15条
+# 数量：16条
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
@@ -11,6 +11,7 @@ DOMAIN,steampipe.steamcontent.tnkjmec.com
 DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
 DOMAIN,wmsjsteam.com
+DOMAIN,xz.pphimalayanrt.com
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcontent.com
