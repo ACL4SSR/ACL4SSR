@@ -1,0 +1,7 @@
+payload:
+  # 内容：Douyu 斗鱼
+  # 数量：4条
+  - DOMAIN-SUFFIX,douyu.com
+  - DOMAIN-SUFFIX,douyu.tv
+  - DOMAIN-SUFFIX,douyuscdn.com
+  - DOMAIN-SUFFIX,douyutv.com
