@@ -6,10 +6,6 @@ DOMAIN-SUFFIX,ol.epicgames.com
 # Getui
 DOMAIN-SUFFIX,dizhensubao.getui.com
 
-# Google
-DOMAIN,dl.google.com
-DOMAIN-SUFFIX,googletraveladservices.com
-
 # Mozilla
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 
