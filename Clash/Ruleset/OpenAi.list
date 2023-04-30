@@ -1,5 +1,9 @@
-# 内容：OpenAi
-# 数量：3条
+# 内容：openai
+# 数量：6条
+# 包含openai、付款验证、仪表盘等域名
+DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
