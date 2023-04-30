@@ -1,5 +1,5 @@
 # 内容：国外媒体列表
-# 更新：2023-04-20 21:24:56
+# 更新：2023-04-27 22:32:05
 # 数量：350条
 
 # ABC
@@ -356,7 +356,7 @@ DOMAIN-SUFFIX,soundcloud.com
 
 # Spotify
 USER-AGENT,Spotify*
-DOMAIN-KEYWORD,-spotify-com
+DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
@@ -378,7 +378,7 @@ DOMAIN-SUFFIX,skyking.com.tw
 
 # TikTok
 USER-AGENT,TikTok*
-DOMAIN-KEYWORD,tiktokcdn-
+DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ipstatp.com
