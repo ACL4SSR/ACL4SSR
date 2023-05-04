@@ -2,5 +2,5 @@ DOMAIN-KEYWORD,megaphone
 DOMAIN-KEYWORD,overcast
 DOMAIN-KEYWORD,listenbox
 DOMAIN-KEYWORD,podtrac
-wordpress.com
-pocketcasts.com
+DOMAIN-SUFFIX,wordpress.com
+DOMAIN-SUFFIX,pocketcasts.com
