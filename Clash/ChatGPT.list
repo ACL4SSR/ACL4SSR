@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,auth0.openai.com
 DOMAIN-SUFFIX,platform.openai.com
 DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,featuregates.org
 # Add ai.com
 DOMAIN-SUFFIX,ai.com
 # Add stripe.com
