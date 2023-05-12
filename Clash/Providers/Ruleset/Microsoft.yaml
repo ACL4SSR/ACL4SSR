@@ -1,6 +1,6 @@
 payload:
   # 内容：Microsoft
-  # 数量：77条
+  # 数量：79条
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   - DOMAIN-SUFFIX,aadrm.com
@@ -16,6 +16,8 @@ payload:
   - DOMAIN-SUFFIX,azureiotcentral.com
   - DOMAIN-SUFFIX,azurerms.com
   - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,bingapis.com
   - DOMAIN-SUFFIX,cloudapp.net
   - DOMAIN-SUFFIX,cloudappsecurity.com
   - DOMAIN-SUFFIX,edgesuite.net
