@@ -6,4 +6,4 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,stripe.com
-HOST-SUFFIX,http://sentry.io, OpenAI
+HOST-SUFFIX,http://sentry.io
