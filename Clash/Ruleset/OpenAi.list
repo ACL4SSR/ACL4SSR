@@ -1,5 +1,5 @@
 # 内容：OpenAi
-# 数量：13条
+# 数量：14条
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -13,3 +13,4 @@ DOMAIN-SUFFIX,ingest.sentry.io
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
