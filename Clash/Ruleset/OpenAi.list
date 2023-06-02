@@ -1,5 +1,5 @@
 # 内容：OpenAi
-# 数量：14条
+# 数量：15条
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -7,6 +7,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,link.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,ingest.sentry.io
