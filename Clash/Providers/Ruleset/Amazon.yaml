@@ -1,6 +1,6 @@
 payload:
   # 内容：Amazon
-  # 数量：38条
+  # 数量：39条
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
+  - DOMAIN-SUFFIX,seattlespheres.com
   - IP-CIDR,13.32.0.0/15,no-resolve
   - IP-CIDR,13.35.0.0/17,no-resolve
   - IP-CIDR,18.184.0.0/15,no-resolve
