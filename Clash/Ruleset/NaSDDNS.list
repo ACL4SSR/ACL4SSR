@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,dyndns.org
 DOMAIN-SUFFIX,dnsapi.cn
 DOMAIN-SUFFIX,api.ipify.org
 DOMAIN-SUFFIX,api.nn.ci
+DOMAIN-SUFFIX,ifconfig.me
 DOMAIN-SUFFIX,checkip.synology.com
 DOMAIN-SUFFIX,checkipv6.synology.com
 DOMAIN-SUFFIX,checkport.synology.com
@@ -31,10 +32,12 @@ DOMAIN-SUFFIX,synology.cn
 DOMAIN-SUFFIX,synocommunity.com
 DOMAIN-SUFFIX,qnap.com
 DOMAIN-SUFFIX,edge.api.myqnapcloud.com
+DOMAIN-SUFFIX,myqnapcloud.io
 DOMAIN-SUFFIX,elb.amazonaws.com
 DOMAIN-SUFFIX,portcheck.transmissionbt.com
 DOMAIN-SUFFIX,myqnapcloud.com
 DOMAIN-KEYWORD,qcloud
+DOMAIN-KEYWORD,myqnapcloud
 IP-CIDR,100.24.218.0/24,no-resolve
 IP-CIDR,18.213.139.0/24,no-resolve
 IP-CIDR,18.214.42.0/24,no-resolve
