@@ -39,6 +39,8 @@ IP-CIDR,54.159.2.0/24,no-resolve
 
 # NAS 第三方套件直连列表
 DOMAIN-SUFFIX,spk7.imnks.com
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,-synology
 
 # bt/pt网站列表
 DOMAIN-SUFFIX,hdzone.me
