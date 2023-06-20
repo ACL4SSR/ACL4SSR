@@ -1,4 +1,4 @@
-# 内容：Nas(Synology & QNAP)DDNS
+# 内容：Nas(Synology & QNAP)DDNS & IP-check API
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,aliyuncs.com
@@ -20,6 +20,13 @@ DOMAIN-SUFFIX,dnsapi.cn
 DOMAIN-SUFFIX,api.ipify.org
 DOMAIN-SUFFIX,api.nn.ci
 DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ifconfig.io
+DOMAIN-SUFFIX,ident.me
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,test.ipw.cn
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,www.nsupdate.info
+DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,checkip.synology.com
 DOMAIN-SUFFIX,checkipv6.synology.com
 DOMAIN-SUFFIX,checkport.synology.com
