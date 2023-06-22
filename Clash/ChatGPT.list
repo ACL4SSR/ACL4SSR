@@ -8,6 +8,11 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+DOMAIN-SUFFIX,quoracdn.net
+DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,sprig.com
 # Add ai.com
 DOMAIN-SUFFIX,ai.com
 # Add stripe.com
