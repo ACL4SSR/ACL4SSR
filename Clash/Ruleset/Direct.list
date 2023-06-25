@@ -45,6 +45,7 @@ DOMAIN-KEYWORD,-synology
 # bt/pt网站列表
 DOMAIN-SUFFIX,hdzone.me
 DOMAIN-SUFFIX,greatposterwall.com
+DOMAIN-SUFFIX,hdfun.me
 
 # 自定义代理列表
 DOMAIN-SUFFIX,diyp.112114.xyz
