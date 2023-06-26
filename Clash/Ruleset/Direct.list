@@ -38,7 +38,7 @@ IP-CIDR,34.199.209.0/24,no-resolve
 IP-CIDR,54.159.2.0/24,no-resolve
 
 # NAS 第三方套件直连列表
-DOMAIN-SUFFIX,spk7.imnks.com
+DOMAIN-KEYWORD,imnks
 DOMAIN-KEYWORD,synology
 DOMAIN-KEYWORD,-synology
 
