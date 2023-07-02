@@ -1,0 +1,55 @@
+# NAS 直连列表
+DOMAIN-SUFFIX,tpddns.cn
+DOMAIN-SUFFIX,duckdns.org
+DOMAIN-SUFFIX,dns-dns.com
+DOMAIN-SUFFIX,3322.org
+DOMAIN-SUFFIX,3322.net
+DOMAIN-SUFFIX,nat123.com
+DOMAIN-SUFFIX,dynu.com
+DOMAIN-SUFFIX,changeip.com
+DOMAIN-SUFFIX,myddns.rocks
+DOMAIN-SUFFIX,ddnsfree.com
+DOMAIN-SUFFIX,dyndns.org
+DOMAIN-SUFFIX,dnsapi.cn
+DOMAIN-SUFFIX,api.ipify.org
+DOMAIN-SUFFIX,api.nn.ci
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,checkipv6.synology.com
+DOMAIN-SUFFIX,checkport.synology.com
+DOMAIN-SUFFIX,ddns.synology.com
+DOMAIN-SUFFIX,account.synology.com
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,QuICKcoNnECt.tO
+DOMAIN-SUFFIX,quickconnect.cn
+DOMAIN-SUFFIX,synology.cn
+DOMAIN-SUFFIX,synocommunity.com
+DOMAIN-SUFFIX,update.qnap.com
+DOMAIN-SUFFIX,myqnapcloud.com
+DOMAIN-SUFFIX,qnap.com
+DOMAIN-SUFFIX,edge.api.myqnapcloud.com
+DOMAIN-KEYWORD,qcloud
+IP-CIDR,34.234.183.0/24,no-resolve
+IP-CIDR,3.231.124.0/24,no-resolve
+IP-CIDR,34.235.82.0/24,no-resolve
+IP-CIDR,44.209.213.0/24,no-resolve
+IP-CIDR,18.214.42.0/24,no-resolve
+IP-CIDR,52.86.69.0/24,no-resolve
+IP-CIDR,34.199.209.0/24,no-resolve
+IP-CIDR,54.159.2.0/24,no-resolve
+
+# NAS 第三方套件直连列表
+DOMAIN-KEYWORD,spk7.imnks.com
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,-synology
+DOMAIN-KEYWORD,ipify
+
+# bt/pt网站列表
+DOMAIN-SUFFIX,hdzone.me
+DOMAIN-SUFFIX,greatposterwall.com
+DOMAIN-SUFFIX,hdfun.me
+
+# 自定义直连列表
+DOMAIN-SUFFIX,diyp.112114.xyz
+DOMAIN-SUFFIX,generationnexxxt.com
+DOMAIN-KEYWORD,bing
+DOMAIN-KEYWORD,letsencrypt

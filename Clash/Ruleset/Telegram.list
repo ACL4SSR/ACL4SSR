@@ -1,6 +1,6 @@
-# 内容：Telegram
-# 数量：13条
-DOMAIN-KEYWORD,telegram
+# Telegram
+#PROCESS-NAME,Telegram.exe
+#PROCESS-NAME,org.telegram.messenger
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
