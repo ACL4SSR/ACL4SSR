@@ -38,3 +38,7 @@ payload:
 
   # Hypixel Network
   - DOMAIN,rewards.hypixel.net
+
+  # Koodo Mobile
+  - DOMAIN-SUFFIX,koodomobile.com
+  - DOMAIN-SUFFIX,koodomobile.ca
