@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
 DOMAIN-SUFFIX,btlibrary.me
+DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,cloudcone.com
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,gameloft.com
@@ -15,6 +16,7 @@ DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,myteamspeak.com
 DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,ping.pe
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,teddysun.com
@@ -30,6 +32,7 @@ DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,us
 
 # 国外域名关键字
 DOMAIN-KEYWORD,1e100
@@ -323,11 +326,6 @@ IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 
-# OpenAi
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,ai.com
-
 # OneDrive
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,onedrive
@@ -393,6 +391,7 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
@@ -475,3 +474,6 @@ DOMAIN-SUFFIX,ocnttv.com
 # VikACG
 DOMAIN-SUFFIX,vikacg.com
 DOMAIN-SUFFIX,picjs.xyz
+
+# github
+DOMAIN-SUFFIX,raw.githubusercontent.com
