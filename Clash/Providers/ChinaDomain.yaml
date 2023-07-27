@@ -17,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,pdfwifi.com
   - DOMAIN-SUFFIX,zhenguanyu.biz
   - DOMAIN-SUFFIX,zhenguanyu.com
+  - DOMAIN-SUFFIX,snapdrop.net
 
   # CN域名直连(中国|公司|网络)
   - DOMAIN-SUFFIX,cn
@@ -433,6 +434,12 @@ payload:
   - DOMAIN-SUFFIX,jiasule.com
   - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,upaiyun.com
+
+  # China DNS
+  - DOMAIN-SUFFIX,doh.pub
+  - DOMAIN-SUFFIX,dns.alidns.com
+  - DOMAIN-SUFFIX,doh.360.cn
+  - IP-CIDR,1.12.12.12/32,no-resolve
 
   # AccelerateDirectSites
   - DOMAIN-SUFFIX,10010.com

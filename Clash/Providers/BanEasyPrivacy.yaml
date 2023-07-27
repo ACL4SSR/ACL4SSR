@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
   # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-  # 更新：2023-07-27 21:13:12
-  # 数量：21107条
+  # 更新：2023-07-27 22:02:53
+  # 数量：21108条
 
   - DOMAIN-SUFFIX,00px.net
   - DOMAIN-SUFFIX,0d8is908gby1.www.terraform.com.ar
@@ -17341,6 +17341,7 @@ payload:
   - DOMAIN-SUFFIX,t.southernmiss.com
   - DOMAIN-SUFFIX,t.splicky.com
   - DOMAIN-SUFFIX,t.spot.im
+  - DOMAIN-SUFFIX,t.syosetu.org
   - DOMAIN-SUFFIX,t.texasperformingarts.org
   - DOMAIN-SUFFIX,t.texassports.com
   - DOMAIN-SUFFIX,t.texastech.com

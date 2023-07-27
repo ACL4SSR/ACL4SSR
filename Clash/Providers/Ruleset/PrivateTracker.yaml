@@ -1,5 +1,5 @@
 payload:
-  # 内容：Private Tracker
+  # 内容：PrivateTracker
   # 数量：122条
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent

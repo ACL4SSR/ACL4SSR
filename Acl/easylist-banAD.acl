@@ -1482,7 +1482,7 @@
 
 # Adblock Rules
 # 内容：EasyList + EasyListChina + EasyPrivacy列表
-# 数量：54761条
+# 数量：54763条
 (^|\.)0-000\.store$
 (^|\.)0008d6ba2e\.com$
 (^|\.)001adafg\.xyz$
@@ -46814,6 +46814,7 @@
 (^|\.)t\.southernmiss\.com$
 (^|\.)t\.splicky\.com$
 (^|\.)t\.spot\.im$
+(^|\.)t\.syosetu\.org$
 (^|\.)t\.texasperformingarts\.org$
 (^|\.)t\.texassports\.com$
 (^|\.)t\.texastech\.com$
@@ -54713,6 +54714,7 @@
 (^|\.)xiaoshuoyun\.cn$
 (^|\.)xiaosss\.ren$
 (^|\.)xiaoxiuapp\.com$
+(^|\.)xiaoy\.name$
 (^|\.)xiaoyunong13\.top$
 (^|\.)xiaozengyyds\.com$
 (^|\.)xiatian\.buzz$
