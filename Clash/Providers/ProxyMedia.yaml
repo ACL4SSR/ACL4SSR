@@ -1,7 +1,7 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2023-06-04 16:14:19
-  # 数量：365条
+  # 更新：2023-07-27 21:13:20
+  # 数量：366条
 
   # ABC
   - DOMAIN-SUFFIX,edgedatg.com
@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,amazon.jobs
+  - DOMAIN-SUFFIX,amazontools.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
