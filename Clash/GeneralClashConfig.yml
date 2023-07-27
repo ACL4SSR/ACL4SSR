@@ -259,6 +259,7 @@ cfw-bypass:
   - "*.pdfwifi.com"
   - "*.zhenguanyu.biz"
   - "*.zhenguanyu.com"
+  - "*.snapdrop.net"
   # CN域名直连(中国|公司|网络)
   - "*.cn"
   - "*.xn--fiqs8s"
@@ -624,6 +625,10 @@ cfw-bypass:
   - "*.jiasule.com"
   - "*.staticfile.org"
   - "*.upaiyun.com"
+  # China DNS
+  - "*.doh.pub"
+  - "*.dns.alidns.com"
+  - "*.doh.360.cn"
   # AccelerateDirectSites
   - "*.10010.com"
   - "*.115.com"
