@@ -2311,6 +2311,7 @@ payload:
   - DOMAIN-SUFFIX,greenreadings.com
   - DOMAIN-SUFFIX,greenvpn.net
   - DOMAIN-SUFFIX,greenvpn.org
+  - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grotty-monday.com
   - DOMAIN-SUFFIX,grow.google
   - DOMAIN-SUFFIX,gs-discuss.com
@@ -2691,6 +2692,7 @@ payload:
   - DOMAIN-SUFFIX,imb.org
   - DOMAIN-SUFFIX,imdb.com
   - DOMAIN-SUFFIX,img.ly
+  - DOMAIN-SUFFIX,imgasd.com
   - DOMAIN-SUFFIX,imgchili.net
   - DOMAIN-SUFFIX,imgmega.com
   - DOMAIN-SUFFIX,imgur.com
@@ -2775,7 +2777,6 @@ payload:
   - DOMAIN-SUFFIX,israbox.com
   - DOMAIN-SUFFIX,issuu.com
   - DOMAIN-SUFFIX,istars.co.nz
-  - DOMAIN-SUFFIX,istarshine.com
   - DOMAIN-SUFFIX,istef.info
   - DOMAIN-SUFFIX,istiqlalhewer.com
   - DOMAIN-SUFFIX,istockphoto.com
@@ -3176,6 +3177,7 @@ payload:
   - DOMAIN-SUFFIX,lzjscript.com
   - DOMAIN-SUFFIX,lzmtnews.org
   - DOMAIN-SUFFIX,m-sport.co.uk
+  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m.me
   - DOMAIN-SUFFIX,macgamestore.com
   - DOMAIN-SUFFIX,macrovpn.com
@@ -5748,6 +5750,7 @@ payload:
   - DOMAIN-SUFFIX,xiaohexie.com
   - DOMAIN-SUFFIX,xiaolan.me
   - DOMAIN-SUFFIX,xiaoma.org
+  - DOMAIN-SUFFIX,xiaomi.eu
   - DOMAIN-SUFFIX,xiaxiaoqiang.net
   - DOMAIN-SUFFIX,xiezhua.com
   - DOMAIN-SUFFIX,xihua.es
