@@ -39,3 +39,6 @@ DOMAIN,rewards.hypixel.net
 
 #OriginLab
 DOMAIN-SUFFIX,originlab.com
+# Koodo Mobile
+DOMAIN-SUFFIX,koodomobile.com
+DOMAIN-SUFFIX,koodomobile.ca
