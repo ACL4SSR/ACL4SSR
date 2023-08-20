@@ -1,7 +1,7 @@
 payload:
   # 内容：国外媒体列表
   # 更新：2023-07-27 22:03:00
-  # 数量：367条
+  # 数量：366条
 
   # ABC
   - DOMAIN-SUFFIX,edgedatg.com
@@ -337,7 +337,6 @@ payload:
 
   # OpenAi
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
