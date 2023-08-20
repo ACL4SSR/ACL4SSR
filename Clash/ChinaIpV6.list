@@ -1,7 +1,7 @@
 # 内容：中国IP地址段ipv6
 # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-# 更新：2023-07-27 22:03:09
-# 数量：1982条
+# 更新：2023-08-20 11:28:38
+# 数量：1983条
 
 IP-CIDR6,2001:250::/35,no-resolve
 IP-CIDR6,2001:250:2000::/35,no-resolve
@@ -66,6 +66,7 @@ IP-CIDR6,2001:df2:180::/48,no-resolve
 IP-CIDR6,2001:df2:5780::/48,no-resolve
 IP-CIDR6,2001:df2:8bc0::/48,no-resolve
 IP-CIDR6,2001:df2:a580::/48,no-resolve
+IP-CIDR6,2001:df2:c240::/48,no-resolve
 IP-CIDR6,2001:df3:1480::/48,no-resolve
 IP-CIDR6,2001:df3:2a80::/48,no-resolve
 IP-CIDR6,2001:df3:3a80::/48,no-resolve
@@ -451,6 +452,7 @@ IP-CIDR6,2401:1ce0::/32,no-resolve
 IP-CIDR6,2401:1d40::/32,no-resolve
 IP-CIDR6,2401:1da0::/32,no-resolve
 IP-CIDR6,2401:1dc0::/32,no-resolve
+IP-CIDR6,2401:1de0::/32,no-resolve
 IP-CIDR6,2401:1e00::/32,no-resolve
 IP-CIDR6,2401:1ec0::/32,no-resolve
 IP-CIDR6,2401:1f40::/32,no-resolve
@@ -825,7 +827,6 @@ IP-CIDR6,2402:ef40::/32,no-resolve
 IP-CIDR6,2402:ef80::/32,no-resolve
 IP-CIDR6,2402:f000::/32,no-resolve
 IP-CIDR6,2402:f140::/32,no-resolve
-IP-CIDR6,2402:f3c0::/32,no-resolve
 IP-CIDR6,2402:f480::/32,no-resolve
 IP-CIDR6,2402:f540::/32,no-resolve
 IP-CIDR6,2402:f580::/32,no-resolve
@@ -1192,7 +1193,7 @@ IP-CIDR6,2404:3740::/32,no-resolve
 IP-CIDR6,2404:37c0::/32,no-resolve
 IP-CIDR6,2404:3840::/32,no-resolve
 IP-CIDR6,2404:3940::/32,no-resolve
-IP-CIDR6,2404:3b00::/32,no-resolve
+IP-CIDR6,2404:3b00::/34,no-resolve
 IP-CIDR6,2404:3bc0::/32,no-resolve
 IP-CIDR6,2404:3c40::/32,no-resolve
 IP-CIDR6,2404:3f40::/32,no-resolve
