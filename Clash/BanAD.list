@@ -224,9 +224,9 @@ DOMAIN-SUFFIX,instabug.com
 DOMAIN-SUFFIX,intely.cn
 DOMAIN-SUFFIX,iperceptions.com
 DOMAIN-SUFFIX,ipinyou.com
-DOMAIN-SUFFIX,irs01.com
-DOMAIN-SUFFIX,irs01.net
-DOMAIN-SUFFIX,irs09.com
+#DOMAIN-SUFFIX,irs01.com
+#DOMAIN-SUFFIX,irs01.net
+#DOMAIN-SUFFIX,irs09.com
 DOMAIN-SUFFIX,istreamsche.com
 DOMAIN-SUFFIX,jesgoo.com
 DOMAIN-SUFFIX,jiaeasy.net
