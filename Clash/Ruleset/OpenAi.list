@@ -13,3 +13,6 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-KEYWORD,jetbrains
+DOMAIN-KEYWORD,intellij
+DOMAIN-SUFFIX,grazie.ai
