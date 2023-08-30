@@ -1,5 +1,5 @@
 # 内容：AccelerateDirectSites
-# 数量：239条
+# 数量：240条
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,12306.com
@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,easou.com
 DOMAIN-SUFFIX,eastday.com
 DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,element-plus.org
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,fang.com
 DOMAIN-SUFFIX,fantasy.tv
