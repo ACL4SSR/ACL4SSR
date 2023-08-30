@@ -327,7 +327,6 @@ payload:
   # OpenAi
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,ai.com
 
   # OneDrive
   - DOMAIN-KEYWORD,1drv
@@ -394,7 +393,6 @@ payload:
   - DOMAIN-SUFFIX,steamstatic.com
   - DOMAIN-SUFFIX,steamstat.us
   - DOMAIN,steambroadcast.akamaized.net
-  - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamcommunity-a.akamaihd.net
   - DOMAIN,steamstore-a.akamaihd.net
   - DOMAIN,steamusercontent-a.akamaihd.net
