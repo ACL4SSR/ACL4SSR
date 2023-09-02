@@ -1,8 +1,8 @@
 payload:
   # 内容：中国IP地址段ipv6
   # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-  # 更新：2023-07-27 22:03:09
-  # 数量：1982条
+  # 更新：2023-09-02 19:37:01
+  # 数量：1984条
 
   - IP-CIDR6,2001:250::/35,no-resolve
   - IP-CIDR6,2001:250:2000::/35,no-resolve
@@ -67,6 +67,8 @@ payload:
   - IP-CIDR6,2001:df2:5780::/48,no-resolve
   - IP-CIDR6,2001:df2:8bc0::/48,no-resolve
   - IP-CIDR6,2001:df2:a580::/48,no-resolve
+  - IP-CIDR6,2001:df2:c240::/48,no-resolve
+  - IP-CIDR6,2001:df2:d4c0::/48,no-resolve
   - IP-CIDR6,2001:df3:1480::/48,no-resolve
   - IP-CIDR6,2001:df3:2a80::/48,no-resolve
   - IP-CIDR6,2001:df3:3a80::/48,no-resolve
@@ -452,6 +454,7 @@ payload:
   - IP-CIDR6,2401:1d40::/32,no-resolve
   - IP-CIDR6,2401:1da0::/32,no-resolve
   - IP-CIDR6,2401:1dc0::/32,no-resolve
+  - IP-CIDR6,2401:1de0::/32,no-resolve
   - IP-CIDR6,2401:1e00::/32,no-resolve
   - IP-CIDR6,2401:1ec0::/32,no-resolve
   - IP-CIDR6,2401:1f40::/32,no-resolve
@@ -464,6 +467,7 @@ payload:
   - IP-CIDR6,2401:2a00::/32,no-resolve
   - IP-CIDR6,2401:2b40::/32,no-resolve
   - IP-CIDR6,2401:2e00::/32,no-resolve
+  - IP-CIDR6,2401:2e20::/32,no-resolve
   - IP-CIDR6,2401:3100::/32,no-resolve
   - IP-CIDR6,2401:3380::/32,no-resolve
   - IP-CIDR6,2401:33c0::/32,no-resolve
@@ -675,7 +679,6 @@ payload:
   - IP-CIDR6,2402:4e00::/32,no-resolve
   - IP-CIDR6,2402:4ec0::/32,no-resolve
   - IP-CIDR6,2402:4f80::/32,no-resolve
-  - IP-CIDR6,2402:5140::/32,no-resolve
   - IP-CIDR6,2402:5180::/32,no-resolve
   - IP-CIDR6,2402:52c0::/32,no-resolve
   - IP-CIDR6,2402:5340::/32,no-resolve
@@ -826,7 +829,6 @@ payload:
   - IP-CIDR6,2402:ef80::/32,no-resolve
   - IP-CIDR6,2402:f000::/32,no-resolve
   - IP-CIDR6,2402:f140::/32,no-resolve
-  - IP-CIDR6,2402:f3c0::/32,no-resolve
   - IP-CIDR6,2402:f480::/32,no-resolve
   - IP-CIDR6,2402:f540::/32,no-resolve
   - IP-CIDR6,2402:f580::/32,no-resolve
@@ -1193,7 +1195,7 @@ payload:
   - IP-CIDR6,2404:37c0::/32,no-resolve
   - IP-CIDR6,2404:3840::/32,no-resolve
   - IP-CIDR6,2404:3940::/32,no-resolve
-  - IP-CIDR6,2404:3b00::/32,no-resolve
+  - IP-CIDR6,2404:3b00::/34,no-resolve
   - IP-CIDR6,2404:3bc0::/32,no-resolve
   - IP-CIDR6,2404:3c40::/32,no-resolve
   - IP-CIDR6,2404:3f40::/32,no-resolve

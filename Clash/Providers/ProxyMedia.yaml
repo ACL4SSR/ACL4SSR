@@ -1,6 +1,6 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2023-07-27 22:03:00
+  # 更新：2023-08-20 11:28:35
   # 数量：367条
 
   # ABC
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,aiv-delivery.net
   - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazontools.com
+  - DOMAIN-SUFFIX,amazontours.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
@@ -337,7 +338,6 @@ payload:
 
   # OpenAi
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
