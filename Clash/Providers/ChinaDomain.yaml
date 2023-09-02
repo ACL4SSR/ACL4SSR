@@ -131,11 +131,6 @@ payload:
   - DOMAIN-SUFFIX,im9.com
   - DOMAIN-SUFFIX,smtcdns.net
 
-  # Blizzard
-  - DOMAIN-SUFFIX,battle.net
-  - DOMAIN-SUFFIX,battlenet.com
-  - DOMAIN-SUFFIX,blizzard.com
-
   # ByteDance
   - DOMAIN-SUFFIX,amemv.com
   - DOMAIN-SUFFIX,bdxiguaimg.com
