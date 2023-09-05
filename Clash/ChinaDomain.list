@@ -1,4 +1,8 @@
 # 直连列表
+# My
+DOMAIN-SUFFIX,scfzfw.cn
+DOMAIN-SUFFIX,aiwanyun.cn
+DOMAIN-SUFFIX,aiyundiy.com
 
 # MyList
 DOMAIN-SUFFIX,13th.tech
@@ -129,11 +133,6 @@ DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,smtcdns.net
-
-# Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,blizzard.com
 
 # ByteDance
 DOMAIN-SUFFIX,amemv.com
