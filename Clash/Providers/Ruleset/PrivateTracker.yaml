@@ -35,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,cinemaz.to
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
   - DOMAIN-SUFFIX,concertos.live
+  - DOMAIN-SUFFIX,daydream.dmhy.best
   - DOMAIN-SUFFIX,dicmusic.club
   - DOMAIN-SUFFIX,discfan.net
   - DOMAIN-SUFFIX,dxdhd.com
@@ -82,7 +83,6 @@ payload:
   - DOMAIN-SUFFIX,leaguehd.com
   - DOMAIN-SUFFIX,lemonhd.org
   - DOMAIN-SUFFIX,lztr.me
-  - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,madsrevolution.net
   - DOMAIN-SUFFIX,moecat.best
   - DOMAIN-SUFFIX,morethan.tv
@@ -119,7 +119,7 @@ payload:
   - DOMAIN-SUFFIX,torrentleech.org
   - DOMAIN-SUFFIX,torrentseeds.org
   - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,tracker.m-team.io
   - DOMAIN-SUFFIX,trontv.com
-  - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn
