@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,aiwanyun.cn
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
@@ -15,6 +14,3 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 DOMAIN-SUFFIX,hudingwen.com
-DOMAIN-SUFFIX,aiwanyun.cn
-DOMAIN-SUFFIX,aiyundiy.com
-DOMAIN-SUFFIX,scfzfw.cn
