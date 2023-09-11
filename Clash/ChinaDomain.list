@@ -277,6 +277,15 @@ DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomicp.com
 
+# Heytap
+DOMAIN-SUFFIX,heytap.com
+DOMAIN-SUFFIX,heytapmobi.com
+DOMAIN-SUFFIX,heytapdownload.com
+DOMAIN-SUFFIX,heytapcs.com
+DOMAIN-SUFFIX,oppomobile.com
+DOMAIN-SUFFIX,oppoer.me
+DOMAIN-SUFFIX,heytapimage.com
+
 # NetEase
 DOMAIN-SUFFIX,126.com
 DOMAIN-SUFFIX,126.net
