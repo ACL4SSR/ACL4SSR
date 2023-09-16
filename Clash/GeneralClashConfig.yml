@@ -364,10 +364,6 @@ cfw-bypass:
   - "*.hdslb.com"
   - "*.im9.com"
   - "*.smtcdns.net"
-  # Blizzard
-  - "*.battle.net"
-  - "*.battlenet.com"
-  - "*.blizzard.com"
   # ByteDance
   - "*.amemv.com"
   - "*.bdxiguaimg.com"
