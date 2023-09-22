@@ -25,7 +25,6 @@
 (^|\.)\w*admaster\w*\.\w*$
 (^|\.)\w*adsage\w*\.\w*$
 (^|\.)\w*adsensor\w*\.\w*$
-(^|\.)\w*adservice\w*\.\w*$
 (^|\.)\w*adsmogo\w*\.\w*$
 (^|\.)\w*adsrvmedia\w*\.\w*$
 (^|\.)\w*adsserving\w*\.\w*$
@@ -4205,7 +4204,6 @@
 (^|\.)israbox\.com$
 (^|\.)issuu\.com$
 (^|\.)istars\.co\.nz$
-(^|\.)istarshine\.com$
 (^|\.)istef\.info$
 (^|\.)istiqlalhewer\.com$
 (^|\.)istockphoto\.com$

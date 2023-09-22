@@ -1297,6 +1297,7 @@ DOMAIN-SUFFIX,dnset.com
 DOMAIN-SUFFIX,dnsrd.com
 DOMAIN-SUFFIX,dnssec.net
 DOMAIN-SUFFIX,dnvod.tv
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,doctorvoice.org
 DOMAIN-SUFFIX,documentingreality.com
 DOMAIN-SUFFIX,dogfartnetwork.com
@@ -2309,6 +2310,7 @@ DOMAIN-SUFFIX,greenpeace.org
 DOMAIN-SUFFIX,greenreadings.com
 DOMAIN-SUFFIX,greenvpn.net
 DOMAIN-SUFFIX,greenvpn.org
+DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,grow.google
 DOMAIN-SUFFIX,gs-discuss.com
@@ -2689,6 +2691,7 @@ DOMAIN-SUFFIX,imagezilla.net
 DOMAIN-SUFFIX,imb.org
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,imgasd.com
 DOMAIN-SUFFIX,imgchili.net
 DOMAIN-SUFFIX,imgmega.com
 DOMAIN-SUFFIX,imgur.com
@@ -2773,7 +2776,6 @@ DOMAIN-SUFFIX,isohunt.com
 DOMAIN-SUFFIX,israbox.com
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istars.co.nz
-DOMAIN-SUFFIX,istarshine.com
 DOMAIN-SUFFIX,istef.info
 DOMAIN-SUFFIX,istiqlalhewer.com
 DOMAIN-SUFFIX,istockphoto.com
@@ -3174,6 +3176,7 @@ DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,m-sport.co.uk
+DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,macgamestore.com
 DOMAIN-SUFFIX,macrovpn.com
@@ -3848,6 +3851,7 @@ DOMAIN-SUFFIX,pacificpoker.com
 DOMAIN-SUFFIX,packetix.net
 DOMAIN-SUFFIX,pacopacomama.com
 DOMAIN-SUFFIX,padmanet.com
+DOMAIN-SUFFIX,page.link
 DOMAIN-SUFFIX,page.tl
 DOMAIN-SUFFIX,page2rss.com
 DOMAIN-SUFFIX,pages.dev
@@ -3993,6 +3997,7 @@ DOMAIN-SUFFIX,pobieramy.top
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,podcast.co
 DOMAIN-SUFFIX,podictionary.com
+DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,pokerstars.com
 DOMAIN-SUFFIX,pokerstars.net
 DOMAIN-SUFFIX,pokerstrategy.com
@@ -5744,6 +5749,7 @@ DOMAIN-SUFFIX,xiaod.in
 DOMAIN-SUFFIX,xiaohexie.com
 DOMAIN-SUFFIX,xiaolan.me
 DOMAIN-SUFFIX,xiaoma.org
+DOMAIN-SUFFIX,xiaomi.eu
 DOMAIN-SUFFIX,xiaxiaoqiang.net
 DOMAIN-SUFFIX,xiezhua.com
 DOMAIN-SUFFIX,xihua.es
@@ -6214,7 +6220,6 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
