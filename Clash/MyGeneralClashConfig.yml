@@ -4,11 +4,16 @@ dns:
   ipv6: true
   enhanced-mode: fake-ip
   nameserver:
+  - 223.5.5.5 # 阿里DNS
+  - 180.76.76.76 # 百度DNS
+  - 119.29.29.29 # 腾讯DNS
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
   - https://doh.360.cn/dns-query
   - https://doh.opendns.com/dns-query
   fallback:
+  - 8.8.8.8
+  - 1.1.1.1
   - https://8.8.8.8/dns-query
   - https://8.8.4.4/dns-query
   - https://1.1.1.1/dns-query
