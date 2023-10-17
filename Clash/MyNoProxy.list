@@ -1,0 +1,9 @@
+# 直连列表
+
+# 域名
+DOMAIN-SUFFIX,scfzfw.cn
+DOMAIN-SUFFIX,aiwanyun.cn
+DOMAIN-SUFFIX,aiyundiy.com
+
+# IP
+IP-CIDR,172.54.114.0/24,no-resolve
