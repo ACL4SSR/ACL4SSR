@@ -215,6 +215,20 @@ payload:
   - DOMAIN-SUFFIX,vmall.com
   - DOMAIN-SUFFIX,vmallres.com
 
+  # Heytap
+  - DOMAIN-SUFFIX,allawnfs.com
+  - DOMAIN-SUFFIX,allawno.com
+  - DOMAIN-SUFFIX,allawntech.com
+  - DOMAIN-SUFFIX,coloros.com
+  - DOMAIN-SUFFIX,heytap.com
+  - DOMAIN-SUFFIX,heytapcs.com
+  - DOMAIN-SUFFIX,heytapdownload.com
+  - DOMAIN-SUFFIX,heytapimage.com
+  - DOMAIN-SUFFIX,heytapmobi.com
+  - DOMAIN-SUFFIX,oppo.com
+  - DOMAIN-SUFFIX,oppoer.me
+  - DOMAIN-SUFFIX,oppomobile.com
+
   # Iflytek 科大讯飞
   - DOMAIN-SUFFIX,iflyink.com
   - DOMAIN-SUFFIX,iflyrec.com
@@ -582,7 +596,6 @@ payload:
   - DOMAIN-SUFFIX,onedns.net
   - DOMAIN-SUFFIX,oneplus.com
   - DOMAIN-SUFFIX,onlinedown.net
-  - DOMAIN-SUFFIX,oppo.com
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,oschina.net
   - DOMAIN-SUFFIX,ourdvs.com
