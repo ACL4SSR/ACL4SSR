@@ -6,16 +6,17 @@
 mixed-port: 7890
 
 # HTTP 代理端口
-# port: 7890
+port: 7890
 
 # SOCKS5 代理端口
 socks-port: 7891
 
 # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
-# redir-port: 7892
+redir-port: 7892
 
 # 允许局域网的连接（可用来共享代理）
-allow-lan: true
+allow-lan: false
+tproxy-port: 7893
 
 # 仅在将allow-lan设置为true时适用
 # #"*": 绑定所有IP地址
@@ -25,7 +26,7 @@ bind-address: "*"
 ipv6: true
 
 # 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
-# mode: rule
+mode: rule
 
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
@@ -62,15 +63,20 @@ experimental:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
 
-#dns:
-  #enable: true # 是否启用dns false
-  #ipv6: false
+dns:
+  enable: true # 是否启用dns false
+  ipv6: false
   #listen: 0.0.0.0:53
-  #enhanced-mode: redir-host # 模式：redir-host或fake-ip
-  #fake-ip-range: 198.18.0.1/16 #
-  #fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
+  enhanced-mode: fake-ip # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  use-hosts: true
+  default-nameserver: ['udp://223.5.5.5:53', 'udp://1.12.12.12:53', 'udp://180.76.76.76:53', 'udp://114.114.114.114:53']
+  nameserver: ['tls://223.5.5.5:853', 'tls://1.12.12.12:853']
+  nameserver-policy:
+  geosite:cn,private: ['udp://223.5.5.5:53', 'udp://1.12.12.12:53', 'udp://180.76.76.76:53', 'udp://114.114.114.114:53']
+fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+    - '*'
+    - '*.lan'
   #nameserver:
      #- 223.5.5.5 # 阿里DNS
      #- 180.76.76.76 # 百度DNS
