@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-  # 更新：2023-10-22 08:50:03
-  # 数量：5170条
+  # 更新：2023-10-23 21:04:50
+  # 数量：5192条
 
   - DOMAIN-SUFFIX,002777.xyz
   - DOMAIN-SUFFIX,003store.com
@@ -324,6 +324,7 @@ payload:
   - DOMAIN-SUFFIX,6318537ccc.com
   - DOMAIN-SUFFIX,6399tp.com
   - DOMAIN-SUFFIX,644446.com
+  - DOMAIN-SUFFIX,6528fdyngk.xyz
   - DOMAIN-SUFFIX,658bbb.us
   - DOMAIN-SUFFIX,65oml.cn
   - DOMAIN-SUFFIX,6617398ccc.com
@@ -751,6 +752,7 @@ payload:
   - DOMAIN-SUFFIX,availablesshaother.com
   - DOMAIN-SUFFIX,avgsco.xyz
   - DOMAIN-SUFFIX,avkw.cn
+  - DOMAIN-SUFFIX,awaw.asia
   - DOMAIN-SUFFIX,awdc6.com
   - DOMAIN-SUFFIX,awyys.com
   - DOMAIN-SUFFIX,ax.ifeng.com
@@ -1122,6 +1124,7 @@ payload:
   - DOMAIN-SUFFIX,cfdns.vip
   - DOMAIN-SUFFIX,cfx3d.xyz
   - DOMAIN-SUFFIX,cfxkluv.cn
+  - DOMAIN-SUFFIX,cgbswl.icu
   - DOMAIN-SUFFIX,cgqmss.xyz
   - DOMAIN-SUFFIX,ch6g.top
   - DOMAIN-SUFFIX,changyangcd.com
@@ -1210,6 +1213,7 @@ payload:
   - DOMAIN-SUFFIX,cqmpigx.cn
   - DOMAIN-SUFFIX,cqtlimi.cn
   - DOMAIN-SUFFIX,crayon.meishichina.com
+  - DOMAIN-SUFFIX,crazyit8.com
   - DOMAIN-SUFFIX,creawww.top
   - DOMAIN-SUFFIX,crf999.cn
   - DOMAIN-SUFFIX,crhabkd.cn
@@ -1409,6 +1413,7 @@ payload:
   - DOMAIN-SUFFIX,dhxrxn.xyz
   - DOMAIN-SUFFIX,dhyns.cn
   - DOMAIN-SUFFIX,dianchao.me
+  - DOMAIN-SUFFIX,diaocaixiaq.cn
   - DOMAIN-SUFFIX,diejs.com
   - DOMAIN-SUFFIX,diekd.xyz
   - DOMAIN-SUFFIX,diggtp001.com
@@ -1955,6 +1960,7 @@ payload:
   - DOMAIN-SUFFIX,greatnumeric.com
   - DOMAIN-SUFFIX,grecoi.xyz
   - DOMAIN-SUFFIX,greenhouseglobal.cn
+  - DOMAIN-SUFFIX,grthhr.xyz
   - DOMAIN-SUFFIX,grxeyig.xyz
   - DOMAIN-SUFFIX,grxwqq.com
   - DOMAIN-SUFFIX,gscohm.xyz
@@ -2128,6 +2134,7 @@ payload:
   - DOMAIN-SUFFIX,hjtedf.xyz
   - DOMAIN-SUFFIX,hkctmldg.icu
   - DOMAIN-SUFFIX,hkkeafj.cn
+  - DOMAIN-SUFFIX,hkrytf.xyz
   - DOMAIN-SUFFIX,hkscldggm.xyz
   - DOMAIN-SUFFIX,hladalliance.com
   - DOMAIN-SUFFIX,hlbbn6ii.icu
@@ -2195,6 +2202,7 @@ payload:
   - DOMAIN-SUFFIX,humgrww.xyz
   - DOMAIN-SUFFIX,hummingexam.com
   - DOMAIN-SUFFIX,hunlimd.cn
+  - DOMAIN-SUFFIX,huohuo.huamuwo.com
   - DOMAIN-SUFFIX,huoju.asia
   - DOMAIN-SUFFIX,hvdath.xyz
   - DOMAIN-SUFFIX,hvfubp.xyz
@@ -2241,6 +2249,7 @@ payload:
   - DOMAIN-SUFFIX,ibqswjdkpo.com
   - DOMAIN-SUFFIX,ibsea.cn
   - DOMAIN-SUFFIX,icentos.info
+  - DOMAIN-SUFFIX,ichc1.xinglinpukang.com
   - DOMAIN-SUFFIX,iciclle.com
   - DOMAIN-SUFFIX,icvsleec.xyz
   - DOMAIN-SUFFIX,icyrwy.xyz
@@ -2463,6 +2472,7 @@ payload:
   - DOMAIN-SUFFIX,jn060.xyz
   - DOMAIN-SUFFIX,jndxsuy.xyz
   - DOMAIN-SUFFIX,jnhgm.com
+  - DOMAIN-SUFFIX,jnkmhn.com
   - DOMAIN-SUFFIX,jnkmwr.xyz
   - DOMAIN-SUFFIX,jnmaeun.xyz
   - DOMAIN-SUFFIX,jnp0kmm.icu
@@ -2658,6 +2668,7 @@ payload:
   - DOMAIN-SUFFIX,kmmgoogle.oss-ap-southeast-1.aliyuncs.com
   - DOMAIN-SUFFIX,kmnhgna.com
   - DOMAIN-SUFFIX,kmzayrt.cn
+  - DOMAIN-SUFFIX,knhmgn.com
   - DOMAIN-SUFFIX,knjmhmk.com
   - DOMAIN-SUFFIX,knliylh.cn
   - DOMAIN-SUFFIX,knmwrkw.xyz
@@ -2702,6 +2713,7 @@ payload:
   - DOMAIN-SUFFIX,kuxkddg.cn
   - DOMAIN-SUFFIX,kv8899.com
   - DOMAIN-SUFFIX,kvbgoc.com
+  - DOMAIN-SUFFIX,kvhee.com
   - DOMAIN-SUFFIX,kvkggg.top
   - DOMAIN-SUFFIX,kvskknklssv.com
   - DOMAIN-SUFFIX,kwcmrfb.cn
@@ -2810,6 +2822,7 @@ payload:
   - DOMAIN-SUFFIX,liuxiangxiang.top
   - DOMAIN-SUFFIX,liuyi22.cn
   - DOMAIN-SUFFIX,liuyimin5.cn
+  - DOMAIN-SUFFIX,liuyuhuaa.cn
   - DOMAIN-SUFFIX,liuyun.name
   - DOMAIN-SUFFIX,liveappgirl.net
   - DOMAIN-SUFFIX,livingshonghealth.com
@@ -3026,6 +3039,7 @@ payload:
   - DOMAIN-SUFFIX,mmvjuti.cn
   - DOMAIN-SUFFIX,mnbfs.xyz
   - DOMAIN-SUFFIX,mnhknds.com
+  - DOMAIN-SUFFIX,mnhncf.cn
   - DOMAIN-SUFFIX,mnnmnn.com
   - DOMAIN-SUFFIX,mnpbxjq.cn
   - DOMAIN-SUFFIX,mnwor.xuanlishi.com
@@ -3199,6 +3213,7 @@ payload:
   - DOMAIN-SUFFIX,nnfyxd.xyz
   - DOMAIN-SUFFIX,nnqwe.xyz
   - DOMAIN-SUFFIX,nntsdp.xyz
+  - DOMAIN-SUFFIX,nofizx.xyz
   - DOMAIN-SUFFIX,nogff.top
   - DOMAIN-SUFFIX,nohcff.xyz
   - DOMAIN-SUFFIX,noiea.xyz
@@ -3240,6 +3255,7 @@ payload:
   - DOMAIN-SUFFIX,nwuidsbjak.com
   - DOMAIN-SUFFIX,nxhwvt.xyz
   - DOMAIN-SUFFIX,nxtxxcm.xyz
+  - DOMAIN-SUFFIX,nyhgvn.xyz
   - DOMAIN-SUFFIX,nypyzx.xyz
   - DOMAIN-SUFFIX,nzporf.xyz
   - DOMAIN-SUFFIX,nzrlx6wc.icu
@@ -3420,6 +3436,7 @@ payload:
   - DOMAIN-SUFFIX,pic50.pingguolv.com
   - DOMAIN-SUFFIX,picnewsss.com
   - DOMAIN-SUFFIX,pics.xgo-img.com.cn
+  - DOMAIN-SUFFIX,pidurrmu.xyz
   - DOMAIN-SUFFIX,pingfang.icu
   - DOMAIN-SUFFIX,pinkboy.fun
   - DOMAIN-SUFFIX,piqtpbxo.icu
@@ -3832,6 +3849,7 @@ payload:
   - DOMAIN-SUFFIX,sc4mh.cn
   - DOMAIN-SUFFIX,scfh9.cn
   - DOMAIN-SUFFIX,schedfi.com
+  - DOMAIN-SUFFIX,scqaaf.cn
   - DOMAIN-SUFFIX,script-bd.baixing.net
   - DOMAIN-SUFFIX,scrvw3.com
   - DOMAIN-SUFFIX,scsdcsdcs.top
@@ -3887,6 +3905,7 @@ payload:
   - DOMAIN-SUFFIX,shuaige20221105.xyz
   - DOMAIN-SUFFIX,shucc.xyz
   - DOMAIN-SUFFIX,shulsbs.cn
+  - DOMAIN-SUFFIX,shx11.xyz
   - DOMAIN-SUFFIX,shyww.mobi
   - DOMAIN-SUFFIX,shzzzz.dftoutiao.com
   - DOMAIN-SUFFIX,sibehgtq.xyz
@@ -4881,6 +4900,8 @@ payload:
   - DOMAIN-SUFFIX,ytcc3.com
   - DOMAIN-SUFFIX,ytpae.xyz
   - DOMAIN-SUFFIX,yuanmengbi.com
+  - DOMAIN-SUFFIX,yuanxiaa.cn
+  - DOMAIN-SUFFIX,yuanxiab.cn
   - DOMAIN-SUFFIX,yuanxiang19.fun
   - DOMAIN-SUFFIX,yuebog.xyz
   - DOMAIN-SUFFIX,yueesv.icu
@@ -5037,6 +5058,7 @@ payload:
   - DOMAIN-SUFFIX,ziravd.xyz
   - DOMAIN-SUFFIX,zisu.cn.com
   - DOMAIN-SUFFIX,zjai.xyz
+  - DOMAIN-SUFFIX,zjdruhn.xyz
   - DOMAIN-SUFFIX,zjliloveyou.ixiunv.com
   - DOMAIN-SUFFIX,zjqs.shop
   - DOMAIN-SUFFIX,zjthzf.xyz

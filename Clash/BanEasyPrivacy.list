@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
 # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-# 更新：2023-10-22 08:50:05
-# 数量：21348条
+# 更新：2023-10-23 21:04:53
+# 数量：21349条
 
 DOMAIN-SUFFIX,00px.net
 DOMAIN-SUFFIX,0d8is908gby1.www.terraform.com.ar
@@ -4114,7 +4114,6 @@ DOMAIN-SUFFIX,cdn-channels-pixel.ex.co
 DOMAIN-SUFFIX,cdn-rum.ngenix.net
 DOMAIN-SUFFIX,cdn.arcstudiopro.com
 DOMAIN-SUFFIX,cdn.net.elogia.net
-DOMAIN-SUFFIX,cdn.usefathom.com
 DOMAIN-SUFFIX,cdn1.skrill.com
 DOMAIN-SUFFIX,cdn7.baunetz.de
 DOMAIN-SUFFIX,cdnhst.xyz
@@ -15876,6 +15875,7 @@ DOMAIN-SUFFIX,spr.welt.de
 DOMAIN-SUFFIX,spread.epoolers.com
 DOMAIN-SUFFIX,springaftermath.com
 DOMAIN-SUFFIX,springsister.com
+DOMAIN-SUFFIX,spt.ahram.org.eg
 DOMAIN-SUFFIX,spuriousbase.com
 DOMAIN-SUFFIX,spurioussquirrel.com
 DOMAIN-SUFFIX,spurioussteam.com
@@ -20265,6 +20265,7 @@ DOMAIN-SUFFIX,vgo.vegaoopro.com
 DOMAIN-SUFFIX,vhmewg.edreams.fr
 DOMAIN-SUFFIX,vhrbxb.vidaxl.nl
 DOMAIN-SUFFIX,vi.adviso.ca
+DOMAIN-SUFFIX,vibranthaven.com
 DOMAIN-SUFFIX,victoriousrequest.com
 DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
 DOMAIN-SUFFIX,video-metrics.ellentube.com
