@@ -216,36 +216,6 @@ cfw-proxies-order: default
       #shell: true # 则在 shell 中运行 command
       #windowsHide: true # 隐藏子进程的控制台窗口
 
-rule-providers:
-    Unbreak: { type: http, behavior: classical, path: ./Rules/Unbreak.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml', interval: 21600 }
-    Advertising: { type: http, behavior: classical, path: ./Rules/Advertising.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml', interval: 21600 }
-    Hijacking: { type: http, behavior: classical, path: ./Rules/Hijacking.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml', interval: 21600 }
-    Privacy: { type: http, behavior: classical, path: ./Rules/Privacy.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml', interval: 21600 }
-    Steam: { type: http, behavior: classical, path: ./Rules/Games/Steam.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Steam.yaml', interval: 21600 }
-    Blizzard: { type: http, behavior: classical, path: ./Rules/Games/Blizzard.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Blizzard.yaml', interval: 21600 }
-    Discord: { type: http, behavior: classical, path: ./Rules/Games/Discord.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Discord.yaml', interval: 21600 }
-    Nintendo: { type: http, behavior: classical, path: ./Rules/Games/Nintendo.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Nintendo.yaml', interval: 21600 }
-    Origin: { type: http, behavior: classical, path: ./Rules/Games/Origin.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Origin.yaml', interval: 21600 }
-    Xbox: { type: http, behavior: classical, path: ./Rules/Games/Xbox.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Xbox.yaml', interval: 21600 }
-    Apple: { type: http, behavior: classical, path: ./Rules/Apple.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Apple/Apple.yaml', interval: 21600 }
-    Telegram: { type: http, behavior: classical, path: ./Rules/Telegram.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Telegram/Telegram.yaml', interval: 21600 }
-    Microsoft: { type: http, behavior: classical, path: ./Rules/Microsoft.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Microsoft.yaml', interval: 21600 }
-    OneDrive: { type: http, behavior: classical, path: ./Rules/OneDrive.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OneDrive.yaml', interval: 21600 }
-    GoogleDrive: { type: http, behavior: classical, path: ./Rules/GoogleDrive.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Google/GoogleDrive.yaml', interval: 21600 }
-    Bilibili: { type: http, behavior: classical, path: ./Rules/Bilibili.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/bilibili.yaml', interval: 21600 }
-    YouTube: { type: http, behavior: classical, path: ./Rules/YouTube.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml', interval: 21600 }
-    TikTok: { type: http, behavior: classical, path: ./Rules/TikTok.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/TikTok.yaml', interval: 21600 }
-    Netflix: { type: http, behavior: classical, path: ./Rules/Netflix.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml', interval: 21600 }
-    Disney: { type: http, behavior: classical, path: ./Rules/Disney.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml', interval: 21600 }
-    Bahamut: { type: http, behavior: classical, path: ./Rules/Bahamut.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Bahamut.yaml', interval: 21600 }
-    HBO: { type: http, behavior: classical, path: ./Rules/HBO.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/HBO.yaml', interval: 21600 }
-    Streaming: { type: http, behavior: classical, path: ./Rules/Streaming.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml', interval: 21600 }
-    Global: { type: http, behavior: classical, path: ./Rules/Global.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml', interval: 21600 }
-    StreamingCN: { type: http, behavior: classical, path: ./Rules/StreamingCN.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml', interval: 21600 }
-    ChinaDomain: { type: http, behavior: classical, path: ./Rules/ChinaDomain.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml', interval: 21600 }
-    ChinaIP: { type: http, behavior: ipcidr, path: ./Rules/ChinaIP.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 21600 }
-    China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
-
 
 
 # 系统代理跳过列表 cfw-bypass
