@@ -134,7 +134,7 @@ fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作
 #rules:
 #  - 'MATCH,DIRECT'
 rules:
-    - 'DOMAIN,cdn.u8899.de,PROXY'
+  - 'DOMAIN,cdn.u8899.de,PROXY'
   - 'DOMAIN-SUFFIX,wechat.com,DIRECT'
   - 'DOMAIN-SUFFIX,qq.com,DIRECT'
   - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
