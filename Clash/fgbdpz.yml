@@ -908,7 +908,7 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
-  rule-providers:
+rule-providers:
     Unbreak: { type: http, behavior: classical, path: ./Rules/Unbreak.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml', interval: 21600 }
     Advertising: { type: http, behavior: classical, path: ./Rules/Advertising.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml', interval: 21600 }
     Hijacking: { type: http, behavior: classical, path: ./Rules/Hijacking.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml', interval: 21600 }
@@ -937,7 +937,7 @@ cfw-bypass:
     ChinaDomain: { type: http, behavior: classical, path: ./Rules/ChinaDomain.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml', interval: 21600 }
     ChinaIP: { type: http, behavior: ipcidr, path: ./Rules/ChinaIP.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 21600 }
     China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
-  rules:
+rules:
   ## 代理规则
   - 'DOMAIN,cdn.u8899.de,♻ 自动选择'
   ## 常用国内直连优先
