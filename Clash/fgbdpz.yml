@@ -939,12 +939,12 @@ rule-providers:
     China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
 
 rules:
- - 'DOMAIN,cdn.u8899.de,PROXY'
- - 'DOMAIN -SUFFIX,wechat.com,DIRECT'
- - 'DOMAIN -SUFFIX,qq.com,DIRECT'
- - 'DOMAIN -SUFFIX,tencent.com,DIRECT'
- - 'DOMAIN -SUFFIX,onedrive.live.com,PROXY'
- - 'DOMAIN -SUFFIX,cdn.jsdelivr.net,PROXY'
+  - 'DOMAIN,cdn.u8899.de,PROXY'
+  - 'DOMAIN -SUFFIX,wechat.com,DIRECT'
+  - 'DOMAIN -SUFFIX,qq.com,DIRECT'
+  - 'DOMAIN -SUFFIX,tencent.com,DIRECT'
+  - 'DOMAIN -SUFFIX,onedrive.live.com,PROXY'
+  - 'DOMAIN -SUFFIX,cdn.jsdelivr.net,PROXY'
  - 'DOMAIN -SUFFIX,pureapk.com,PROXY'
  - 'DOMAIN -SUFFIX,v2rayssr.com,PROXY'
  - 'DOMAIN -SUFFIX,v2fly.org,PROXY'
