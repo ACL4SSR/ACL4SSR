@@ -938,3 +938,80 @@ rule-providers:
     ChinaIP: { type: http, behavior: ipcidr, path: ./Rules/ChinaIP.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 21600 }
     China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
 
+rules:
+ - DOMAIN,cdn.u8899.de,PROXY
+ - DOMAIN -SUFFIX,wechat.com,DIRECT
+ - DOMAIN -SUFFIX,qq.com,DIRECT
+ - DOMAIN -SUFFIX,tencent.com,DIRECT
+ - DOMAIN -SUFFIX,onedrive.live.com,PROXY
+ - DOMAIN -SUFFIX,cdn.jsdelivr.net,PROXY
+ - DOMAIN -SUFFIX,pureapk.com,PROXY
+ - DOMAIN -SUFFIX,v2rayssr.com,PROXY
+ - DOMAIN -SUFFIX,v2fly.org,PROXY
+ - DOMAIN -SUFFIX,dubox.com,PROXY
+ - DOMAIN -SUFFIX,hootsuite.com,PROXY
+ - DOMAIN -SUFFIX,ow.ly,PROXY
+ - DOMAIN -SUFFIX,goo.gl,PROXY
+ - DOMAIN -SUFFIX,share.dmhy.org,PROXY
+ - DOMAIN -SUFFIX,duyaoss.com,PROXY
+ - DOMAIN -SUFFIX,52.mk,PROXY
+ - DOMAIN -SUFFIX,flowercloud.net,PROXY 
+ - DOMAIN -SUFFIX,hostloc.com,PROXY
+ - DOMAIN -SUFFIX,theinspirationgrid.com,PROXY
+ - DOMAIN -SUFFIX,nekoneko.cloud,PROXY
+ - DOMAIN -SUFFIX,kejilion.xyz,PROXY
+ - DOMAIN -SUFFIX,idc.wiki,PROXY
+ - DOMAIN -SUFFIX,ovhcloud.com,PROXY
+ - DOMAIN -SUFFIX,233v2.com,PROXY
+ - DOMAIN,www.v2ray.com,PROXY
+ - DOMAIN,translate.googleapis.com,PROXY
+ - DOMAIN -SUFFIX,nivod.tv,PROXY
+ - DOMAIN -SUFFIX,mudvod.tv,PROXY
+ - DOMAIN -SUFFIX,openai.com,PROXY
+ - DOMAIN -SUFFIX,chinadigitaltimes.net,PROXY
+ - DOMAIN -SUFFIX,sms -activate.org,PROXY
+ - DOMAIN -SUFFIX,katfile.com,PROXY
+ - DOMAIN -SUFFIX,ping.pe,PROXY
+ - DOMAIN -SUFFIX,openstreetmap.org,PROXY？
+ - DOMAIN -SUFFIX,gstatic.com,PROXY
+ - DOMAIN -SUFFIX,terabox.com,PROXY
+ - RULE -SET,Advertising,REJECT
+ - RULE -SET,Hijacking,REJECT
+ - RULE -SET,Privacy,REJECT
+ - DOMAIN -SUFFIX,telegram.org,PROXY
+ - RULE -SET,Telegram,PROXY
+ - RULE -SET,Netflix,PROXY
+ - RULE -SET,Disney,PROXY
+ - RULE -SET,YouTube,PROXY
+ - RULE -SET,Bahamut,PROXY
+ - RULE -SET,Bilibili,DIRECT
+ - DOMAIN -SUFFIX,biliapi.net,DIRECT
+ - DOMAIN -SUFFIX,bilibili.com,DIRECT
+ - DOMAIN -SUFFIX,bilivideo.com,DIRECT
+ - DOMAIN -SUFFIX,hdslb.com,DIRECT
+ - RULE -SET,GoogleDrive,PROXY
+ - DOMAIN -SUFFIX,onedrive.live.com,PROXY
+ - RULE -SET,Microsoft,PROXY
+ - RULE -SET,HBO,PROXY
+ - RULE -SET,TikTok,PROXY
+ - RULE -SET,Apple,PROXY
+ - RULE -SET,Steam,PROXY
+ - RULE -SET,Blizzard,PROXY
+ - RULE -SET,Discord,PROXY
+ - RULE -SET,Nintendo,PROXY
+ - RULE -SET,Origin,PROXY
+ - RULE -SET,Xbox,PROXY
+ - RULE -SET,Streaming,PROXY
+ - RULE -SET,Global,PROXY
+ - RULE -SET,Unbreak,DIRECT
+ - RULE -SET,StreamingCN,DIRECT
+ - DOMAIN -SUFFIX,speed.cloudflare.com,PROXY
+ - DOMAIN -SUFFIX,bulianglin.com,PROXY
+ - DOMAIN -SUFFIX,speedtest.net,PROXY
+ - DOMAIN -SUFFIX,ooklaserver.net,PROXY
+ - DOMAIN -SUFFIX,ipleak.net,PROXY
+ - RULE -SET,China,DIRECT
+ - RULE -SET,ChinaIP,DIRECT
+ - RULE -SET,ChinaDomain,DIRECT
+ - GEOIP,CN,DIRECT
+ - MATCH,PROXY
