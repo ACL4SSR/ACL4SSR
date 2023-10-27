@@ -133,7 +133,7 @@ fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作
 #      - Shadowsocks
 #rules:
 #  - 'MATCH,DIRECT'
-rules:
+ rules:
   - 'DOMAIN,cdn.u8899.de,PROXY'
   - 'DOMAIN-SUFFIX,wechat.com,DIRECT'
   - 'DOMAIN-SUFFIX,qq.com,DIRECT'
