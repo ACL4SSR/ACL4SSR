@@ -6199,6 +6199,7 @@ DOMAIN-SUFFIX,ypncdn.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,fanbox.cc
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com
