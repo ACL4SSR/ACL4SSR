@@ -1,4 +1,3 @@
-# OneDrive
+# Bing
 # From https://github.com/ACL4SSR/ACL4SSR/issues/121#issuecomment-1793673237
-DOMAIN-SUFFIX,edgeservices.bing.com
-DOMAIN-SUFFIX,sydney.bing.com
+DOMAIN-SUFFIX,bing.com
