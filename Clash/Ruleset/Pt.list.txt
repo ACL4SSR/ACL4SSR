@@ -1,0 +1,6 @@
+# 内容：Pt站点
+# 数量：5条
+DOMAIN-SUFFIX,fsm.name
+DOMAIN-SUFFIX,byr.pt
+DOMAIN-SUFFIX,sharkpt.net
+IP-CIDR6,2001:da8:215:4078:250:56ff:fe97:654d/128,no-resolve
