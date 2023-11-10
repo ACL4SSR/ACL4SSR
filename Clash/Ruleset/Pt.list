@@ -6,6 +6,6 @@ DOMAIN-SUFFIX,sharkpt.net
 IP-CIDR6,2001:da8:215:4078:250:56ff:fe97:654d/128,no-resolve
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,firebaseio.com
-kDOMAIN,usage.readdle.com
-DOMAIN,api.amplitude.com
-DOMAIN,app.smartmailcloud.com
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,smartmailcloud.com
