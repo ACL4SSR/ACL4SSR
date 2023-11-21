@@ -130,11 +130,6 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,smtcdns.net
 
-# Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,blizzard.com
-
 # ByteDance
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,bdxiguaimg.com
@@ -218,6 +213,20 @@ DOMAIN-SUFFIX,huaweishop.net
 DOMAIN-SUFFIX,hwccpc.com
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,vmallres.com
+
+# Heytap
+DOMAIN-SUFFIX,allawnfs.com
+DOMAIN-SUFFIX,allawno.com
+DOMAIN-SUFFIX,allawntech.com
+DOMAIN-SUFFIX,coloros.com
+DOMAIN-SUFFIX,heytap.com
+DOMAIN-SUFFIX,heytapcs.com
+DOMAIN-SUFFIX,heytapdownload.com
+DOMAIN-SUFFIX,heytapimage.com
+DOMAIN-SUFFIX,heytapmobi.com
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,oppoer.me
+DOMAIN-SUFFIX,oppomobile.com
 
 # Iflytek 科大讯飞
 DOMAIN-SUFFIX,iflyink.com
@@ -586,7 +595,6 @@ DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,onedns.net
 DOMAIN-SUFFIX,oneplus.com
 DOMAIN-SUFFIX,onlinedown.net
-DOMAIN-SUFFIX,oppo.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oschina.net
 DOMAIN-SUFFIX,ourdvs.com

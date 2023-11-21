@@ -1631,11 +1631,6 @@
 (^|\.)im9\.com$
 (^|\.)smtcdns\.net$
 
-# Blizzard
-(^|\.)battle\.net$
-(^|\.)battlenet\.com$
-(^|\.)blizzard\.com$
-
 # ByteDance
 (^|\.)bytedance\.com$
 (^|\.)bytedance\.net$
