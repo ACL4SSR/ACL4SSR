@@ -105,18 +105,6 @@
 * SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 
 
-* SS：https://github.com/shadowsocks
-* SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
-* SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
-
-# ♻️ Surge/Shadowrocket Config File Download：
-* 请到相关项目页面根据说明配置 https://github.com/lhie1/Rules
-
-📋 教程 / 说明：
-* 打开SSR->路由->自定义acl文件->输入下载地址->更新
-* 再次更新，点击软件页面底部的更新即可
-
-
 # Root手机推荐：
 * 1.自带去广告的VIA浏览器 http://www.coolapk.com/apk/mark.via
 * 2.HOSTS 广告快走中国版 http://www.coolapk.com/apk/mark.via
@@ -126,14 +114,10 @@
 
 
 # 注：
-* 参照lhie1大神的surge规则改编，致谢!! https://github.com/lhie1/Surge
 
 * 浏览器内部广告太多了，单凭几百条规则可能过滤不过来。少许遗漏，请谅解
 
 * 有问题请发issue,说明状况和所用规则。
-
-* temp文件夹为历史存档 要找以前的版本可以下那个
-	
 
 # License		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)

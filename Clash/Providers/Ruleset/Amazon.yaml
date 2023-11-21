@@ -1,6 +1,6 @@
 payload:
   # 内容：Amazon
-  # 数量：39条
+  # 数量：41条
   - DOMAIN-KEYWORD,avoddashs
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
@@ -19,6 +19,8 @@ payload:
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazontools.com
+  - DOMAIN-SUFFIX,amazontours.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
