@@ -10,8 +10,6 @@ dns:
   - 119.29.29.29
   - 180.184.1.1
   - 180.184.2.2
-  - 2400:3200:baba::1
-  - 2400:da00::6666
   - https://dns.alidns.com/dns-query
   - https://doh.pub/dns-query
   - https://doh.360.cn/dns-query
