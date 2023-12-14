@@ -1,7 +1,7 @@
 payload:
   # 内容：中国IP地址段ipv6
   # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-  # 更新：2023-12-14 21:45:15
+  # 更新：2023-12-14 21:59:16
   # 数量：1984条
 
   - IP-CIDR6,2001:250::/35,no-resolve

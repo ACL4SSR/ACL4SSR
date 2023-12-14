@@ -2,7 +2,7 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyList列表，只包含ABP中的 EasyList 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylist.txt
-  # 更新：2023-12-14 21:44:59
+  # 更新：2023-12-14 21:58:59
   # 数量：30815条
 
   - DOMAIN-SUFFIX,0008d6ba2e.com

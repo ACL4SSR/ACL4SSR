@@ -2,7 +2,7 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-  # 更新：2023-12-14 21:44:57
+  # 更新：2023-12-14 21:58:56
   # 数量：5045条
 
   - DOMAIN-SUFFIX,002777.xyz
