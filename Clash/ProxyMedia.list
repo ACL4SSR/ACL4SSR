@@ -1,6 +1,6 @@
 # 内容：国外媒体列表
-# 更新：2023-10-23 21:04:59
-# 数量：367条
+# 更新：2023-12-14 21:59:10
+# 数量：369条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -345,6 +345,8 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io

@@ -1,8 +1,8 @@
 payload:
   # 内容：中国IP地址段ipv6
   # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-  # 更新：2023-10-23 21:05:03
-  # 数量：1982条
+  # 更新：2023-12-14 21:59:16
+  # 数量：1984条
 
   - IP-CIDR6,2001:250::/35,no-resolve
   - IP-CIDR6,2001:250:2000::/35,no-resolve
@@ -68,6 +68,7 @@ payload:
   - IP-CIDR6,2001:df2:c240::/48,no-resolve
   - IP-CIDR6,2001:df2:d4c0::/48,no-resolve
   - IP-CIDR6,2001:df3:1480::/48,no-resolve
+  - IP-CIDR6,2001:df3:15c0::/48,no-resolve
   - IP-CIDR6,2001:df3:2a80::/48,no-resolve
   - IP-CIDR6,2001:df3:3a80::/48,no-resolve
   - IP-CIDR6,2001:df3:a680::/48,no-resolve
@@ -102,7 +103,6 @@ payload:
   - IP-CIDR6,2001:df6:5d00::/48,no-resolve
   - IP-CIDR6,2001:df6:6800::/48,no-resolve
   - IP-CIDR6,2001:df6:9e80::/48,no-resolve
-  - IP-CIDR6,2001:df6:9f80::/48,no-resolve
   - IP-CIDR6,2001:df6:df00::/48,no-resolve
   - IP-CIDR6,2001:df6:f400::/48,no-resolve
   - IP-CIDR6,2001:df7:1480::/48,no-resolve
@@ -501,6 +501,8 @@ payload:
   - IP-CIDR6,2401:4f80::/32,no-resolve
   - IP-CIDR6,2401:5180::/32,no-resolve
   - IP-CIDR6,2401:5680::/32,no-resolve
+  - IP-CIDR6,2401:58a0::/32,no-resolve
+  - IP-CIDR6,2401:5960::/32,no-resolve
   - IP-CIDR6,2401:59c0::/32,no-resolve
   - IP-CIDR6,2401:5b40::/32,no-resolve
   - IP-CIDR6,2401:5c80::/32,no-resolve
@@ -763,7 +765,6 @@ payload:
   - IP-CIDR6,2402:a6c0::/32,no-resolve
   - IP-CIDR6,2402:a840::/32,no-resolve
   - IP-CIDR6,2402:a880::/32,no-resolve
-  - IP-CIDR6,2402:a9c0::/32,no-resolve
   - IP-CIDR6,2402:aa80::/32,no-resolve
   - IP-CIDR6,2402:ab80::/32,no-resolve
   - IP-CIDR6,2402:ae00::/32,no-resolve
@@ -1153,6 +1154,7 @@ payload:
   - IP-CIDR6,2403:fec0::/32,no-resolve
   - IP-CIDR6,2403:ff80::/32,no-resolve
   - IP-CIDR6,2403:ffc0::/32,no-resolve
+  - IP-CIDR6,2403:ffc1::/32,no-resolve
   - IP-CIDR6,2404:100::/32,no-resolve
   - IP-CIDR6,2404:158::/32,no-resolve
   - IP-CIDR6,2404:240::/32,no-resolve
