@@ -14,6 +14,7 @@ payload:
   - DOMAIN,download3.epicgames.com
   - DOMAIN,download4.epicgames.com
   - DOMAIN,epicgames-download1.akamaized.net
+  - DOMAIN,fastly-download.epicgames.com
   - DOMAIN,packagespc.xboxlive.com
   - DOMAIN,xvcf1.xboxlive.com
   - DOMAIN,xvcf2.xboxlive.com
