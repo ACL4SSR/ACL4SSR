@@ -41,3 +41,6 @@ DOMAIN,rewards.hypixel.net
 # Koodo Mobile
 DOMAIN-SUFFIX,koodomobile.com
 DOMAIN-SUFFIX,koodomobile.ca
+
+#custom
+DOMAIN-SUFFIX,qeuhco.xyz
