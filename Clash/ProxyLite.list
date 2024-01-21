@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,tumbex.com
 DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,unsplash.com
+DOMAIN-SUFFIX,buzzsprout.com
 
 # 国外域名
 DOMAIN-SUFFIX,eu
@@ -189,6 +190,10 @@ DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
+# Claude
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
@@ -326,7 +331,6 @@ IP-CIDR,203.104.128.0/19,no-resolve
 # OpenAi
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,ai.com
 
 # OneDrive
 DOMAIN-KEYWORD,1drv
@@ -371,6 +375,7 @@ DOMAIN-SUFFIX,ypncdn.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
+DOMAIN-SUFFIX,fanbox.cc
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com
@@ -463,6 +468,10 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
+
+# Zoom
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoomgov.com
 
 #飞流直播
 DOMAIN-SUFFIX,neulion.com

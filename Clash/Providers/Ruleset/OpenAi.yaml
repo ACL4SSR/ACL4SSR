@@ -1,8 +1,7 @@
 payload:
   # 内容：OpenAi
-  # 数量：14条
+  # 数量：15条
   - DOMAIN-KEYWORD,openai
-  - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
@@ -11,6 +10,8 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,sentry.io
