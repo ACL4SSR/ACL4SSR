@@ -82,6 +82,12 @@ DOMAIN,gamer2-cds.cdn.hinet.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 
+# B_Global
+USER-AGENT,app/bstar*
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,bstarstatic.com
+DOMAIN,pic-bstarstatic.akamaized.net
+
 # DAZN
 USER-AGENT,DAZN*
 DOMAIN-KEYWORD,voddazn
