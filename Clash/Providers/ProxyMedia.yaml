@@ -1,7 +1,7 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2023-12-14 21:59:10
-  # 数量：369条
+  # 更新：2024-01-23 22:08:30
+  # 数量：368条
 
   # ABC
   - DOMAIN-SUFFIX,edgedatg.com
@@ -156,7 +156,6 @@ payload:
 
   # HBO_GO_HKG
   # USER-AGENT,HBO%20GO%20PROD*
-  - DOMAIN-KEYWORD,.hbogoasia.
   - DOMAIN-KEYWORD,hbogoasia
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
