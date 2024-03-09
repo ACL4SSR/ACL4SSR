@@ -1,0 +1,10 @@
+# DMM
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmmgames.com
+DOMAIN-SUFFIX,dmm.hk
+DOMAIN-SUFFIX,dmm-extension.com
+
+# PCR
+DOMAIN-SUFFIX,prd-priconne-redive.akamaized.net
+DOMAIN-SUFFIX,api-priconne-redive.cygames.jp
