@@ -3,8 +3,6 @@ dns:
   enable: true
   ipv6: true
   enhanced-mode: fake-ip
-  listen: 0.0.0.0:53
-  fake-ip-range: 192.18.0.1/16
   fake-ip-filter:
     - '*.lan'
     - '*.cn'
@@ -13,6 +11,7 @@ dns:
     - 1.1.1.1
     - 8.8.8.8
     - 223.5.5.5
+    - 114.114.114.114
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
