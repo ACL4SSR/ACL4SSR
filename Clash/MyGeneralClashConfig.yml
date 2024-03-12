@@ -16,6 +16,8 @@ dns:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
     - https://doh.360.cn/dns-query
+    - 114.114.114.114
+    - 223.5.5.5
   fallback:
     - https://dns.aiwanyun.cn/dns-query
     - https://cloudflare-dns.com/dns-query
