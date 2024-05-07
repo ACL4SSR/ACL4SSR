@@ -1,9 +1,11 @@
 payload:
   # 内容：OpenAi
-  # 数量：15条
+  # 数量：17条
   - DOMAIN-KEYWORD,openai
+  - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
