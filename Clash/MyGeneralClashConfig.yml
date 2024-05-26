@@ -3,10 +3,6 @@ dns:
   enable: true
   ipv6: true
   enhanced-mode: fake-ip
-  fake-ip-filter:
-    - '*.lan'
-    - '*.cn'
-    - '*.qq.com'
   default-nameserver:
     - 1.1.1.1
     - 8.8.8.8
