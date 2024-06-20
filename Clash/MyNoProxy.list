@@ -4,9 +4,7 @@
 # DOMAIN-SUFFIX,scfzfw.cn
 # DOMAIN-SUFFIX,aiwanyun.cn
 # DOMAIN-SUFFIX,aiyundiy.com
-# 暂时走直连
-# DOMAIN,bfweb.hk.beanfun.com
-# DOMAIN,login.hk.beanfun.com
-DOMAIN-SUFFIX,beanfun.com
+# 暂时走直连 
+# DOMAIN-SUFFIX,beanfun.com
 # IP
 IP-CIDR,172.54.114.0/24,no-resolve
