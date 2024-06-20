@@ -6,7 +6,7 @@ DOMAIN,element-plus.org
 # 苹果代理
 DOMAIN-SUFFIX,apple.com
 # 游戏代理
-DOMAIN-SUFFIX,beanfun.com
+DOMAIN-SUFFIX,maplestory.beanfun.com
 # 我的域名需要代理的
 DOMAIN,mail.aiwanyun.cn
 DOMAIN,v5.aiwanyun.cn

@@ -5,6 +5,6 @@
 # DOMAIN-SUFFIX,aiwanyun.cn
 # DOMAIN-SUFFIX,aiyundiy.com
 # 暂时走直连 
-# DOMAIN-SUFFIX,beanfun.com
+DOMAIN-SUFFIX,beanfun.com
 # IP
 IP-CIDR,172.54.114.0/24,no-resolve
