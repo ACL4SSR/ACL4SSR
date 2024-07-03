@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,apple.com
 # 游戏代理
 DOMAIN-SUFFIX,maplestory.beanfun.com
 DOMAIN-SUFFIX,tw.hicdn.beanfun.com
+DOMAIN-SUFFIX,tw.beanfun.com
 # 我的域名需要代理的
 DOMAIN,mail.aiwanyun.cn
 DOMAIN,v5.aiwanyun.cn
