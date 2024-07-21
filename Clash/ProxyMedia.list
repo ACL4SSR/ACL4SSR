@@ -1,6 +1,6 @@
 # 内容：国外媒体列表
-# 更新：2024-05-07 08:06:39
-# 数量：370条
+# 更新：2024-06-30 11:02:56
+# 数量：367条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -9,13 +9,10 @@ DOMAIN-SUFFIX,go.com
 # AbemaTV
 USER-AGENT,AbemaTV*
 DOMAIN-KEYWORD,abematv.akamaized.net
-DOMAIN,api-abematv.bucketeer.jp
-DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
-DOMAIN-SUFFIX,hayabusa.media
 
 # All4
 USER-AGENT,All4*
