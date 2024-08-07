@@ -1,0 +1,19 @@
+# > Fast
+DOMAIN-SUFFIX,fast.com
+
+# > Speedtest by Ookla
+USER-AGENT,SpeedTest*
+DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,cdnst.net
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,pingtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-SUFFIX,speedtest.net
+
+# > Speed Test by Cloudflare
+DOMAIN-SUFFIX,speed.cloudflare.com
+
+# > Speedtest CN
+DOMAIN-SUFFIX,www.speedtest.cn
+DOMAIN-SUFFIX,www.librespeed.cn
