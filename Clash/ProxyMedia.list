@@ -463,3 +463,7 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN,music.youtube.com
+
+# Instagram
+DOMAIN-SUFFIX,instagram.com,Instagram
+DOMAIN-SUFFIX,cdninstagram.com,Instagram
