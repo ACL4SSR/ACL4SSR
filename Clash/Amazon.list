@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,amazon.com
-DOMAIN-SUFFIX,amazon-corp.com
 DOMAIN-SUFFIX,amazon.ca
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN-SUFFIX,amazon.co.uk
@@ -14,11 +13,3 @@ DOMAIN-SUFFIX,amazon.it
 DOMAIN-SUFFIX,amazon.nl
 DOMAIN-SUFFIX,amazon.sa
 DOMAIN-SUFFIX,amazon.sg
-DOMAIN-SUFFIX,amazonbrowserapp.co.uk
-DOMAIN-SUFFIX,amazonbrowserapp.es
-DOMAIN-SUFFIX,amazoncognito.com
-DOMAIN-SUFFIX,amazoncrl.com
-DOMAIN-SUFFIX,amazonpay.in
-DOMAIN-SUFFIX,amazontrust.com
-DOMAIN-SUFFIX,associates-amazon.com
-DOMAIN-SUFFIX,ssl-images-amazon.com
