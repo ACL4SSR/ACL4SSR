@@ -201,6 +201,9 @@ payload:
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
 
+  # Iwara
+  - DOMAIN-SUFFIX,iwara.tv
+
   # JOOX
   # USER-AGENT,JOOX*
   # USER-AGENT,WeMusic*

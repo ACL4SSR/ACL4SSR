@@ -1,6 +1,6 @@
 payload:
   # 内容：PrivateTracker
-  # 数量：122条
+  # 数量：123条
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-KEYWORD,tracker
@@ -123,3 +123,4 @@ payload:
   - DOMAIN-SUFFIX,u2.dmhy.org
   - DOMAIN-SUFFIX,uhdbits.org
   - DOMAIN-SUFFIX,xauat6.edu.cn
+  - DOMAIN-SUFFIX,xingtan.one

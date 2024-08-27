@@ -302,6 +302,9 @@ payload:
   - DOMAIN-SUFFIX,instagram.com
   - DOMAIN-SUFFIX,instagr.am
 
+  # Iwara
+  - DOMAIN-SUFFIX,iwara.tv
+
   # Kakao Talk
   - DOMAIN-SUFFIX,kakao.com
   - DOMAIN-SUFFIX,kakao.co.kr
