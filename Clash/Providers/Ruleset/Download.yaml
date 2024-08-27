@@ -1,6 +1,6 @@
 payload:
   # 内容：Download
-  # 数量：21条
+  # 数量：22条
   - DOMAIN-KEYWORD,aria2
   - DOMAIN-SUFFIX,smtp
   # PROCESS-NAME,DownloadService.exe
@@ -22,3 +22,4 @@ payload:
   # URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
   # URL-REGEX,(Subject|HELO|SMTP)
   # URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+  # URL-REGEX,assets\d+\.xboxlive\.(com|cn)

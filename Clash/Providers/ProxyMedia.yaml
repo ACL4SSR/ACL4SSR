@@ -1,6 +1,6 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2024-06-30 11:02:56
+  # 更新：2024-08-27 12:54:58
   # 数量：367条
 
   # ABC
@@ -337,7 +337,6 @@ payload:
 
   # OpenAi
   - DOMAIN-KEYWORD,openai
-  - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chatgpt.com
