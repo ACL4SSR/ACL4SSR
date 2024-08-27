@@ -2,7 +2,7 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
   # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-  # 更新：2024-08-27 12:54:52
+  # 更新：2024-08-27 13:51:12
   # 数量：38999条
 
   - DOMAIN-SUFFIX,0.myikas.com

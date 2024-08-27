@@ -1475,7 +1475,7 @@
 
 # Adblock Rules
 # 内容：EasyList + EasyListChina + EasyPrivacy列表
-# 数量：81000条
+# 数量：81001条
 (^|\.)0\.myikas\.com$
 (^|\.)0\.net\.easyjet\.com$
 (^|\.)0008d6ba2e\.com$
@@ -55086,6 +55086,7 @@
 (^|\.)qetskupch581\.shop$
 (^|\.)qetskupyka61\.shop$
 (^|\.)qeuckn\.icu$
+(^|\.)qewruty\.top$
 (^|\.)qewylqmaqezzj\.top$
 (^|\.)qexbcx\.olx\.kz$
 (^|\.)qezehqcicx\.com$
