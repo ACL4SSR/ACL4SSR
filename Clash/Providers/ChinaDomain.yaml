@@ -195,6 +195,8 @@ payload:
   - DOMAIN-SUFFIX,udache.com
 
   # Douyu 斗鱼
+  - DOMAIN-SUFFIX,bytefcdnrd.com
+  - DOMAIN-SUFFIX,edgesrv.com
   - DOMAIN-SUFFIX,douyu.com
   - DOMAIN-SUFFIX,douyu.tv
   - DOMAIN-SUFFIX,douyuscdn.com
