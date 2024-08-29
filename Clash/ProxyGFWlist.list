@@ -353,6 +353,7 @@ DOMAIN-SUFFIX,anpopo.com
 DOMAIN-SUFFIX,answering-islam.org
 DOMAIN-SUFFIX,antd.org
 DOMAIN-SUFFIX,anthonycalzadilla.com
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anti1984.com
 DOMAIN-SUFFIX,antichristendom.com
 DOMAIN-SUFFIX,antiwave.net
@@ -475,6 +476,7 @@ DOMAIN-SUFFIX,axios.com
 DOMAIN-SUFFIX,axureformac.com
 DOMAIN-SUFFIX,azerbaycan.tv
 DOMAIN-SUFFIX,azerimix.com
+DOMAIN-SUFFIX,azirevpn.com
 DOMAIN-SUFFIX,azubu.tv
 DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,b-ok.cc
@@ -656,6 +658,7 @@ DOMAIN-SUFFIX,bloomfortune.com
 DOMAIN-SUFFIX,blubrry.com
 DOMAIN-SUFFIX,blueangellive.com
 DOMAIN-SUFFIX,bmfinn.com
+DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,bnews.co
 DOMAIN-SUFFIX,bnext.com.tw
 DOMAIN-SUFFIX,bnn.co
@@ -1008,6 +1011,7 @@ DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
 DOMAIN-SUFFIX,classicalguitarblog.net
+DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,clb.org.hk
 DOMAIN-SUFFIX,cleansite.biz
 DOMAIN-SUFFIX,cleansite.info
@@ -1026,6 +1030,7 @@ DOMAIN-SUFFIX,club1069.com
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,clyp.it
 DOMAIN-SUFFIX,cmcn.org
+DOMAIN-SUFFIX,cmegroup.com
 DOMAIN-SUFFIX,cmi.org.tw
 DOMAIN-SUFFIX,cmoinc.org
 DOMAIN-SUFFIX,cms.gov
@@ -2709,6 +2714,7 @@ DOMAIN-SUFFIX,im88.tw
 DOMAIN-SUFFIX,imageab.com
 DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
+DOMAIN-SUFFIX,imageglass.org
 DOMAIN-SUFFIX,images-gaytube.com
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
@@ -2826,6 +2832,7 @@ DOMAIN-SUFFIX,iuksky.com
 DOMAIN-SUFFIX,ivacy.com
 DOMAIN-SUFFIX,iverycd.com
 DOMAIN-SUFFIX,ivpn.net
+DOMAIN-SUFFIX,iwara.tv
 DOMAIN-SUFFIX,ixquick.com
 DOMAIN-SUFFIX,ixxx.com
 DOMAIN-SUFFIX,iyouport.com
@@ -3959,6 +3966,7 @@ DOMAIN-SUFFIX,percy.in
 DOMAIN-SUFFIX,perfect-privacy.com
 DOMAIN-SUFFIX,perfectgirls.net
 DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,persecutionblog.com
 DOMAIN-SUFFIX,persiankitty.com
 DOMAIN-SUFFIX,phapluan.org
@@ -4726,6 +4734,7 @@ DOMAIN-SUFFIX,stoptibetcrisis.net
 DOMAIN-SUFFIX,storagenewsletter.com
 DOMAIN-SUFFIX,stories.google
 DOMAIN-SUFFIX,storify.com
+DOMAIN-SUFFIX,storj.io
 DOMAIN-SUFFIX,storm.mg
 DOMAIN-SUFFIX,stormmediagroup.com
 DOMAIN-SUFFIX,stoweboyd.com
@@ -5060,6 +5069,7 @@ DOMAIN-SUFFIX,tibetsupportgroup.org
 DOMAIN-SUFFIX,tibetswiss.ch
 DOMAIN-SUFFIX,tibettelegraph.com
 DOMAIN-SUFFIX,tibettimes.net
+DOMAIN-SUFFIX,tibettruth.com
 DOMAIN-SUFFIX,tibetwrites.org
 DOMAIN-SUFFIX,ticket.com.tw
 DOMAIN-SUFFIX,tigervpn.com
@@ -5385,7 +5395,7 @@ DOMAIN-SUFFIX,urlparser.com
 DOMAIN-SUFFIX,us.to
 DOMAIN-SUFFIX,usacn.com
 DOMAIN-SUFFIX,usaip.eu
-DOMAIN-SUFFIX,usc.edu
+DOMAIN-SUFFIX,uscardforum.com
 DOMAIN-SUFFIX,uscnpm.org
 DOMAIN-SUFFIX,usembassy.gov
 DOMAIN-SUFFIX,usfk.mil
@@ -6171,6 +6181,9 @@ IP-CIDR,220.181.174.34/32,no-resolve
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagr.am
+
+# Iwara
+DOMAIN-SUFFIX,iwara.tv
 
 # Kakao Talk
 DOMAIN-SUFFIX,kakao.com

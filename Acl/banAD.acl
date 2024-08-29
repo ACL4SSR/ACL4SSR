@@ -81,7 +81,6 @@
 
 # 178
 (^|\.)analytics\.wanmei\.com$
-(^|\.)gg\.stargame\.com$
 
 # 2345
 (^|\.)(dl|download|houtai|jifen|minipage|wan|jifendownload|zhushou)\.2345\.cn$
@@ -202,7 +201,6 @@
 (^|\.)fc-\.cdn\.bcebos\.com$
 (^|\.)fc-feed\.cdn\.bcebos\.com$
 (^|\.)fclick\.baidu\.com$
-(^|\.)fexclick\.baidu\.com$
 (^|\.)g\.baidu\.com$
 (^|\.)gimg\.baidu\.com$
 (^|\.)guanjia\.baidu\.com$
@@ -660,9 +658,7 @@
 (^|\.)m-78\.jp$
 (^|\.)nichibenren\.or\.jp$
 (^|\.)nicorette\.co\.kr$
-(^|\.)ssl-youtube\.2cnt\.net$
 (^|\.)youtube\.112\.2o7\.net$
-(^|\.)youtube\.2cnt\.net$
 
 # Others ads in Video apps
 (^|\.)(acsystem|ads|afp)\.wasu\.tv$
@@ -704,7 +700,6 @@
 (^|\.)ad\.cctv\.com$
 (^|\.)ad\.cmvideo\.cn$
 (^|\.)ad\.thepaper\.cn$
-(^|\.)ad\.unimhk\.com$
 (^|\.)adhome\.1fangchan\.com$
 (^|\.)adm\.easou\.com$
 (^|\.)ads\.feedly\.com$
@@ -1014,7 +1009,6 @@
 (^|\.)optimizelyapis\.com$
 (^|\.)overture\.com$
 (^|\.)p0y\.cn$
-(^|\.)pagechoice\.net$
 (^|\.)pingdom\.net$
 (^|\.)plugrush\.com$
 (^|\.)popin\.cc$
@@ -1037,7 +1031,6 @@
 (^|\.)rtbasia\.com$
 (^|\.)sanya1\.com$
 (^|\.)scupio\.com$
-(^|\.)serving-sys\.com$
 (^|\.)shuiguo\.com$
 (^|\.)shuzilm\.cn$
 (^|\.)similarweb\.com$
@@ -1104,6 +1097,7 @@
 (^|\.)wqmobile\.com$
 (^|\.)wrating\.com$
 (^|\.)wumii\.cn$
+(^|\.)wwads\.cn$
 (^|\.)xcy8\.com$
 (^|\.)xdrig\.com$
 (^|\.)xiaozhen\.com$
@@ -1203,7 +1197,6 @@
 (^|\.)fastapi\.net$
 (^|\.)fastclick\.com$
 (^|\.)fastclick\.net$
-(^|\.)flurry\.com$
 (^|\.)gosquared\.com$
 (^|\.)gtags\.net$
 (^|\.)heyzap\.com$
