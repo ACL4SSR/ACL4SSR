@@ -216,6 +216,15 @@ DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,stackoverflow.com
 
+# Docker
+DOMAIN,d1q6f0aelx0por.cloudfront.net
+DOMAIN,d2wy8f7a9ursnm.cloudfront.net
+DOMAIN,d36jcksde1wxzq.cloudfront.net
+DOMAIN-SUFFIX,compose-spec.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+
 # Discord
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
@@ -300,6 +309,9 @@ IP-CIDR,220.181.174.34/32,no-resolve
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagr.am
+
+# Iwara
+DOMAIN-SUFFIX,iwara.tv
 
 # Kakao Talk
 DOMAIN-SUFFIX,kakao.com
