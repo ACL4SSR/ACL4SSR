@@ -26,5 +26,7 @@ DOMAIN-KEYWORD,yinhuadm
 DOMAIN-KEYWORD,weixingdianshiptv
 DOMAIN-KEYWORD,generationnexxt.com
 
-
+# steam 下载直连
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamserver.net
 
