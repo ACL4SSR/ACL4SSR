@@ -1,0 +1,30 @@
+# NAS 第三方套件直连列表
+DOMAIN-KEYWORD,imnks
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,-synology
+DOMAIN-KEYWORD,quickconnect
+
+# bt/pt网站列表
+DOMAIN-SUFFIX,hdzone.me
+DOMAIN-SUFFIX,greatposterwall.com
+DOMAIN-SUFFIX,hdfun.me
+DOMAIN-SUFFIX,pttime.org
+
+# 自定义直连列表
+DOMAIN-SUFFIX,diyp.112114.xyz
+DOMAIN-KEYWORD,letsencrypt
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,Qbittorrent
+DOMAIN-KEYWORD,gitlab
+DOMAIN-KEYWORD,ntp
+DOMAIN-KEYWORD,nict
+DOMAIN,ntp.nict.jp
+DOMAIN,tvpng.neocities.org
+DOMAIN-KEYWORD,yinhuadm
+
+# 晴天tv
+DOMAIN-KEYWORD,weixingdianshiptv
+DOMAIN-KEYWORD,generationnexxt.com
+
+
+

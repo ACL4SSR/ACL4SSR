@@ -1,0 +1,10 @@
+# MyProxylist自定义代理列表1
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,googleapis
+DOMAIN-KEYWORD,gstatic.com
+DOMAIN-KEYWORD,googleusercontent
+DOMAIN-SUFFIX,dl.google
+DOMAIN-SUFFIX,download.google
+DOMAIN-KEYWORD,googledownloads
+DOMAIN-KEYWORD,cnbeta
