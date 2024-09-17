@@ -30,3 +30,5 @@ DOMAIN-KEYWORD,generationnexxt.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 
+# emby
+DOMAIN-SUFFIX,ipify.org
