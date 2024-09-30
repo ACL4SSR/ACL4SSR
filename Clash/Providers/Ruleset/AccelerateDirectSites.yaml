@@ -1,6 +1,6 @@
 payload:
   # 内容：AccelerateDirectSites
-  # 数量：241条
+  # 数量：242条
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
@@ -110,6 +110,7 @@ payload:
   - DOMAIN-SUFFIX,kaola.com
   - DOMAIN-SUFFIX,knewone.com
   - DOMAIN-SUFFIX,koowo.com
+  - DOMAIN-SUFFIX,koyso.com
   - DOMAIN-SUFFIX,ksyungslb.com
   - DOMAIN-SUFFIX,kuaidi100.com
   - DOMAIN-SUFFIX,kugou.com
