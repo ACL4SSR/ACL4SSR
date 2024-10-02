@@ -32,3 +32,6 @@ DOMAIN-SUFFIX,steamserver.net
 
 # emby
 DOMAIN-SUFFIX,ipify.org
+
+# hp
+DOMAIN-KEYWORD,hpsmart
