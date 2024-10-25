@@ -1,0 +1,4 @@
+# 内容：Tailscale
+# 数量：2条
+PROCESS-NAME,tailscale,DIRECT
+PROCESS-NAME,tailscaled,DIRECT
