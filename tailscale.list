@@ -2,3 +2,5 @@
 # 数量：2条
 PROCESS-NAME,tailscale,DIRECT
 PROCESS-NAME,tailscaled,DIRECT
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
