@@ -2,8 +2,6 @@
 # 数量：17条
 DOMAIN-KEYWORD,openai
 DOMAIN,gemini.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,auth0.com
