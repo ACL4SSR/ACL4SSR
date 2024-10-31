@@ -57,10 +57,10 @@ external-controller: '0.0.0.0:9090'
 # RESTful API 的口令 (可选)
 # secret: ""
 # RESTful API CORS标头配置
-external-controller-cors:
- allow-origins:
-   - *
- allow-private-network: true
+# external-controller-cors:
+#  allow-origins:
+#    - *
+#  allow-private-network: true
 
 # RESTful API Unix socket 监听地址（ windows版本大于17063也可以使用，即大于等于1803/RS4版本即可使用 ）
 # ！！！注意： 从Unix socket访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
