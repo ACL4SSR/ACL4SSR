@@ -44,7 +44,7 @@ disable-keep-alive: false
 find-process-mode: strict
 
 # Clash 的 RESTful API
-external-controller: '127.0.0.1:9090'
+external-controller: '0.0.0.0:9090'
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
@@ -57,10 +57,10 @@ external-controller: '127.0.0.1:9090'
 # RESTful API 的口令 (可选)
 # secret: ""
 # RESTful API CORS标头配置
-#external-controller-cors:
-#  allow-origins:
-#    - *
-#  allow-private-network: true
+external-controller-cors:
+  allow-origins:
+    - *
+  allow-private-network: true
 # RESTful API Unix socket 监听地址（ windows版本大于17063也可以使用，即大于等于1803/RS4版本即可使用 ）
 # ！！！注意： 从Unix socket访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
 # 测试方法： curl -v --unix-socket "mihomo.sock" http://localhost/
@@ -70,7 +70,7 @@ external-controller: '127.0.0.1:9090'
 # ！！！注意： 从Windows namedpipe访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
 #external-controller-pipe: \\.\pipe\mihomo
 
-# 配置 WEB UI 目录，使用 http://{{external-controller}}/ui 访问
+# 配置 WEB UI 目录，使用 http://external-controller/ui 访问
 #external-ui: /path/to/ui/folder/
 #external-ui-name: xd
 #external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
@@ -78,6 +78,7 @@ external-controller: '127.0.0.1:9090'
 # 在RESTful API端口上开启DOH服务器
 # ！！！该URL不会验证secret， 如果开启请自行保证安全问题 ！！！
 #external-doh-server: /dns-query
+
 
 # 实验性功能
 experimental:
