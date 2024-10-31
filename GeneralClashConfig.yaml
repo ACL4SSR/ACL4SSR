@@ -57,10 +57,10 @@ external-controller: '0.0.0.0:9090'
 # RESTful API 的口令 (可选)
 # secret: ""
 # RESTful API CORS标头配置
-#external-controller-cors:
-#  allow-origins:
-#    - *
-#  allow-private-network: true
+external-controller-cors:
+ allow-origins:
+   - *
+ allow-private-network: true
 
 # RESTful API Unix socket 监听地址（ windows版本大于17063也可以使用，即大于等于1803/RS4版本即可使用 ）
 # ！！！注意： 从Unix socket访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
@@ -79,7 +79,6 @@ external-controller: '0.0.0.0:9090'
 # 在RESTful API端口上开启DOH服务器
 # ！！！该URL不会验证secret， 如果开启请自行保证安全问题 ！！！
 #external-doh-server: /dns-query
-
 
 # 实验性功能
 experimental:
@@ -102,50 +101,50 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 # 缓存
-# profile:
-#   store-selected: true
-#   # 储存 API 对策略组的选择，以供下次启动时使用
-#   store-fake-ip: true
-#   # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+profile:
+  store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
 # 开启统一延迟时，会计算 RTT，以消除连接握手等带来的不同类型节点的延迟差异
-# unified-delay: true
+unified-delay: true
 
 # TCP 并发
-# tcp-concurrent: true
+tcp-concurrent: true
 
 # 为 Linux 下的出站连接提供默认流量标记
-# routing-mark: 6666
+routing-mark: 6666
 
 # # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
 # # 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
-# global-client-fingerprint: chrome
+global-client-fingerprint: chrome
 
 # # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat，此项有默认值 false
-# geodata-mode: false
+geodata-mode: false
 
-# # Matcher implementation used by GeoSite, available implementations:
-# # - succinct (default, same as rule-set)
-# # - mph (from V2Ray, also `hybrid` in Xray)
-# geosite-matcher: succinct
-# # 可选的加载模式如下
-# # standard：标准加载器
-# # memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
-# geodata-loader: standard
-# # 自动更新 GEO
-# geo-auto-update: false
-# # 更新间隔，单位为小时
-# geo-update-interval: 24
-# # 自定 GEO 下载地址
-# geox-url:
-#   geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-#   geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-#   mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
-#   asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
-# # 自定全局 UA
-# global-ua: clash.meta
-# # ETag 支持
-# etag-support: true
+# Matcher implementation used by GeoSite, available implementations:
+# - succinct (default, same as rule-set)
+# - mph (from V2Ray, also `hybrid` in Xray)
+geosite-matcher: succinct
+# 可选的加载模式如下
+# standard：标准加载器
+# memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
+geodata-loader: standard
+# 自动更新 GEO
+geo-auto-update: false
+# 更新间隔，单位为小时
+geo-update-interval: 24
+# 自定 GEO 下载地址
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+# 自定全局 UA
+global-ua: clash.meta
+# ETag 支持
+etag-support: true
 
 # dns:
 #   cache-algorithm: arc
