@@ -164,10 +164,6 @@ dns:
   default-nameserver: 
     - 8.8.8.8
     - 8.8.4.4
-  nameserver-policy:
-    "geosite:cn":
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
   proxy-server-nameserver:
     - 8.8.8.8
     - 8.8.4.4
@@ -188,28 +184,28 @@ dns:
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
 
-# # 域名嗅探
-# sniffer:
-#   enable: true
-#   force-dns-mapping: true
-#   parse-pure-ip: true
-#   override-destination: false
-#   sniff:
-#     HTTP:
-#       ports: [80, 8080-8880]
-#       override-destination: true
-#     TLS:
-#       ports: [443, 8443]
-#     QUIC:
-#       ports: [443, 8443]
-#   force-domain:
-#     #- +.v2ex.com
-#   skip-domain:
-#     #- Mijia Cloud
-#   skip-src-address:
-#     #- 192.168.0.3/32
-#   skip-dst-address:
-#     #- 192.168.0.3/32
+# 域名嗅探
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    #- +.v2ex.com
+  skip-domain:
+    #- Mijia Cloud
+  skip-src-address:
+    #- 192.168.0.3/32
+  skip-dst-address:
+    #- 192.168.0.3/32
 
 # tun:
 #   enable: true
