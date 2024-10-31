@@ -81,12 +81,12 @@ external-controller: '0.0.0.0:9090'
 #external-doh-server: /dns-query
 
 # 实验性功能
-# experimental:
-#   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-#   # interface-name: en0 # outbound interface name
-#   quic-go-disable-gso: false # 禁用GSO
-#   quic-go-disable-ecn: false # 禁用ECN
-#   dialer-ip4p-convert: false # 启用IP4P地址转换
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
+  quic-go-disable-gso: false # 禁用GSO
+  quic-go-disable-ecn: false # 禁用ECN
+  dialer-ip4p-convert: false # 启用IP4P地址转换
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
