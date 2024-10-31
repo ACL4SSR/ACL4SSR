@@ -44,7 +44,7 @@ disable-keep-alive: false
 find-process-mode: strict
 
 # Clash 的 RESTful API
-external-controller: '0.0.0.0:9090'
+# external-controller: '0.0.0.0:9090'
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
@@ -82,12 +82,12 @@ external-controller: '0.0.0.0:9090'
 
 
 # 实验性功能
-experimental:
-  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
-  # interface-name: en0 # outbound interface name
-  quic-go-disable-gso: false # 禁用GSO
-  quic-go-disable-ecn: false # 禁用ECN
-  dialer-ip4p-convert: false # 启用IP4P地址转换
+# experimental:
+#   ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+#   # interface-name: en0 # outbound interface name
+#   quic-go-disable-gso: false # 禁用GSO
+#   quic-go-disable-ecn: false # 禁用ECN
+#   dialer-ip4p-convert: false # 启用IP4P地址转换
 
 # 本地 SOCKS5 / HTTP(S) 服务认证
 # authentication:
@@ -102,20 +102,20 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 # 缓存
-profile:
-  store-selected: true
-  # 储存 API 对策略组的选择，以供下次启动时使用
-  store-fake-ip: true
-  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+# profile:
+#   store-selected: true
+#   # 储存 API 对策略组的选择，以供下次启动时使用
+#   store-fake-ip: true
+#   # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
 # 开启统一延迟时，会计算 RTT，以消除连接握手等带来的不同类型节点的延迟差异
-unified-delay: true
+# unified-delay: true
 
 # TCP 并发
-tcp-concurrent: true
+# tcp-concurrent: true
 
 # 为 Linux 下的出站连接提供默认流量标记
-routing-mark: 6666
+# routing-mark: 6666
 
 # # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
 # # 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
