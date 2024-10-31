@@ -44,7 +44,7 @@ disable-keep-alive: false
 find-process-mode: strict
 
 # Clash 的 RESTful API
-#external-controller: '0.0.0.0:9090'
+external-controller: '127.0.0.1:9090'
 
 # 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
 # 参数应填写配置目录的相对路径或绝对路径。
@@ -78,7 +78,6 @@ find-process-mode: strict
 # 在RESTful API端口上开启DOH服务器
 # ！！！该URL不会验证secret， 如果开启请自行保证安全问题 ！！！
 #external-doh-server: /dns-query
-
 
 # 实验性功能
 experimental:
