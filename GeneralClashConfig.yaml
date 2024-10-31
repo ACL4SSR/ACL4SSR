@@ -1,1 +1,263 @@
-GeneralClashConfig
+#---------------------------------------------------#
+# 配置文件需要放置在 $HOME/.config/clash/config.yml
+# 或者运行目录下的config.yml
+#---------------------------------------------------#
+# 混合端口 HTTP和SOCKS5用一个端口
+mixed-port: 7890
+# HTTP 代理端口
+port: 7891
+# SOCKS5 代理端口
+socks-port: 7892
+# Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
+redir-port: 7893
+# tproxy 透明代理端口，可代理 TCP 与 UDP 流量
+tproxy-port: 7894
+
+# 允许局域网的连接（可用来共享代理）
+allow-lan: true
+
+# 仅在将allow-lan设置为true时适用
+# #"*": 绑定所有IP地址
+# #192.168.122.11: 绑定单个IPv4地址
+# #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
+bind-address: "*"
+ipv6: true
+
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+mode: rule
+
+# 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
+# 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
+log-level: warning
+
+# TCP Keep Alive 包的间隔，单位为秒
+keep-alive-interval: 15
+# TCP Keep Alive 的最大空闲时间
+keep-alive-idle: 15
+# 禁用 TCP Keep Alive，在 Amdroid 默认为 true
+disable-keep-alive: false
+
+# 控制是否让 Clash 去匹配进程
+# always 开启，强制匹配所有进程
+# strict 默认，由 Clash 判断是否开启
+# off 不匹配进程，推荐在路由器上使用此模式
+find-process-mode: strict
+
+# Clash 的 RESTful API
+external-controller: '0.0.0.0:9090'
+
+# 您可以将静态网页资源（如 clash-dashboard）放置在一个目录中，clash 将会服务于 `RESTful API/ui`
+# 参数应填写配置目录的相对路径或绝对路径。
+# http://127.0.0.1:9090/ui/#/
+# external-ui: folder
+# yacd面板：  https://github.com/haishanh/yacd
+# Razord面板：http://clash.razord.top/#/proxies
+# external-ui: dashboard
+
+# RESTful API 的口令 (可选)
+# secret: ""
+# RESTful API CORS标头配置
+external-controller-cors:
+  allow-origins:
+    - *
+  allow-private-network: true
+# RESTful API Unix socket 监听地址（ windows版本大于17063也可以使用，即大于等于1803/RS4版本即可使用 ）
+# ！！！注意： 从Unix socket访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
+# 测试方法： curl -v --unix-socket "mihomo.sock" http://localhost/
+#external-controller-unix: mihomo.sock
+
+# RESTful API Windows namedpipe 监听地址
+# ！！！注意： 从Windows namedpipe访问api接口不会验证secret， 如果开启请自行保证安全问题 ！！！
+#external-controller-pipe: \\.\pipe\mihomo
+
+# 配置 WEB UI 目录，使用 http://{{external-controller}}/ui 访问
+#external-ui: /path/to/ui/folder/
+#external-ui-name: xd
+#external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+
+# 在RESTful API端口上开启DOH服务器
+# ！！！该URL不会验证secret， 如果开启请自行保证安全问题 ！！！
+#external-doh-server: /dns-query
+
+
+# 实验性功能
+experimental:
+  ignore-resolve-fail: true # 忽略 DNS 解析失败，默认值为 true
+  # interface-name: en0 # outbound interface name
+  quic-go-disable-gso: false # 禁用GSO
+  quic-go-disable-ecn: false # 禁用ECN
+  dialer-ip4p-convert: false # 启用IP4P地址转换
+
+# 本地 SOCKS5 / HTTP(S) 服务认证
+# authentication:
+#  - "user1:pass1"
+#  - "user2:pass2"
+
+# 实验性功能 hosts, 支持通配符 (例如 *.clash.dev 甚至 *.foo.*.example.com)
+# 静态的域名 比 通配域名 具有更高的优先级 (foo.example.com 优先于 *.example.com)
+# 注意: hosts 在 fake-ip 模式下不生效
+#hosts:
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
+
+# 缓存
+profile:
+  store-selected: true
+  # 储存 API 对策略组的选择，以供下次启动时使用
+  store-fake-ip: true
+  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+
+# 开启统一延迟时，会计算 RTT，以消除连接握手等带来的不同类型节点的延迟差异
+unified-delay: true
+
+# TCP 并发
+tcp-concurrent: true
+
+# 为 Linux 下的出站连接提供默认流量标记
+routing-mark: 6666
+
+# 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
+# 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
+global-client-fingerprint: chrome
+
+# 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat，此项有默认值 false
+geodata-mode: false
+
+# Matcher implementation used by GeoSite, available implementations:
+# - succinct (default, same as rule-set)
+# - mph (from V2Ray, also `hybrid` in Xray)
+geosite-matcher: succinct
+# 可选的加载模式如下
+# standard：标准加载器
+# memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)
+geodata-loader: standard
+# 自动更新 GEO
+geo-auto-update: false
+# 更新间隔，单位为小时
+geo-update-interval: 24
+# 自定 GEO 下载地址
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+  asn: "https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb"
+# 自定全局 UA
+global-ua: clash.meta
+# ETag 支持
+etag-support: true
+
+dns:
+  cache-algorithm: arc
+  enable: true # 是否启用dns false
+  prefer-h3: false
+  listen: 0.0.0.0:53
+  ipv6: true
+  enhanced-mode: redir-host # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+     #- '*.lan'
+     #- localhost.ptlogin2.qq.com
+  fake-ip-filter-mode: blacklist # 可选 blacklist/whitelist，默认blacklist``，whitelist 即只有匹配成功才返回 fake-ip
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: false
+  default-nameserver: 
+    - 8.8.8.8
+    - 8.8.4.4
+  nameserver-policy:
+    "geosite:cn":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+  proxy-server-nameserver:
+    - 8.8.8.8
+    - 8.8.4.4
+  direct-nameserver:
+    - system
+  direct-nameserver-follow-policy: false
+  nameserver:
+     - 8.8.8.8
+     - 8.8.4.4
+  fallback:
+     - tls://8.8.4.4
+     - tls://1.1.1.1
+  fallback-filter:
+     geoip: true # 默认
+     geoip-code: cn
+     geosite:
+      - gfw
+     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       #- 240.0.0.0/4
+
+# 域名嗅探
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: false
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    #- +.v2ex.com
+  skip-domain:
+    #- Mijia Cloud
+  skip-src-address:
+    #- 192.168.0.3/32
+  skip-dst-address:
+    #- 192.168.0.3/32
+
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  device: utun0
+  mtu: 9000
+  strict-route: false
+  gso: false
+  gso-max-size: 65536
+  udp-timeout: 300
+  iproute2-table-index: 2022
+  iproute2-rule-index: 9000
+  endpoint-independent-nat: false
+  route-address-set:
+    #- ruleset-1
+  route-exclude-address-set:
+    #- ruleset-2
+  route-address:
+    - 0.0.0.0/1
+    - 128.0.0.0/1
+    - "::/1"
+    - "8000::/1"
+  route-exclude-address:
+    #- 192.168.0.0/16
+    #- fc00::/7
+  include-interface:
+    #- eth0
+  exclude-interface:
+    #- eth1
+  include-uid:
+    #- 0
+  include-uid-range:
+    #- 1000:9999
+  exclude-uid:
+    #- 1000
+  exclude-uid-range:
+    #- 1000:9999
+  include-android-user:
+    #- 0
+    #- 10
+  include-package:
+    #- com.android.chrome
+  exclude-package:
+    #- com.android.captiveportallogin
+
