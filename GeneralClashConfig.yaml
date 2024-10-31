@@ -101,24 +101,24 @@ experimental:
 #   'alpha.clash.dev': '::1'
 
 # 缓存
-profile:
-  store-selected: true
-  # 储存 API 对策略组的选择，以供下次启动时使用
-  store-fake-ip: true
-  # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
+# profile:
+#   store-selected: true
+#   # 储存 API 对策略组的选择，以供下次启动时使用
+#   store-fake-ip: true
+#   # 储存 fakeip 映射表，域名再次发生连接时，使用原有映射地址
 
-# 开启统一延迟时，会计算 RTT，以消除连接握手等带来的不同类型节点的延迟差异
-unified-delay: true
+# # 开启统一延迟时，会计算 RTT，以消除连接握手等带来的不同类型节点的延迟差异
+# unified-delay: true
 
-# TCP 并发
-tcp-concurrent: true
+# # TCP 并发
+# tcp-concurrent: true
 
-# 为 Linux 下的出站连接提供默认流量标记
-routing-mark: 6666
+# # 为 Linux 下的出站连接提供默认流量标记
+# routing-mark: 6666
 
-# # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
-# # 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
-global-client-fingerprint: chrome
+# # # 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint。
+# # # 目前支持开启 TLS 传输的 TCP/grpc/WS/HTTP , 支持协议有 VLESS,Vmess 和 trojan.
+# global-client-fingerprint: chrome
 
 # # 更改 geoip 使用文件，mmdb 或者 dat，可选 true/false,true为 dat，此项有默认值 false
 # geodata-mode: false
