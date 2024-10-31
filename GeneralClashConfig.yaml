@@ -185,27 +185,27 @@ dns:
        #- 240.0.0.0/4
 
 # 域名嗅探
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: false
-  sniff:
-    HTTP:
-      ports: [80, 8080-8880]
-      override-destination: true
-    TLS:
-      ports: [443, 8443]
-    QUIC:
-      ports: [443, 8443]
-  force-domain:
-    #- +.v2ex.com
-  skip-domain:
-    #- Mijia Cloud
-  skip-src-address:
-    #- 192.168.0.3/32
-  skip-dst-address:
-    #- 192.168.0.3/32
+# sniffer:
+#   enable: true
+#   force-dns-mapping: true
+#   parse-pure-ip: true
+#   override-destination: false
+#   sniff:
+#     HTTP:
+#       ports: [80, 8080-8880]
+#       override-destination: true
+#     TLS:
+#       ports: [443, 8443]
+#     QUIC:
+#       ports: [443, 8443]
+#   force-domain:
+#     #- +.v2ex.com
+#   skip-domain:
+#     #- Mijia Cloud
+#   skip-src-address:
+#     #- 192.168.0.3/32
+#   skip-dst-address:
+#     #- 192.168.0.3/32
 
 tun:
   enable: true
