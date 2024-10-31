@@ -146,43 +146,43 @@ external-controller: '0.0.0.0:9090'
 # # ETag 支持
 # etag-support: true
 
-# dns:
-#   cache-algorithm: arc
-#   enable: true # 是否启用dns false
-#   prefer-h3: false
-#   listen: 0.0.0.0:53
-#   ipv6: true
-#   enhanced-mode: redir-host # 模式：redir-host或fake-ip
-#   fake-ip-range: 198.18.0.1/16 #
-#   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-#      #- '*.lan'
-#      #- localhost.ptlogin2.qq.com
-#   fake-ip-filter-mode: blacklist # 可选 blacklist/whitelist，默认blacklist``，whitelist 即只有匹配成功才返回 fake-ip
-#   use-hosts: true
-#   use-system-hosts: true
-#   respect-rules: false
-#   default-nameserver: 
-#     - 8.8.8.8
-#     - 8.8.4.4
-#   proxy-server-nameserver:
-#     - 8.8.8.8
-#     - 8.8.4.4
-#   direct-nameserver:
-#     - system
-#   direct-nameserver-follow-policy: false
-#   nameserver:
-#      - 8.8.8.8
-#      - 8.8.4.4
-#   fallback:
-#      - tls://8.8.4.4
-#      - tls://1.1.1.1
-#   fallback-filter:
-#      geoip: true # 默认
-#      geoip-code: cn
-#      geosite:
-#       - gfw
-#      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-#        #- 240.0.0.0/4
+dns:
+  cache-algorithm: arc
+  enable: true # 是否启用dns false
+  prefer-h3: false
+  listen: 0.0.0.0:53
+  ipv6: true
+  enhanced-mode: redir-host # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+     #- '*.lan'
+     #- localhost.ptlogin2.qq.com
+  fake-ip-filter-mode: blacklist # 可选 blacklist/whitelist，默认blacklist``，whitelist 即只有匹配成功才返回 fake-ip
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: false
+  default-nameserver: 
+    - 8.8.8.8
+    - 8.8.4.4
+  proxy-server-nameserver:
+    - 8.8.8.8
+    - 8.8.4.4
+  direct-nameserver:
+    - system
+  direct-nameserver-follow-policy: false
+  nameserver:
+     - 8.8.8.8
+     - 8.8.4.4
+  fallback:
+     - tls://8.8.4.4
+     - tls://1.1.1.1
+  fallback-filter:
+     geoip: true # 默认
+     geoip-code: cn
+     geosite:
+      - gfw
+     #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+       #- 240.0.0.0/4
 
 # 域名嗅探
 sniffer:
