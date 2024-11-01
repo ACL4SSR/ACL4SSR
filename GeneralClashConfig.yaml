@@ -146,43 +146,49 @@ global-ua: clash.meta
 # ETag 支持
 etag-support: true
 
+# DNS 配置
 dns:
   cache-algorithm: arc
   enable: true # 是否启用dns false
-  prefer-h3: false
+  prefer-h3: true
   listen: 0.0.0.0:53
   ipv6: true
+  ipv6-timeout: 300 # 单位：ms，内部双栈并发时，向上游查询 AAAA 时，等待 AAAA 的时间，默认 100ms
   enhanced-mode: redir-host # 模式：redir-host或fake-ip
   fake-ip-range: 198.18.0.1/16 #
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
-     #- '*.lan'
-     #- localhost.ptlogin2.qq.com
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
   fake-ip-filter-mode: blacklist # 可选 blacklist/whitelist，默认blacklist``，whitelist 即只有匹配成功才返回 fake-ip
   use-hosts: true
   use-system-hosts: true
   respect-rules: false
   default-nameserver: 
     - 8.8.8.8
-    - 8.8.4.4
-  proxy-server-nameserver:
-    - 8.8.8.8
-    - 8.8.4.4
-  direct-nameserver:
-    - system
-  direct-nameserver-follow-policy: false
+    - 1.1.1.1
+    - 2001:4860:4860::8888
+    - 2606:4700:4700::1111
   nameserver:
-     - 8.8.8.8
-     - 8.8.4.4
+     - https://cloudflare-dns.com/dns-query
+     - https://dns.google/dns-query
   fallback:
-     - tls://8.8.4.4
-     - tls://1.1.1.1
+     - https://dns.google/dns-query
+     - https://cloudflare-dns.com/dns-query
   fallback-filter:
      geoip: true # 默认
-     geoip-code: cn
+     geoip-code: CN
      geosite:
       - gfw
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
+  proxy-server-nameserver:
+    - https://dns.google/dns-query
+    - https://cloudflare-dns.com/dns-query
+  # 用于direct出口域名解析的 DNS 服务器，如果不填则遵循nameserver-policy、nameserver和fallback的配置
+  direct-nameserver:
+    - system
+  # 是否遵循nameserver-policy，默认为不遵守，仅当direct-nameserver不为空时生效
+  direct-nameserver-follow-policy: false
 
 # 域名嗅探
 sniffer:
