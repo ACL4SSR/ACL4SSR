@@ -6,7 +6,6 @@ payload:
   - DOMAIN-KEYWORD,admaster
   - DOMAIN-KEYWORD,adsage
   - DOMAIN-KEYWORD,adsensor
-  - DOMAIN-KEYWORD,adservice
   - DOMAIN-KEYWORD,adsmogo
   - DOMAIN-KEYWORD,adsrvmedia
   - DOMAIN-KEYWORD,adsserving
@@ -322,7 +321,6 @@ payload:
   - DOMAIN-SUFFIX,rtbasia.com
   - DOMAIN-SUFFIX,sanya1.com
   - DOMAIN-SUFFIX,scupio.com
-  - DOMAIN-SUFFIX,serving-sys.com
   - DOMAIN-SUFFIX,shuiguo.com
   - DOMAIN-SUFFIX,shuzilm.cn
   - DOMAIN-SUFFIX,similarweb.com
@@ -390,6 +388,7 @@ payload:
   - DOMAIN-SUFFIX,wqmobile.com
   - DOMAIN-SUFFIX,wrating.com
   - DOMAIN-SUFFIX,wumii.cn
+  - DOMAIN-SUFFIX,wwads.cn
   - DOMAIN-SUFFIX,xcy8.com
   - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xiaozhen.com

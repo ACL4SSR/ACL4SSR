@@ -1,8 +1,9 @@
-# 内容：Private Tracker
-# 数量：121条
+# 内容：PrivateTracker
+# 数量：122条
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,52pt.site
 DOMAIN-SUFFIX,aidoru-online.me
 DOMAIN-SUFFIX,alpharatio.cc
