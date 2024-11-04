@@ -162,7 +162,7 @@ dns:
   fake-ip-filter-mode: blacklist # 可选 blacklist/whitelist，默认blacklist``，whitelist 即只有匹配成功才返回 fake-ip
   use-hosts: true
   use-system-hosts: true
-  respect-rules: false
+  respect-rules: true
   default-nameserver: 
     - 8.8.8.8
     - 1.1.1.1
@@ -182,8 +182,8 @@ dns:
      #ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        #- 240.0.0.0/4
   proxy-server-nameserver:
-    - https://dns.google/dns-query
     - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
   # 用于direct出口域名解析的 DNS 服务器，如果不填则遵循nameserver-policy、nameserver和fallback的配置
   direct-nameserver:
     - system
