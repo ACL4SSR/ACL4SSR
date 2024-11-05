@@ -1,18 +1,26 @@
 # 内容：OpenAi
 # 数量：16条
-DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,tcr9i.chat.openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,js.intercomcdn.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,js.stripe.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,rum.browser-intake-datadoghq.com
+DOMAIN-SUFFIX,o33249.ingest.sentry.io
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,android.chat.openai.com
+DOMAIN-SUFFIX,desktop.chat.openai.com
+DOMAIN-SUFFIX,prodregistryv2.org
+DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,stripe.com
