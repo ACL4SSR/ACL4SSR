@@ -1,0 +1,48 @@
+# Local IP Ranges
+IP-CIDR,192.168.0.0/16
+IP-CIDR,10.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,127.0.0.1/8
+
+# Apple Domains
+DOMAIN-SUFFIX,timestamp.apple.com
+DOMAIN-SUFFIX,sequoia.apple.com
+DOMAIN-SUFFIX,seed-sequoia.siri.apple.com
+DOMAIN-SUFFIX,*.apple.com
+
+# Design Domains
+DOMAIN-SUFFIX,*.js.design
+DOMAIN-SUFFIX,*.js-test.design
+DOMAIN-SUFFIX,gitlab.js.design
+DOMAIN-SUFFIX,jumpserver.js.design
+DOMAIN-SUFFIX,loki.js.design
+DOMAIN-SUFFIX,sgp.proxy.js.design
+
+# Geesdev Domains
+DOMAIN-SUFFIX,geesdev.com
+DOMAIN-SUFFIX,fjhdream.cn
+DOMAIN-SUFFIX,*.dev.geesdev.com
+DOMAIN-SUFFIX,*.test.geesdev.com
+DOMAIN-SUFFIX,dev.geesdev.com
+DOMAIN-SUFFIX,test.geesdev.com
+DOMAIN-SUFFIX,itest.geesdev.com
+DOMAIN-SUFFIX,*.ob-lab.geesdev.com
+DOMAIN-SUFFIX,*.ob.geesdev.com
+DOMAIN-SUFFIX,aibuild-ops.geesdev.com
+DOMAIN-SUFFIX,aibuild.geesdev.com
+DOMAIN-SUFFIX,*.aibuild.geesdev.com
+DOMAIN-SUFFIX,aibuild-aws.geesdev.com
+DOMAIN-SUFFIX,*.aibuild-aws.geesdev.com
+DOMAIN-SUFFIX,gf.ob.geesdev.com
+DOMAIN-SUFFIX,gray.geesdev.com
+DOMAIN-SUFFIX,pre.geesdev.com
+DOMAIN-SUFFIX,*.aibuildcdn-dev.geesdev.com
+DOMAIN-SUFFIX,*.ob-aws.geesdev.com
+DOMAIN-SUFFIX,juejin.cn
+
+# Other Domains
+DOMAIN-SUFFIX,*.imacso.com
+DOMAIN-SUFFIX,*.4ksj.com
+DOMAIN-SUFFIX,*.xiaopiu.com
+DOMAIN-SUFFIX,205.234.201.223
+DOMAIN-SUFFIX,*.geesdev.com
