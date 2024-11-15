@@ -169,6 +169,10 @@ dns:
     #- '2001:4860:4860::8888'
     #- '2606:4700:4700::1111'
   nameserver:
+     - 119.29.29.29
+     - 223.5.5.5
+     - 1.1.1.1
+     - 8.8.8.8
      - https://cloudflare-dns.com/dns-query
      - https://dns.google/dns-query
   fallback:
