@@ -1,6 +1,6 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2024-06-30 11:02:56
+  # 更新：2024-08-27 13:51:18
   # 数量：367条
 
   # ABC
@@ -201,6 +201,9 @@ payload:
   - DOMAIN-SUFFIX,itv.com
   - DOMAIN-SUFFIX,itvstatic.com
 
+  # Iwara
+  - DOMAIN-SUFFIX,iwara.tv
+
   # JOOX
   # USER-AGENT,JOOX*
   # USER-AGENT,WeMusic*
@@ -334,7 +337,6 @@ payload:
 
   # OpenAi
   - DOMAIN-KEYWORD,openai
-  - DOMAIN,gemini.google.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,chatgpt.com

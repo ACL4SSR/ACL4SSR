@@ -194,6 +194,8 @@ DOMAIN-SUFFIX,didiglobal.com
 DOMAIN-SUFFIX,udache.com
 
 # Douyu 斗鱼
+DOMAIN-SUFFIX,bytefcdnrd.com
+DOMAIN-SUFFIX,edgesrv.com
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuscdn.com
@@ -563,6 +565,7 @@ DOMAIN-SUFFIX,jumei.com
 DOMAIN-SUFFIX,kaola.com
 DOMAIN-SUFFIX,knewone.com
 DOMAIN-SUFFIX,koowo.com
+DOMAIN-SUFFIX,koyso.com
 DOMAIN-SUFFIX,ksyungslb.com
 DOMAIN-SUFFIX,kuaidi100.com
 DOMAIN-SUFFIX,kugou.com
