@@ -1,6 +1,7 @@
 # 内容：OpenAi
 # 数量：24条
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,auth0.openai.com
 DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,tcr9i.chat.openai.com
