@@ -64,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,gfwlist.start
   - DOMAIN-SUFFIX,000webhost.com
   - DOMAIN-SUFFIX,030buy.com
+  - DOMAIN-SUFFIX,0d00.cn
   - DOMAIN-SUFFIX,0rz.tw
   - DOMAIN-SUFFIX,1-apple.com.tw
   - DOMAIN-SUFFIX,10.tt
