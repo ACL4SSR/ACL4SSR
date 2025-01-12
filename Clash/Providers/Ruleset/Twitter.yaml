@@ -1,6 +1,6 @@
 payload:
   # 内容：Twitter
-  # 数量：11条
+  # 数量：12条
   - DOMAIN-KEYWORD,twitter
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,pscp.tv
@@ -12,3 +12,4 @@ payload:
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
