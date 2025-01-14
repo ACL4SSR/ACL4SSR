@@ -24,6 +24,7 @@ PROCESS-NAME,Adobe Desktop Common.exe
 PROCESS-NAME,Adobe CEF Helper.exe
 PROCESS-NAME,AdobeIPCBroker.exe
 PROCESS-NAME,Creative Cloud Helper.exe
+PROCESS-NAME,CoreSync.exe
 DOMAIN-KEYWORD,adobe
 DOMAIN,adbemdigitalmediarebootprod2.112.2o7.net
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
