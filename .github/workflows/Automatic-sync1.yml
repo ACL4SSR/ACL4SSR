@@ -1,0 +1,27 @@
+name: Sync from upstream repository
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天同步一次
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config user.name "evilhy"
+          git config user.email "1422409065@qq.com"
+
+      - name: Add upstream repository
+        run: |
+          git remote add upstream https://github.com/infrost/DeeplxFile.git
+          git fetch upstream
+          git merge upstream/master
+          git push origin master
