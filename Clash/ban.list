@@ -1,0 +1,10 @@
+
+PROCESS-NAME,Adobe Photoshop,REJECT
+PROCESS-NAME,Adobe Illustrator,REJECT
+DOMAIN-SUFFIX,adobe.com,REJECT
+DOMAIN-SUFFIX,adobe.io,REJECT
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,photoshop.com
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobetm.com
