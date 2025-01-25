@@ -58,5 +58,6 @@ DOMAIN-SUFFIX,comhbo.com
 DOMAIN-SUFFIX,discomax.com
 DOMAIN-SUFFIX,brightline.tv
 DOMAIN-SUFFIX,litix.io
+GEOSITE,hbo
 PROCESS-NAME,com.hbo.hbonow
 PROCESS-NAME,com.wbd.stream
