@@ -35,3 +35,6 @@ DOMAIN-SUFFIX,ipify.org
 
 # hp
 DOMAIN-KEYWORD,hpsmart
+
+# 野火TV
+DOMAIN-KEYWORD,163189
