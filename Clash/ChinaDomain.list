@@ -1,5 +1,32 @@
 # 直连列表
 
+# ShuoList
+IP-CIDR,192.168.5.0/24
+IP-CIDR6,::/0
+DST-PORT,22
+IP-CIDR,192.168.31.0/24
+PROCESS-NAME,leigod.exe
+PROCESS-NAME,zerotier-one_x64.exe
+PROCESS-NAME,tailscale.exe
+PROCESS-NAME,Apex.exe
+PROCESS-NAME,netbird.exe
+PROCESS-NAME,upc.exe
+PROCESS-NAME,VirtualDesktop.Streamer.exe
+PROCESS-NAME,mstsc.exe
+PROCESS-NAME,RustDesk.exe
+PROCESS-NAME,Moonlight.exe
+PROCESS-NAME,GameViewer.exe
+IP-CIDR,198.168.191.0/16
+IP-CIDR,198.168.5.0/16
+IP-CIDR,45.207.214.124/16
+DOMAIN,cpolard.cpolar.com
+DOMAIN,shared.oaifree.com
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN,154.12.29.42
+DOMAIN,45.207.214.124
+DOMAIN,154.40.45.113
+IP-CIDR,45.137.180.0/16
+
 # MyList
 DOMAIN-SUFFIX,13th.tech
 DOMAIN-SUFFIX,423down.com
