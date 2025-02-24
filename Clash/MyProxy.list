@@ -13,16 +13,8 @@ DOMAIN-SUFFIX,apple.com
 # DOMAIN-SUFFIX,chat-content.beanfun.com
 DOMAIN-SUFFIX,beanfun.com
 # 我的域名需要代理的
-DOMAIN,mail.aiwanyun.cn
-DOMAIN,v5.aiwanyun.cn
-DOMAIN,v6.aiwanyun.cn
-DOMAIN,v7.aiwanyun.cn
-DOMAIN,v8.aiwanyun.cn
-DOMAIN,v9.aiwanyun.cn
-DOMAIN,v77.aiwanyun.cn
-DOMAIN,v88.aiwanyun.cn
-DOMAIN,v888.aiwanyun.cn
-DOMAIN,v99.aiwanyun.cn
+DOMAIN-SUFFIX,aiwanyun.cn
+DOMAIN-SUFFIX,aiyundiy.com
 # 加密货币
 DOMAIN-KEYWORD,binance
 DOMAIN-KEYWORD,bnappweb
