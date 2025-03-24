@@ -18,3 +18,5 @@ IP-CIDR,203.208.50.0/24,no-resolve
 IP-CIDR,220.181.174.162/32,no-resolve
 IP-CIDR,220.181.174.226/32,no-resolve
 IP-CIDR,220.181.174.34/32,no-resolve
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,services.googleapis.cn
