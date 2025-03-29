@@ -1,6 +1,6 @@
 # 内容：国外媒体列表
-# 更新：2025-03-29 17:26:09
-# 数量：408条
+# 更新：2025-03-29 17:35:36
+# 数量：406条
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
@@ -15,22 +15,20 @@ DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,bard.google.com
-DOMAIN,claude.ai
 DOMAIN,console.groq.com
 DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,copilot.microsoft.com
 DOMAIN,gemini.google.com
 DOMAIN,generativelanguage.googleapis.com
-DOMAIN,imagine.meta.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gemini.google.com
