@@ -373,7 +373,7 @@ IP-CIDR,16.12.80.0/22,no-resolve
 IP-CIDR,16.12.84.0/23,no-resolve
 IP-CIDR,16.12.86.0/24,no-resolve
 IP-CIDR,16.15.0.0/20,no-resolve
-IP-CIDR,16.15.16.0/22,no-resolve
+IP-CIDR,16.15.16.0/21,no-resolve
 IP-CIDR,16.15.176.0/20,no-resolve
 IP-CIDR,16.15.192.0/18,no-resolve
 IP-CIDR,16.16.0.0/16,no-resolve

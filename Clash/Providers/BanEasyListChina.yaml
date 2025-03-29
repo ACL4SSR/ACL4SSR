@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-  # 更新：2025-03-27 22:20:05
-  # 数量：4220条
+  # 更新：2025-03-29 16:47:46
+  # 数量：4231条
 
   - DOMAIN-SUFFIX,003store.com
   - DOMAIN-SUFFIX,01210sop.xyz
@@ -1312,6 +1312,7 @@ payload:
   - DOMAIN-SUFFIX,ehmhqcn.cn
   - DOMAIN-SUFFIX,ei1s7b.cn
   - DOMAIN-SUFFIX,ei7.icu
+  - DOMAIN-SUFFIX,eildralfl.com
   - DOMAIN-SUFFIX,eiphrut.com
   - DOMAIN-SUFFIX,eisnaisv.com
   - DOMAIN-SUFFIX,eitilbyr.com
@@ -1598,6 +1599,7 @@ payload:
   - DOMAIN-SUFFIX,ghozokodq.com
   - DOMAIN-SUFFIX,ghwqbii.icu
   - DOMAIN-SUFFIX,gi0.icu
+  - DOMAIN-SUFFIX,giphaudoq.com
   - DOMAIN-SUFFIX,gjhjjhgc.cn
   - DOMAIN-SUFFIX,gjinuqg.top
   - DOMAIN-SUFFIX,gjjskhdnm.top
@@ -1791,6 +1793,7 @@ payload:
   - DOMAIN-SUFFIX,hoxdotye.icu
   - DOMAIN-SUFFIX,hp7.fun
   - DOMAIN-SUFFIX,hp8g6.icu
+  - DOMAIN-SUFFIX,hptidc.top
   - DOMAIN-SUFFIX,hpzktd.xyz
   - DOMAIN-SUFFIX,hqhspv.xyz
   - DOMAIN-SUFFIX,hrjciqyu.icu
@@ -2035,6 +2038,7 @@ payload:
   - DOMAIN-SUFFIX,jditera.top
   - DOMAIN-SUFFIX,jdomsia.top
   - DOMAIN-SUFFIX,jdoshba.top
+  - DOMAIN-SUFFIX,jdqmhay.icu
   - DOMAIN-SUFFIX,jdrlfn.xyz
   - DOMAIN-SUFFIX,jdyurlia.top
   - DOMAIN-SUFFIX,jebrhb.icu
@@ -2338,6 +2342,7 @@ payload:
   - DOMAIN-SUFFIX,ligfdjnfd.cn
   - DOMAIN-SUFFIX,lijlrz.xyz
   - DOMAIN-SUFFIX,lipheak.com
+  - DOMAIN-SUFFIX,liqw.cn
   - DOMAIN-SUFFIX,lirretsn.com
   - DOMAIN-SUFFIX,lixiangmo.com
   - DOMAIN-SUFFIX,lixonj.xyz
@@ -3378,6 +3383,7 @@ payload:
   - DOMAIN-SUFFIX,tcinvdi.top
   - DOMAIN-SUFFIX,tciqgx.xyz
   - DOMAIN-SUFFIX,tclimii.top
+  - DOMAIN-SUFFIX,td86hsmlmggym.top
   - DOMAIN-SUFFIX,tdamcsi.top
   - DOMAIN-SUFFIX,tdfqvx.xyz
   - DOMAIN-SUFFIX,tdhnxf.xyz
@@ -3471,6 +3477,7 @@ payload:
   - DOMAIN-SUFFIX,trorqaeao.com
   - DOMAIN-SUFFIX,trpyceq.cn
   - DOMAIN-SUFFIX,trutvnci.top
+  - DOMAIN-SUFFIX,truuhmoen.com
   - DOMAIN-SUFFIX,truxedku.com
   - DOMAIN-SUFFIX,trvxbd.xyz
   - DOMAIN-SUFFIX,ts166.net
@@ -3609,6 +3616,7 @@ payload:
   - DOMAIN-SUFFIX,uiakq.top
   - DOMAIN-SUFFIX,uiatkc.xyz
   - DOMAIN-SUFFIX,uicdns.xyz
+  - DOMAIN-SUFFIX,uivc.cn
   - DOMAIN-SUFFIX,ujimtyt.top
   - DOMAIN-SUFFIX,ujmz.cn
   - DOMAIN-SUFFIX,ujovcb.cn
@@ -3633,6 +3641,7 @@ payload:
   - DOMAIN-SUFFIX,uoqc.cn
   - DOMAIN-SUFFIX,uoublit.top
   - DOMAIN-SUFFIX,uouvxlit.top
+  - DOMAIN-SUFFIX,uposnmb.icu
   - DOMAIN-SUFFIX,upyzqf.cn
   - DOMAIN-SUFFIX,uqaagi.xyz
   - DOMAIN-SUFFIX,uqcktxp.icu
@@ -3746,6 +3755,7 @@ payload:
   - DOMAIN-SUFFIX,vppzjv.xyz
   - DOMAIN-SUFFIX,vpwizuj.icu
   - DOMAIN-SUFFIX,vpydjogaytpg.xyz
+  - DOMAIN-SUFFIX,vqaj6smlmtpym.top
   - DOMAIN-SUFFIX,vqbzpv.xyz
   - DOMAIN-SUFFIX,vqlwoy.xyz
   - DOMAIN-SUFFIX,vraataidz.com
@@ -3768,6 +3778,7 @@ payload:
   - DOMAIN-SUFFIX,vtlyrj.xyz
   - DOMAIN-SUFFIX,vtrrxqbi.xyz
   - DOMAIN-SUFFIX,vudqth.icu
+  - DOMAIN-SUFFIX,vuhf.cn
   - DOMAIN-SUFFIX,vuirssd.icu
   - DOMAIN-SUFFIX,vulitd.xyz
   - DOMAIN-SUFFIX,vupload.duowan.com
