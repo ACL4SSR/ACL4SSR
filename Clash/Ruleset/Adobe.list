@@ -1,5 +1,30 @@
 # 内容：Adobe
-# 数量：34条
+# 数量：58条
+PROCESS-NAME,AcroRd32.exe
+PROCESS-NAME,Acrobat.exe
+PROCESS-NAME,Photoshop.exe
+PROCESS-NAME,Illustrator.exe
+PROCESS-NAME,Adobe Premiere Pro.exe
+PROCESS-NAME,AfterFX.exe
+PROCESS-NAME,Lightroom.exe
+PROCESS-NAME,InDesign.exe
+PROCESS-NAME,Adobe XD.exe
+PROCESS-NAME,Audition.exe
+PROCESS-NAME,Animate.exe
+PROCESS-NAME,Dreamweaver.exe
+PROCESS-NAME,Bridge.exe
+PROCESS-NAME,Flash.exe
+PROCESS-NAME,Adobe Media Encoder.exe
+PROCESS-NAME,CharacterAnimator.exe
+PROCESS-NAME,Dimension.exe
+PROCESS-NAME,AcrobatDistiller.exe
+PROCESS-NAME,Creative Cloud.exe
+PROCESS-NAME,CCLibrary.exe
+PROCESS-NAME,Adobe Desktop Common.exe
+PROCESS-NAME,Adobe CEF Helper.exe
+PROCESS-NAME,AdobeIPCBroker.exe
+PROCESS-NAME,Creative Cloud Helper.exe
+PROCESS-NAME,CoreSync.exe
 DOMAIN-KEYWORD,adobe
 DOMAIN,adbemdigitalmediarebootprod2.112.2o7.net
 DOMAIN,cc-ext-prod-pkgs.s3.amazonaws.com
