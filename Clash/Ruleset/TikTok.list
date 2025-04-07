@@ -1,5 +1,5 @@
 # 内容：TikTok
-# 数量：11条
+# 数量：12条
 USER-AGENT,TikTok*
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-SUFFIX,byteoversea.com
@@ -11,3 +11,4 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokv.us
