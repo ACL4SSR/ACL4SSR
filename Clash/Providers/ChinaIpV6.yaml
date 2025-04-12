@@ -1,8 +1,8 @@
 payload:
   # 内容：中国IP地址段ipv6
   # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-  # 更新：2025-03-29 17:35:42
-  # 数量：2037条
+  # 更新：2025-04-12 14:50:13
+  # 数量：2040条
 
   - IP-CIDR6,2001:250::/35,no-resolve
   - IP-CIDR6,2001:250:2000::/35,no-resolve
@@ -93,6 +93,7 @@ payload:
   - IP-CIDR6,2001:df5:2fc0::/48,no-resolve
   - IP-CIDR6,2001:df5:44c0::/48,no-resolve
   - IP-CIDR6,2001:df5:4740::/48,no-resolve
+  - IP-CIDR6,2001:df5:4cc0::/48,no-resolve
   - IP-CIDR6,2001:df5:5f80::/48,no-resolve
   - IP-CIDR6,2001:df5:7800::/48,no-resolve
   - IP-CIDR6,2001:df6:100::/48,no-resolve
@@ -683,6 +684,7 @@ payload:
   - IP-CIDR6,2401:f860::/32,no-resolve
   - IP-CIDR6,2401:fa80::/32,no-resolve
   - IP-CIDR6,2401:fb80::/32,no-resolve
+  - IP-CIDR6,2401:fc60::/32,no-resolve
   - IP-CIDR6,2401:fc80::/32,no-resolve
   - IP-CIDR6,2401:ffc0::/32,no-resolve
   - IP-CIDR6,2402:440::/32,no-resolve
@@ -2011,6 +2013,7 @@ payload:
   - IP-CIDR6,2408:8000::/22,no-resolve
   - IP-CIDR6,2408:8400::/22,no-resolve
   - IP-CIDR6,2408:8800::/21,no-resolve
+  - IP-CIDR6,2409:1000::/20,no-resolve
   - IP-CIDR6,2409:2000::/21,no-resolve
   - IP-CIDR6,2409:6000::/20,no-resolve
   - IP-CIDR6,2409:8000::/20,no-resolve
