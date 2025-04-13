@@ -1,8 +1,8 @@
 # 广告列表 adblock rules
 # 内容：EasyListChina列表，只包含ABP中的 EasyListChina 内容
 # 来源：https://easylist-downloads.adblockplus.org/easylistchina.txt
-# 更新：2025-04-12 14:49:51
-# 数量：4151条
+# 更新：2025-04-13 17:31:38
+# 数量：4160条
 
 DOMAIN-SUFFIX,003store.com
 DOMAIN-SUFFIX,01210sop.xyz
@@ -792,6 +792,7 @@ DOMAIN-SUFFIX,btrwxz.xyz
 DOMAIN-SUFFIX,btvbnrwo.icu
 DOMAIN-SUFFIX,bu1.duba.com
 DOMAIN-SUFFIX,bu1.vvvdj.com
+DOMAIN-SUFFIX,bubmhm.top
 DOMAIN-SUFFIX,bujlmitd.icu
 DOMAIN-SUFFIX,bumnxiev.top
 DOMAIN-SUFFIX,bun1.dayi.org.cn
@@ -1843,6 +1844,7 @@ DOMAIN-SUFFIX,ietlwso.top
 DOMAIN-SUFFIX,iewruto.top
 DOMAIN-SUFFIX,ieymhkx.icu
 DOMAIN-SUFFIX,ifej.cn
+DOMAIN-SUFFIX,ifethbrzb.com
 DOMAIN-SUFFIX,iffobi.xyz
 DOMAIN-SUFFIX,ifjslio.top
 DOMAIN-SUFFIX,iflucav.icu
@@ -2213,6 +2215,7 @@ DOMAIN-SUFFIX,ktimiyd.top
 DOMAIN-SUFFIX,kuresdd.top
 DOMAIN-SUFFIX,kvhee.com
 DOMAIN-SUFFIX,kvkcei.xyz
+DOMAIN-SUFFIX,kvqp.cn
 DOMAIN-SUFFIX,kvyyyde.cn
 DOMAIN-SUFFIX,kwaterd.top
 DOMAIN-SUFFIX,kweisid.top
@@ -2475,6 +2478,7 @@ DOMAIN-SUFFIX,muntswe58.shop
 DOMAIN-SUFFIX,muresdx.top
 DOMAIN-SUFFIX,muwqiga.icu
 DOMAIN-SUFFIX,mvcngm.xyz
+DOMAIN-SUFFIX,mvcnmtx.top
 DOMAIN-SUFFIX,mvirkw.xyz
 DOMAIN-SUFFIX,mvmqos.xyz
 DOMAIN-SUFFIX,mvwitz.xyz
@@ -2562,6 +2566,7 @@ DOMAIN-SUFFIX,nmtkbv.icu
 DOMAIN-SUFFIX,nmxxvr.xyz
 DOMAIN-SUFFIX,nmzbrd.icu
 DOMAIN-SUFFIX,nnfbxz.icu
+DOMAIN-SUFFIX,nnntxx.icu
 DOMAIN-SUFFIX,nnvjbb.xyz
 DOMAIN-SUFFIX,nogogey.top
 DOMAIN-SUFFIX,nois5gj.xyz
@@ -2638,6 +2643,7 @@ DOMAIN-SUFFIX,ojimtyk.top
 DOMAIN-SUFFIX,ojmv.cn
 DOMAIN-SUFFIX,ok5.fun
 DOMAIN-SUFFIX,okagcw.xyz
+DOMAIN-SUFFIX,okeaxgugq.com
 DOMAIN-SUFFIX,okikwul.icu
 DOMAIN-SUFFIX,okiterk.top
 DOMAIN-SUFFIX,okkkk.com
@@ -2646,6 +2652,7 @@ DOMAIN-SUFFIX,okpp01030.xyz
 DOMAIN-SUFFIX,okpp01031.xyz
 DOMAIN-SUFFIX,okpp01040.xyz
 DOMAIN-SUFFIX,okpp12311.xyz
+DOMAIN-SUFFIX,okvt.cn
 DOMAIN-SUFFIX,okwan.cn
 DOMAIN-SUFFIX,okwjmii.top
 DOMAIN-SUFFIX,olgcpwc.icu
@@ -3434,6 +3441,7 @@ DOMAIN-SUFFIX,tupian9999.com
 DOMAIN-SUFFIX,turesdi.top
 DOMAIN-SUFFIX,tuvrutsnf.com
 DOMAIN-SUFFIX,tuxpfiok.icu
+DOMAIN-SUFFIX,tvcnmti.top
 DOMAIN-SUFFIX,tvgkatu.icu
 DOMAIN-SUFFIX,tvpqnh.xyz
 DOMAIN-SUFFIX,tweisii.top
@@ -3826,6 +3834,7 @@ DOMAIN-SUFFIX,wuliao.juqingba.cn
 DOMAIN-SUFFIX,wumd.cn
 DOMAIN-SUFFIX,wuresde.top
 DOMAIN-SUFFIX,wusfa.xyz
+DOMAIN-SUFFIX,wvcnmte.top
 DOMAIN-SUFFIX,wvwqywz.cn
 DOMAIN-SUFFIX,wweisie.top
 DOMAIN-SUFFIX,wweizae.top

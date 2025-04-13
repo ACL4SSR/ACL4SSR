@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyPrivacy列表，隐私保护，屏蔽隐私追踪
   # 来源：https://easylist-downloads.adblockplus.org/easyprivacy.txt
-  # 更新：2025-04-12 14:49:55
-  # 数量：39380条
+  # 更新：2025-04-13 17:31:44
+  # 数量：39382条
 
   - DOMAIN-SUFFIX,0.myikas.com
   - DOMAIN-SUFFIX,0.net.easyjet.com
@@ -7267,6 +7267,7 @@ payload:
   - DOMAIN-SUFFIX,bhwjoa.cotopaxi.com
   - DOMAIN-SUFFIX,bhwkju.vivo.com
   - DOMAIN-SUFFIX,bhxemw.charleskeith.com
+  - DOMAIN-SUFFIX,bi-metrics.aramuz.net
   - DOMAIN-SUFFIX,bi.banggood.com
   - DOMAIN-SUFFIX,bi.concordesolutions.com
   - DOMAIN-SUFFIX,bi.heyloyalty.com
@@ -36535,6 +36536,7 @@ payload:
   - DOMAIN-SUFFIX,tvuaeb.taqi.com.br
   - DOMAIN-SUFFIX,tw-go.experian.com
   - DOMAIN-SUFFIX,tw.cx
+  - DOMAIN-SUFFIX,tw.reppublika.com
   - DOMAIN-SUFFIX,tw.spiriteq.com
   - DOMAIN-SUFFIX,twdhec.marioeletro.com
   - DOMAIN-SUFFIX,tweetdeck.net.anwalt.de
