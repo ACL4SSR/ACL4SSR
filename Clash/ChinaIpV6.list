@@ -1,7 +1,7 @@
 # 内容：中国IP地址段ipv6
 # 来源：https://ispip.clang.cn/all_cn_ipv6.txt
-# 更新：2025-04-12 14:50:13
-# 数量：2040条
+# 更新：2025-05-15 09:25:44
+# 数量：2039条
 
 IP-CIDR6,2001:250::/35,no-resolve
 IP-CIDR6,2001:250:2000::/35,no-resolve
@@ -491,7 +491,6 @@ IP-CIDR6,2401:4f80::/32,no-resolve
 IP-CIDR6,2401:5180::/32,no-resolve
 IP-CIDR6,2401:5680::/32,no-resolve
 IP-CIDR6,2401:58a0::/32,no-resolve
-IP-CIDR6,2401:5960::/32,no-resolve
 IP-CIDR6,2401:59c0::/32,no-resolve
 IP-CIDR6,2401:5b40::/32,no-resolve
 IP-CIDR6,2401:5c20::/32,no-resolve
