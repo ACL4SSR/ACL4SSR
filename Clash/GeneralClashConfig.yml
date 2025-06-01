@@ -417,6 +417,23 @@ cfw-bypass:
   - "*.cctv.com"
   - "*.cctvpic.com"
   - "*.livechina.com"
+  # ChinaOneKeyLogin 运营商一键登录
+  - "auth.wosms.cn"
+  - "config.cmpassport.com"
+  - "enrichgw.10010.com"
+  - "hmrz.wo.cn"
+  - "id.mail.wo.cn"
+  - "log.cmpassport.com"
+  - "log1.cmpassport.com"
+  - "mdn.open.wo.cn"
+  - "nishub1.10010.com"
+  - "opencloud.wostore.cn"
+  - "ye.dun.163yun.com"
+  - "*.auth.wo.cn"
+  - "*.cmpassport.com"
+  - "*.id6.me"
+  - "*.mob.com"
+  - "*.open.e.189.cn"
   # ChinaNet
   - "*.21cn.com"
   # DiDi
@@ -428,6 +445,7 @@ cfw-bypass:
   - "*.edgesrv.com"
   - "*.douyu.com"
   - "*.douyu.tv"
+  - "*.douyucdn.cn"
   - "*.douyuscdn.com"
   - "*.douyutv.com"
   # Epic
@@ -887,6 +905,8 @@ cfw-bypass:
   - "*.zhipin.com"
   - "*.zhongsou.com"
   - "*.zhuihd.com"
+  - "*.cmbchina.com"
+  - "*.95516.com"
   - "localhost"
   - 127.*
   - 10.*
