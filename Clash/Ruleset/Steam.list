@@ -1,5 +1,6 @@
 # 内容：Steam
-# 数量：18条
+# 数量：19条
+DOMAIN-KEYWORD,steamcloud
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
