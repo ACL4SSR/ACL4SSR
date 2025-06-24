@@ -1,6 +1,6 @@
 payload:
   # 内容：AccelerateDirectSites
-  # 数量：242条
+  # 数量：244条
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,51jobcdn.com
   - DOMAIN-SUFFIX,56.com
   - DOMAIN-SUFFIX,8686c.com
+  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,acfun.tv
@@ -44,6 +45,7 @@ payload:
   - DOMAIN-SUFFIX,cibntv.net
   - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,cloudxns.net
+  - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,cn163.net
   - DOMAIN-SUFFIX,cnblogs.com
   - DOMAIN-SUFFIX,cnki.net

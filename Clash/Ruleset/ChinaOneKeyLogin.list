@@ -1,5 +1,18 @@
-# ChinaOneKeyLogin
+# 内容：ChinaOneKeyLogin 运营商一键登录
+# 数量：16条
+DOMAIN,auth.wosms.cn
+DOMAIN,config.cmpassport.com
+DOMAIN,enrichgw.10010.com
+DOMAIN,hmrz.wo.cn
+DOMAIN,id.mail.wo.cn
+DOMAIN,log.cmpassport.com
+DOMAIN,log1.cmpassport.com
+DOMAIN,mdn.open.wo.cn
+DOMAIN,nishub1.10010.com
+DOMAIN,opencloud.wostore.cn
+DOMAIN,ye.dun.163yun.com
 DOMAIN-SUFFIX,auth.wo.cn
 DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,id6.me
+DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,open.e.189.cn
