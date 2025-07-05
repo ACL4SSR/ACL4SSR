@@ -238,6 +238,7 @@ payload:
   - DOMAIN-KEYWORD,metamask
   - DOMAIN,token-api.metaswap.codefi.network
   - DOMAIN,min-api.cryptocompare.com
+  - DOMAIN-SUFFIX,infura.io
 
   # NFT
   - DOMAIN-SUFFIX,opensea.io
