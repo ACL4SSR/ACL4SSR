@@ -1,7 +1,3 @@
-Here's an enhanced, well-structured English version of the content you provided, with improved clarity, formatting, and detailed explanations:
-
----
-
 # 🚫 SSR Ad-Blocking Rules / GFWList Rules / Clash Rule Fragments
 
 > **Project License**: Released under the [CC-BY-SA-4.0 License](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
@@ -140,7 +136,3 @@ Located in the `clash/` directory, these are modular rule lists meant to be comb
 
 [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
----
-
-Let me know if you’d like this exported as Markdown, HTML, PDF, or integrated into a webpage.
