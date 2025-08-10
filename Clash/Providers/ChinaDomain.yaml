@@ -101,6 +101,7 @@ payload:
   - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,qwen.ai
 
   # Baidu
   - DOMAIN-SUFFIX,baidu.com

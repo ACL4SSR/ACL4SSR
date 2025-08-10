@@ -42,7 +42,7 @@ DOMAIN,rewards.hypixel.net
 DOMAIN-SUFFIX,koodomobile.com
 DOMAIN-SUFFIX,koodomobile.ca
 
-#群晖ddns
+# 群晖ddns
 DOMAIN-SUFFIX,synology.me
 DOMAIN-SUFFIX,DiskStation.me
 DOMAIN-SUFFIX,i234.me
