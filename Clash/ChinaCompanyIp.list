@@ -117,7 +117,7 @@ IP-CIDR,203.205.220.0/22,no-resolve
 IP-CIDR,203.205.248.0/21,no-resolve
 IP-CIDR,212.64.0.0/17,no-resolve
 IP-CIDR,212.129.128.0/17,no-resolve
-# 百度 Baidu
+
 IP-CIDR,45.113.194.0/23,no-resolve
 IP-CIDR,63.243.252.0/24,no-resolve
 IP-CIDR,103.235.44.0/22,no-resolve

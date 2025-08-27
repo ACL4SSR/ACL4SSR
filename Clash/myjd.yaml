@@ -1,0 +1,10 @@
+proxies:
+  -
+    name: '新加坡 - 自用'
+    type: trojan
+    server: 139.162.25.11
+    port: 777
+    password: '123321'
+    udp: true
+    sni: b.lian.org
+    skip-cert-verify: false
