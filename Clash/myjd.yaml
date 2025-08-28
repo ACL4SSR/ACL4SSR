@@ -6,5 +6,6 @@ proxies:
     port: 777
     password: '123321'
     udp: true
+    tls: true
     sni: b.lian.org
     skip-cert-verify: false
