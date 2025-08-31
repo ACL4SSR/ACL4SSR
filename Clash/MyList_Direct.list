@@ -7,5 +7,5 @@ DOMAIN-SUFFIX,goofish.com
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,beizi.biz
-DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,shifen.com
