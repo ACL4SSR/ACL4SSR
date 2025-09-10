@@ -18,3 +18,21 @@ DOMAIN,ext3-sgp1.steamserver.net
 DOMAIN,ext4-sgp1.steamserver.net
 DOMAIN,ext1-lax1.steamserver.net
 DOMAIN,ext2-lax1.steamserver.net
+# 自定义新地址
+DOMAIN,cmp1-hkg1.steamserver.net
+DOMAIN,cmp2-hkg1.steamserver.net
+DOMAIN,cmp3-hkg1.steamserver.net
+DOMAIN,cmp4-hkg1.steamserver.net
+DOMAIN,cmp5-hkg1.steamserver.net
+DOMAIN,cmp6-hkg1.steamserver.net
+DOMAIN,cmp7-hkg1.steamserver.net
+DOMAIN,cmp1-tyo3.steamserver.net
+DOMAIN,cmp2-tyo3.steamserver.net
+DOMAIN,cmp3-tyo3.steamserver.net
+DOMAIN,cmp4-tyo3.steamserver.net
+DOMAIN,cmp1-sgp1.steamserver.net
+DOMAIN,cmp2-sgp1.steamserver.net
+DOMAIN,cmp3-sgp1.steamserver.net
+DOMAIN,cmp4-sgp1.steamserver.net
+DOMAIN,cmp1-lax1.steamserver.net
+DOMAIN,cmp2-lax1.steamserver.net
