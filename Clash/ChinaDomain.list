@@ -278,6 +278,7 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,paipai.com
+DOMAIN-SUFFIX,healthjd.com
 
 # Kingsoft
 DOMAIN-SUFFIX,iciba.com
@@ -335,6 +336,7 @@ DOMAIN-SUFFIX,pptv.com
 # PDD 拼多多
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,pddpic.com
 
 # Sina
 DOMAIN-SUFFIX,leju.com
