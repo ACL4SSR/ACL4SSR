@@ -33,6 +33,15 @@ IP-CIDR,103.10.125.146/32,no-resolve  # Sydney, Australia
 # --- Africa ---
 IP-CIDR,155.133.238.163/32,no-resolve # Johannesburg, South Africa
 
+# --- NEW ---
+IP-CIDR,162.254.192.73/32,no-resolve
+IP-CIDR,162.254.198.156/32,no-resolve
+IP-CIDR,162.254.193.100/32,no-resolve
+IP-CIDR,155.133.226.73/32,no-resolve
+IP-CIDR,185.25.182.51/32,no-resolve
+IP-CIDR,155.133.252.88/32,no-resolve
+IP-CIDR,185.25.183.163/32,no-resolve
+
 # --- Domains ---
 DOMAIN-SUFFIX,dota2.com
 DOMAIN-SUFFIX,tv.dota2.com
