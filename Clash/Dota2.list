@@ -13,6 +13,14 @@ IP-CIDR,155.133.253.38/32,no-resolve  # Bellevue, Washington
 IP-CIDR,155.133.232.98/32,no-resolve  # Los Angeles, California
 IP-CIDR,155.133.235.34/32,no-resolve  # Salt Lake City, Utah
 
+# --- USA ---
+IP-CIDR,155.133.246.34/32,no-resolve
+IP-CIDR,155.133.238.178/32,no-resolve
+IP-CIDR,162.254.198.43/32,no-resolve
+IP-CIDR,155.133.230.101/32,no-resolve
+IP-CIDR,162.213.192.58/32,no-resolve
+IP-CIDR,162.254.192.67/32,no-resolve
+
 # --- Asia ---
 IP-CIDR,155.133.233.99/32,no-resolve  # West Asia (Bengaluru, India)
 IP-CIDR,155.133.239.25/32,no-resolve  # East Asia (Tokyo, Japan)
