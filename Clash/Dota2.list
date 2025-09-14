@@ -1,0 +1,32 @@
+# 内容：Dota2
+# 数量：17条
+
+# --- Europe ---
+IP-CIDR,146.66.155.36/32,no-resolve   # Europe East (Vienna, Austria)
+IP-CIDR,155.133.248.53/32,no-resolve  # Europe West (Amsterdam, Netherlands)
+IP-CIDR,155.133.246.66/32,no-resolve  # Europe West (Madrid, Spain)
+IP-CIDR,155.133.248.53/32,no-resolve  # Europe (Warsaw, Poland)
+IP-CIDR,155.133.246.66/32,no-resolve  # Europe (Stockholm, Sweden)
+
+# --- US West ---
+IP-CIDR,155.133.253.38/32,no-resolve  # Bellevue, Washington
+IP-CIDR,155.133.232.98/32,no-resolve  # Los Angeles, California
+IP-CIDR,155.133.235.34/32,no-resolve  # Salt Lake City, Utah
+
+# --- Asia ---
+IP-CIDR,155.133.233.99/32,no-resolve  # West Asia (Bengaluru, India)
+IP-CIDR,155.133.239.25/32,no-resolve  # East Asia (Tokyo, Japan)
+IP-CIDR,155.133.245.35/32,no-resolve  # East Asia (Chiyoda, Japan)
+IP-CIDR,103.10.124.44/32,no-resolve   # Southeast Asia (Singapore)
+
+# --- Oceania ---
+IP-CIDR,103.10.125.146/32,no-resolve  # Sydney, Australia
+
+# --- Africa ---
+IP-CIDR,155.133.238.163/32,no-resolve # Johannesburg, South Africa
+
+# --- Domains ---
+DOMAIN-SUFFIX,dota2.com
+DOMAIN-SUFFIX,tv.dota2.com
+IP-CIDR,23.36.163.33/32,no-resolve
+IP-CIDR,23.36.163.22/32,no-resolve
