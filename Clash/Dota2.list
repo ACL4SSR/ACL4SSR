@@ -11,6 +11,7 @@ IP-CIDR,146.66.155.0/24,no-resolve
 IP-CIDR,155.133.224.0/19,no-resolve
 IP-CIDR,162.254.192.0/21,no-resolve
 IP-CIDR,185.25.182.0/24,no-resolve
+IP-CIDR,45.121.184.0/22,no-resolve
 
 # --- Europe ---
 IP-CIDR,146.66.155.36/32,no-resolve
