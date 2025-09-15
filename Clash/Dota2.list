@@ -1,5 +1,16 @@
 # 内容：Dota2
-# 数量：17条
+# 数量：??
+
+# 内容：Dota2 Verified Valve Ranges (from Whois)
+# 更新：2025-09-15
+
+# --- Valve Corporation (confirmed) ---
+IP-CIDR,103.10.124.0/23,no-resolve
+IP-CIDR,103.28.54.0/23,no-resolve
+IP-CIDR,146.66.155.0/24,no-resolve
+IP-CIDR,155.133.224.0/19,no-resolve
+IP-CIDR,162.254.192.0/21,no-resolve
+IP-CIDR,185.25.182.0/24,no-resolve
 
 # --- Europe ---
 IP-CIDR,146.66.155.36/32,no-resolve
@@ -109,6 +120,36 @@ IP-CIDR,103.10.125.147/32,no-resolve
 # hk
 IP-CIDR,103.28.54.174/32,no-resolve
 # sg
+
+# 内容：Dota2 Extra Servers (logged IPs)
+# 说明：Additional observed Valve / Dota2 nodes
+# 日期：2025-09-15
+
+# --- Valve Hong Kong / Singapore ---
+IP-CIDR,103.28.54.189/32,no-resolve
+# SG/HK Valve
+
+# --- Valve US / EU Nodes ---
+IP-CIDR,155.133.246.39/32,no-resolve
+# US Valve
+IP-CIDR,155.133.248.36/32,no-resolve
+# US Valve
+
+# --- Valve EU / US (162.254.x.x block) ---
+IP-CIDR,162.254.193.73/32,no-resolve
+# US/EU Valve
+IP-CIDR,162.254.194.37/32,no-resolve
+# US/EU Valve
+IP-CIDR,162.254.197.36/32,no-resolve
+# US/EU Valve
+IP-CIDR,162.254.198.103/32,no-resolve
+# US/EU Valve
+IP-CIDR,162.254.199.179/32,no-resolve
+# US/EU Valve
+
+# --- Possible Google relay ---
+IP-CIDR,23.251.100.186/32,no-resolve
+# Google Cloud (relay, not Valve ASN)
 
 # --- Domains ---
 # DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com
