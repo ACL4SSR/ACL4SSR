@@ -58,7 +58,7 @@ IP-CIDR,162.254.193.100/32,no-resolve # us
 IP-CIDR,162.254.196.70/32,no-resolve # gb
 IP-CIDR,162.254.198.156/32,no-resolve # se
 IP-CIDR,173.237.26.52/32,no-resolve # us
-#IP-CIDR,184.29.233.235/32,no-resolve # us #api.steampowered.com
+#IP-CIDR,184.29.233.235/32,no-resolve # us # api.steampowered.com
 IP-CIDR,185.25.182.51/32,no-resolve # at
 IP-CIDR,185.25.183.163/32,no-resolve # ae
 IP-CIDR,188.42.106.164/32,no-resolve # lu
@@ -68,8 +68,8 @@ IP-CIDR,103.10.125.147/32,no-resolve # hk
 IP-CIDR,103.28.54.174/32,no-resolve # sg
 
 # --- Domains ---
-DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com   # bh
-DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net                  # ae
+# DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com   # bh
+# DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net                  # ae
 # DOMAIN-SUFFIX,www.dota2.com                                           # global
 # DOMAIN-SUFFIX,api.steampowered.com                                     # global
 
