@@ -1,6 +1,6 @@
 payload:
   # 内容：Alibaba
-  # 数量：38条
+  # 数量：40条
   - DOMAIN-SUFFIX,1688.com
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,mmstat.com
   - DOMAIN-SUFFIX,mxhichina.com
@@ -31,6 +32,7 @@ payload:
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,tbcache.com
+  - DOMAIN-SUFFIX,tbcdn.cn
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,tmall.hk
