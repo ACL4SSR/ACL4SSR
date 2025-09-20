@@ -153,9 +153,9 @@ IP-CIDR,23.251.100.186/32,no-resolve
 # Google Cloud (relay, not Valve ASN)
 
 # --- Domains ---
-# DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com
+DOMAIN-SUFFIX,steamcloud-bah.s3.dualstack.me-south-1.amazonaws.com
 # bh
-# DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net
+DOMAIN-SUFFIX,steamclouddubai.blob.core.windows.net
 # ae
 # DOMAIN-SUFFIX,www.dota2.com
 # global
@@ -224,4 +224,31 @@ IP-CIDR,23.36.163.22/32,no-resolve
 # IP-CIDR,185.25.182.51/32,no-resolve    # AT
 # IP-CIDR,188.42.106.164/32,no-resolve   # LU
 # IP-CIDR,188.42.190.28/32,no-resolve   # LU
+
+
+
+
+
+
+
+
+# Custom Servers (IPs + Ranges)
+
+# Single IPs
+# IP-CIDR,188.42.190.100/32,no-resolve
+# IP-CIDR,134.119.207.105/32,no-resolve
+# IP-CIDR,74.201.225.148/32,no-resolve
+# IP-CIDR,23.251.100.126/32,no-resolve
+# IP-CIDR,148.72.174.135/32,no-resolve
+
+# Aggregated Ranges
+# IP-CIDR,188.42.188.0/22,no-resolve
+# IP-CIDR,134.119.176.0/20,no-resolve
+# IP-CIDR,134.119.192.0/19,no-resolve
+# IP-CIDR,74.201.220.0/22,no-resolve
+# IP-CIDR,74.201.224.0/22,no-resolve
+# IP-CIDR,23.251.100.0/24,no-resolve
+# IP-CIDR,148.72.164.0/22,no-resolve
+# IP-CIDR,148.72.168.0/21,no-resolve
+# IP-CIDR,148.72.176.0/23,no-resolve
 
