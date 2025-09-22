@@ -472,6 +472,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 
+proxies: []
+proxy-groups: []
+
 ntp:
   enable: true
   server: "time.apple.com"
