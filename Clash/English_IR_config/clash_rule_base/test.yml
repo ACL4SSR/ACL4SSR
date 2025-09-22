@@ -278,12 +278,231 @@ rule-providers:
     interval: 86400
     path: ./ruleset/DownloadManagers.yaml
   
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/BanProgramAD.yaml
+    interval: 86400
+    path: ./ruleset/BanProgramAD.yaml
+  
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/BanAD.yaml
+    interval: 86400
+    path: ./ruleset/BanAD.yaml
+  
+  PrivateTracker:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/PrivateTracker.yaml
+    interval: 86400
+    path: ./ruleset/PrivateTracker.yaml
+  
+  BanEasyList:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/BanEasyList.yaml
+    interval: 86400
+    path: ./ruleset/BanEasyList.yaml
+  
   Download:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/Download.yaml
     interval: 86400
     path: ./ruleset/Download.yaml
+  
+  GameDownload:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/GameDownload.yaml
+    interval: 86400
+    path: ./ruleset/GameDownload.yaml
+  
+  SteamRegionCheck:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/SteamRegionCheck.yaml
+    interval: 86400
+    path: ./ruleset/SteamRegionCheck.yaml
+  
+  Xbox:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/Xbox.yaml
+    interval: 86400
+    path: ./ruleset/Xbox.yaml
+  
+  YouTubeMusic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/YouTubeMusic.yaml
+    interval: 86400
+    path: ./ruleset/YouTubeMusic.yaml
+  
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/YouTube.yaml
+    interval: 86400
+    path: ./ruleset/YouTube.yaml
+  
+  Ponzi:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/Ponzi.yaml
+    interval: 86400
+    path: ./ruleset/Ponzi.yaml
+  
+  warninglist:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/warning-list.yaml
+    interval: 86400
+    path: ./ruleset/warninglist.yaml
+  
+  google:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/google.yaml
+    interval: 86400
+    path: ./ruleset/google.yaml
+  
+  google-play:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/google-play.yaml
+    interval: 86400
+    path: ./ruleset/google-play.yaml
+  
+  xiaomi-ads:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/xiaomi-ads.yaml
+    interval: 86400
+    path: ./ruleset/xiaomi-ads.yaml
+  
+  xiaomi_block_list:
+    type: http
+    format: yaml
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/xiaomi_block_list.yaml
+    interval: 86400
+    path: ./ruleset/xiaomi_block_list.yaml
+  
+  xiaomi_white_list:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/xiaomi_white_list.yaml
+    interval: 86400
+    path: ./ruleset/xiaomi_white_list.yaml
+  
+  cloudflare:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/cloudflare.yaml
+    interval: 86400
+    path: ./ruleset/cloudflare.yaml
+  
+  github:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/github.yaml
+    interval: 86400
+    path: ./ruleset/xgithub.yaml
+  
+  whatsapp:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/whatsapp.yaml
+    interval: 86400
+    path: ./ruleset/whatsapp.yaml
+  
+  LiteAds:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/LiteAds.yaml
+    interval: 86400
+    path: ./ruleset/LiteAds.yaml
+  
+  discord:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/discord.yaml
+    interval: 86400
+    path: ./ruleset/discord.yaml
+  
+  instagram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/instagram.yaml
+    interval: 86400
+    path: ./ruleset/instagram.yaml
+  
+  category-ai:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/category-ai-!cn.yaml
+    interval: 86400
+    path: ./ruleset/category-ai.yaml
+  
+  stremio:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/stremio.yaml
+    interval: 86400
+    path: ./ruleset/stremio.yaml
+  
+  windows:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/windows.yaml
+    interval: 86400
+    path: ./ruleset/windows.yaml
+  
+  Chotwitter:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/twitter.yaml
+    interval: 86400
+    path: ./ruleset/Chotwitter.yaml
+  
+  mihTwitter:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/Twitter.yaml
+    interval: 86400
+    path: ./ruleset/mihTwitter.yaml
+  
+  Domtwitter:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/twitter.yaml
+    interval: 86400
+    path: ./ruleset/Domtwitter.yaml
+  
+  spotifyads:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/spotify-ads.yaml
+    interval: 86400
+    path: ./ruleset/spotifyads.yaml
+  
+  DomainSpotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/spotify.yaml
+    interval: 86400
+    path: ./ruleset/DomainSpotify.yaml
+  
+  mihspotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/main/list/Spotify.yaml
+    interval: 86400
+    path: ./ruleset/mihSpotify.yaml
 
 proxies: []
 proxy-groups: []
