@@ -19,6 +19,9 @@ disable-keep-alive: false
 keep-alive-idle: 30
 keep-alive-interval: 30
 profile:
+  name: "My Custom Clash Profile"
+  version: 1
+  author: "test"
   store-selected: true
   store-fake-ip: true
 dns:
