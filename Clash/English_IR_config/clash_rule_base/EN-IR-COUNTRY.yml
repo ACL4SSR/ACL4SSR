@@ -476,80 +476,79 @@ proxies: []
 proxy-groups: []
 
 rules:
-  - RULE-SET,DownloadManagers,دانلود منیجر 📥
-  - RULE-SET,Download,دانلود منیجر 📥
-  - RULE-SET,stremio,استریمیو 🎬
-  - RULE-SET,BanProgramAD,تبلیغات اپ ها 🍃
-  - RULE-SET,BanAD,رهگیری جهانی 🛑
-  - RULE-SET,PrivateTracker,رهگیری جهانی 🛑
-  - RULE-SET,category_public_tracker,رهگیری جهانی 🛑
-  - RULE-SET,malware,سایتای مخرب ⚠️
-  - RULE-SET,phishing,سایتای مخرب ⚠️
-  - RULE-SET,cryptominers,سایتای مخرب ⚠️
-  - RULE-SET,warninglist,سایتای مخرب ⚠️
-  - RULE-SET,Ponzi,سایتای مخرب ⚠️
-  - RULE-SET,LiteAds,تبلیغات 🆎
-  - RULE-SET,iran_ads,تبلیغات 🆎
-  - RULE-SET,PersianBlocker,تبلیغات 🆎
-  - RULE-SET,ads,تبلیغات 🆎
-  - RULE-SET,BanEasyList,تبلیغات 🆎
-  - RULE-SET,twitch,توییچ 📡
-  - PROCESS-NAME,Telegram.exe,تلگرام 💬
-  - PROCESS-NAME,org.telegram.messenger,تلگرام 💬
-  - PROCESS-NAME,org.telegram.messenger.web,تلگرام 💬
-  - RULE-SET,telegram,تلگرام 💬
-  - RULE-SET,YouTube,یوتیوب ▶️
-  - RULE-SET,youtube,یوتیوب ▶️
-  - RULE-SET,YouTubeMusic,یوتیوب ▶️
-  - PROCESS-NAME,com.anydesk.anydeskandroid,انی‌دسک 🔴
-  - PROCESS-NAME,AnyDesk.exe,انی‌دسک 🔴
-  - DOMAIN-SUFFIX,anydesk.com,انی‌دسک 🔴
-  - PROCESS-NAME,Twitter.exe,توییتر 🐦
-  - PROCESS-NAME,com.twitter.android,توییتر 🐦
-  - RULE-SET,Chotwitter,توییتر 🐦
-  - RULE-SET,mihTwitter,توییتر 🐦
-  - RULE-SET,Domtwitter,توییتر 🐦
-  - PROCESS-NAME,com.spotify.music,اسپاتیفای 🎵
-  - PROCESS-NAME,Spotify.exe,اسپاتیفای 🎵
-  - RULE-SET,DomainSpotify,اسپاتیفای 🎵
-  - RULE-SET,mihspotify,اسپاتیفای 🎵
-  - PROCESS-NAME,com.instagram.android,اینستاگرام 📸
-  - RULE-SET,instagram,اینستاگرام 📸
-  - DOMAIN-SUFFIX,deepseek.com,هوش مصنوعی 🤖
-  - DOMAIN-SUFFIX,qwen.ai,هوش مصنوعی 🤖
-  - RULE-SET,category-ai,هوش مصنوعی 🤖
-  - RULE-SET,censor,سایتای سانسوری 🤬
-  - RULE-SET,apps,سایتای ایرانی 🇮🇷
-  - RULE-SET,iran,سایتای ایرانی 🇮🇷
-  - RULE-SET,arvancloud,سایتای ایرانی 🇮🇷
-  - RULE-SET,derakcloud,سایتای ایرانی 🇮🇷
-  - RULE-SET,iranserver,سایتای ایرانی 🇮🇷
-  - RULE-SET,parspack,سایتای ایرانی 🇮🇷
-  - RULE-SET,irasn,سایتای ایرانی 🇮🇷
-  - RULE-SET,ircidr,سایتای ایرانی 🇮🇷
-  - RULE-SET,ir,سایتای ایرانی 🇮🇷
-  - RULE-SET,category_ir,سایتای ایرانی 🇮🇷
-  - RULE-SET,whatsapp,واتس آپ 🟢
+  - RULE-SET,DownloadManagers,📥Download🎯
+  - RULE-SET,Download,📥Download🎯
+  - RULE-SET,BanProgramAD,🛑Advertisements
+  - RULE-SET,BanAD,🛑Advertisements
+  - RULE-SET,PrivateTracker,🛑Advertisements
+  - RULE-SET,category_public_tracker,🛑Advertisements
+  - RULE-SET,malware,🦠SECURITY
+  - RULE-SET,phishing,🦠SECURITY
+  - RULE-SET,cryptominers,🦠SECURITY
+  - RULE-SET,warninglist,🦠SECURITY
+  - RULE-SET,Ponzi,🦠SECURITY
+  - RULE-SET,LiteAds,🛑Advertisements
+  - RULE-SET,iran_ads,🛑Advertisements
+  - RULE-SET,PersianBlocker,🛑Advertisements
+  - RULE-SET,ads,🛑Advertisements
+  - RULE-SET,BanEasyList,🛑Advertisements
+  - RULE-SET,twitch,👾Twitch🎯
+  - PROCESS-NAME,Telegram.exe,🔵Telegram🎯
+  - PROCESS-NAME,org.telegram.messenger,🔵Telegram🎯
+  - PROCESS-NAME,org.telegram.messenger.web,🔵Telegram🎯
+  - RULE-SET,telegram,🔵Telegram🎯
+  - RULE-SET,YouTube,📺YouTube🎯
+  - RULE-SET,youtube,📺YouTube🎯
+  - RULE-SET,YouTubeMusic,📺YouTube🎯
+  - PROCESS-NAME,com.anydesk.anydeskandroid,💻AnyDesk🎯
+  - PROCESS-NAME,AnyDesk.exe,💻AnyDesk🎯
+  - DOMAIN-SUFFIX,anydesk.com,💻AnyDesk🎯
+  - PROCESS-NAME,Twitter.exe,🐦Twitter🎯
+  - PROCESS-NAME,com.twitter.android,🐦Twitter🎯
+  - RULE-SET,Chotwitter,🐦Twitter🎯
+  - RULE-SET,mihTwitter,🐦Twitter🎯
+  - RULE-SET,Domtwitter,🐦Twitter🎯
+  - PROCESS-NAME,com.spotify.music,🎶Spotify🎯
+  - PROCESS-NAME,Spotify.exe,🎶Spotify🎯
+  - RULE-SET,DomainSpotify,🎶Spotify🎯
+  - RULE-SET,mihspotify,🎶Spotify🎯
+  - PROCESS-NAME,com.instagram.android,📸Instagram🎯
+  - RULE-SET,instagram,📸Instagram🎯
+  - DOMAIN-SUFFIX,deepseek.com,🤖AI🎯
+  - DOMAIN-SUFFIX,qwen.ai,🤖AI🎯
+  - RULE-SET,category-ai,🤖AI🎯
+  - RULE-SET,censor,🤬GovMovie🎯
+  - RULE-SET,apps,🇮🇷IranWebsites
+  - RULE-SET,iran,🇮🇷IranWebsites
+  - RULE-SET,arvancloud,🇮🇷IranWebsites
+  - RULE-SET,derakcloud,🇮🇷IranWebsites
+  - RULE-SET,iranserver,🇮🇷IranWebsites
+  - RULE-SET,parspack,🇮🇷IranWebsites
+  - RULE-SET,irasn,🇮🇷IranWebsites
+  - RULE-SET,ircidr,🇮🇷IranWebsites
+  - RULE-SET,ir,🇮🇷IranWebsites
+  - RULE-SET,category_ir,🇮🇷IranWebsites
+  - RULE-SET,whatsapp,💬Whatsapp🎯
   - RULE-SET,steam,استیم 🖥️
-  - RULE-SET,SteamRegionCheck,استیم 🖥️
-  - RULE-SET,game,گیم 🎮
-  - RULE-SET,GameDownload,گیم 🎮
-  - RULE-SET,category-games,گیم 🎮
-  - RULE-SET,Xbox,گیم 🎮
-  - RULE-SET,discord,دیسکورد 🗣️
-  - RULE-SET,xiaomi_white_list,نوع انتخاب پروکسی 🔀
-  - RULE-SET,xiaomi-ads,تبلیغات اپ ها 🍃
-  - RULE-SET,xiaomi_block_list,تبلیغات اپ ها 🍃
-  - RULE-SET,windows,ویندوز 🧊
-  - RULE-SET,cloudflare,کلودفلر ☁️
-  - RULE-SET,github,گیتهاب 🐙
-  - PROCESS-NAME,com.android.vending,نوع انتخاب پروکسی 🔀
-  - PROCESS-NAME,com.google.android.gms,نوع انتخاب پروکسی 🔀
-  - RULE-SET,google-play,نوع انتخاب پروکسی 🔀
-  - RULE-SET,google,گوگل 🌍
-  - IP-CIDR,10.10.34.0/24,نوع انتخاب پروکسی 🔀
-  - RULE-SET,local_ips,بدون فیلترشکن 🛡️
-  - RULE-SET,private,بدون فیلترشکن 🛡️
+  - RULE-SET,SteamRegionCheck,🎮Steam🎯
+  - RULE-SET,game,🕹️VideoGame🎯
+  - RULE-SET,GameDownload,🕹️VideoGame🎯
+  - RULE-SET,category-games,🕹️VideoGame🎯
+  - RULE-SET,Xbox,🕹️VideoGame🎯
+  - RULE-SET,discord,🗨️Discord🎯
+  - RULE-SET,xiaomi_white_list,📲Xiaomi🎯
+  - RULE-SET,xiaomi-ads,🛑Advertisements
+  - RULE-SET,xiaomi_block_list,🛑Advertisements
+  - RULE-SET,windows,🪟Windows🎯
+  - RULE-SET,cloudflare,☁️Cloudflare🎯
+  - RULE-SET,github,</>GIT🎯
+  - PROCESS-NAME,com.android.vending,📱Google🎯
+  - PROCESS-NAME,com.google.android.gms,📱Google🎯
+  - RULE-SET,google-play,📱Google🎯
+  - RULE-SET,google,📱Google🎯
+  - IP-CIDR,10.10.34.0/24,🖥️Lan
+  - RULE-SET,local_ips,🖥️Lan
+  - RULE-SET,private,🖥️Lan
 
 ntp:
   enable: true
