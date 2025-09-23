@@ -4,6 +4,8 @@
 # 内容：Dota2 Verified Valve Ranges (from Whois)
 # 更新：2025-09-15
 
+PROCESS-NAME,dota2.exe
+
 # --- Valve Corporation (confirmed) ---
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/23,no-resolve
