@@ -1,4 +1,5 @@
 payload:
+  - PROCESS-NAME,dota2.exe
   # Dota2 - Valve ASN Ranges and Extra Servers
   - IP-CIDR,103.10.124.0/23,no-resolve
   - IP-CIDR,103.28.54.0/23,no-resolve
