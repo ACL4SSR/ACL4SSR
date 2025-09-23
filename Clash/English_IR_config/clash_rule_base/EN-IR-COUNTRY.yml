@@ -1,3 +1,54 @@
+# =======================
+# Core Clash Settings
+# =======================
+
+# HTTP Proxy Port
+port: 7890
+
+# SOCKS5 Proxy Port
+socks-port: 7891
+
+# Mixed Port (HTTP + SOCKS5 in one)
+mixed-port: 7892
+
+# Allow LAN Connections (other devices on your network can use Clash)
+allow-lan: true
+
+# Rule, Global, or Direct mode
+mode: rule
+
+# Logging level: silent / error / warning / info / debug
+log-level: info
+
+# Web Dashboard (Clash.Meta Dashboard or external apps)
+external-controller: 127.0.0.1:9090
+
+# =======================
+# DNS Settings
+# =======================
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  enhanced-mode: fake-ip         # avoids DNS poisoning, necessary in Iran
+  ipv6: false                    # disable IPv6 if your ISP blocks/fakes it
+  default-nameserver:            # fallback for requests not intercepted by rule-providers
+    - tls://1.1.1.1:853          # Cloudflare DoT
+    - https://dns.google/dns-query # Google DoH
+    - tls://9.9.9.9:853          # Quad9 DoT
+  fallback:
+    - tls://1.0.0.1:853          # Cloudflare fallback
+    - https://dns.cloudflare.com/dns-query # DoH fallback
+    - tls://8.8.8.8:853          # Google fallback
+  fallback-filter:
+    geoip: true                  # avoid leaking local/private IPs to external DNS
+    ipcidr:
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 127.0.0.0/8
+      - 172.16.0.0/12
+      - 192.168.0.0/16
+      - 224.0.0.0/4
+    domain: notchina.com          # optional, ignore some regions
 
 rule-providers:
   category_public_tracker:
