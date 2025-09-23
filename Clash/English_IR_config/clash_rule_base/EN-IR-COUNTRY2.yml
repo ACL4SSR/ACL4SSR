@@ -132,7 +132,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/YouTube.yaml
     interval: 86400
-    path: ./ruleset/youtube.yaml
+    path: ./ruleset/ACLyoutube.yaml
   telegram:
     type: http
     behavior: domain
@@ -150,7 +150,7 @@ rule-providers:
     behavior: classical
     url: https://raw.githubusercontent.com/10ium/clash_rules/main/censor.yaml
     interval: 86400
-    path: ./ruleset/tahrim.yaml
+    path: ./ruleset/censor.yaml
   local_ips:
     type: http
     behavior: ipcidr
@@ -205,7 +205,7 @@ rule-providers:
     format: yaml
     behavior: domain
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/private.yaml"
-    path: ./ruleset/ir.yaml
+    path: ./ruleset/C4Uprivate.yaml
     interval: 86400
   apps:
     type: http
@@ -404,7 +404,7 @@ rule-providers:
     behavior: domain
     url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/github.yaml
     interval: 86400
-    path: ./ruleset/xgithub.yaml
+    path: ./ruleset/github.yaml
   whatsapp:
     type: http
     behavior: domain
@@ -446,7 +446,7 @@ rule-providers:
     format: yaml
     behavior: ipcidr
     url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/twitter.yaml"
-    path: ./ruleset/Chotwitter.yaml
+    path: ./ruleset/C4Utwitter.yaml
     interval: 86400
   mihTwitter:
     type: http
@@ -580,18 +580,18 @@ rule-providers:
     url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyListChina.yaml
     interval: 86400
     path: ./ruleset/BanEasyListChina.yaml
-  BanEasyList:
+  ACLBanEasyList:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyList.yaml
     interval: 86400
-    path: ./ruleset/BanEasyList.yaml
-  BanAD:
+    path: ./ruleset/ACLBanEasyList.yaml
+  ACLBanAD:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanAD.yaml
     interval: 86400
-    path: ./ruleset/BanAD.yaml
+    path: ./ruleset/ACLBanAD.yaml
   BanEasyPrivacy:
     type: http
     behavior: classical
