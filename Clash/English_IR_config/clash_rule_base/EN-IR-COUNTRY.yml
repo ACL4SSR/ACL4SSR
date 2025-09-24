@@ -48,7 +48,6 @@ dns:
       - 172.16.0.0/12
       - 192.168.0.0/16
       - 224.0.0.0/4
-    domain: notchina.com          # optional, ignore some regions
 
 rule-providers:
   category_public_tracker:
