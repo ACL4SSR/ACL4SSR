@@ -33,8 +33,8 @@ dns:
   ipv6: false                    # disable IPv6 if your ISP blocks/fakes it
   default-nameserver:            # fallback for requests not intercepted by rule-providers
     - 1.1.1.1         # Cloudflare DoT
-    - 8.8.8.8 # Google DoH
-    - 9.9.9.9          # Quad9 DoT
+    - 8.8.8.8         # Google DoH
+    - 9.9.9.9         # Quad9 DoT
   fallback:
     - tls://1.0.0.1:853          # Cloudflare fallback
     - https://dns.cloudflare.com/dns-query # DoH fallback
