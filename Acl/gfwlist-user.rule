@@ -5624,7 +5624,6 @@
 
 # Miui 小米
 .a.market.xiaomi.com reject
-.wtradv.market.xiaomi.com reject
 .abtest.mistat.xiaomi.com reject
 .data.mistat.xiaomi.com reject
 .ad.xiaomi.com reject
