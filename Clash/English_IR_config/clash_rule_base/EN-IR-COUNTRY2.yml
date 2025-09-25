@@ -602,8 +602,6 @@ rule-providers:
 proxies: []
 proxy-groups: []
 
-rules: []
-
 ntp:
   enable: true
   server: "time.apple.com"
