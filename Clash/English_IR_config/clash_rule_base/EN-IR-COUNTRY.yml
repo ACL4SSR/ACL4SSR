@@ -41,13 +41,6 @@ dns:
     - tls://8.8.8.8:853          # Google fallback
   fallback-filter:
     geoip: true                  # avoid leaking local/private IPs to external DNS
-    ipcidr:
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 127.0.0.0/8
-      - 172.16.0.0/12
-      - 192.168.0.0/16
-      - 224.0.0.0/4
 
 rule-providers:
   category_public_tracker:
