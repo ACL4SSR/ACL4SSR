@@ -1,5 +1,5 @@
 # 内容：Alibaba
-# 数量：37条
+# 数量：38条
 DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,alibaba.com
@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,ele.me
 DOMAIN-SUFFIX,hichina.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,mxhichina.com
+DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,soku.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,taobaocdn.com
