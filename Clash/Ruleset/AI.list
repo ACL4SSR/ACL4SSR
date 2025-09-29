@@ -9,6 +9,7 @@ DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,bard.google.com
+DOMAIN,notebooklm.google.com
 DOMAIN,console.groq.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,gemini.google.com
