@@ -1,0 +1,549 @@
+# =======================
+# Core Clash Settings
+# =======================
+
+# HTTP Proxy Port
+port: 7890
+
+# SOCKS5 Proxy Port
+socks-port: 7891
+
+# Mixed Port (HTTP + SOCKS5 in one)
+mixed-port: 7892
+
+# Allow LAN Connections (other devices on your network can use Clash)
+allow-lan: true
+
+# Rule, Global, or Direct mode
+mode: rule
+
+# Logging level: silent / error / warning / info / debug
+log-level: info
+
+# Web Dashboard (Clash.Meta Dashboard or external apps)
+external-controller: 127.0.0.1:9090
+
+# =======================
+# DNS Settings
+# =======================
+dns:
+  enable: true
+  listen: 0.0.0.0:7874
+  enhanced-mode: fake-ip         # avoids DNS poisoning, necessary in Iran
+  ipv6: false                    # disable IPv6 if your ISP blocks/fakes it
+  default-nameserver:            # fallback for requests not intercepted by rule-providers
+    - 1.1.1.1         # Cloudflare DoT
+    - 8.8.8.8         # Google DoH
+    - 9.9.9.9         # Quad9 DoT
+  fallback:
+    - tls://1.0.0.1:853          # Cloudflare fallback
+    - https://dns.cloudflare.com/dns-query # DoH fallback
+    - tls://8.8.8.8:853          # Google fallback
+  fallback-filter:
+    geoip: true                  # avoid leaking local/private IPs to external DNS
+
+rule-providers:
+  category_public_tracker:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/category-public-tracker.yaml
+    interval: 86400
+    path: ./ruleset/category_public_tracker.yaml
+  iran_ads:
+    type: http
+    behavior: domain
+    url: https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml
+    interval: 86400
+    path: ./ruleset/iran_ads.yaml
+  PersianBlocker:
+    type: http
+    behavior: domain
+    url: "https://github.com/MasterKia/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
+    path: ./ruleset/PersianBlocker.yaml
+    interval: 86400
+  youtube:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/youtube.yaml
+    interval: 86400
+    path: ./ruleset/youtube.yaml
+  ACLyoutube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/YouTube.yaml
+    interval: 86400
+    path: ./ruleset/ACLyoutube.yaml
+  telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/telegram.yaml
+    interval: 86400
+    path: ./ruleset/telegram.yaml
+  twitch:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/twitch.yaml
+    interval: 86400
+    path: ./ruleset/twitch.yaml
+  censor:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/censor.yaml
+    interval: 86400
+    path: ./ruleset/censor.yaml
+  local_ips:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/local-ips.yaml
+    interval: 86400
+    path: ./ruleset/local_ips.yaml
+  private:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/private.yaml
+    interval: 86400
+    path: ./ruleset/private.yaml
+  category_ir:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/category-ir.yaml
+    interval: 86400
+    path: ./ruleset/category_ir.yaml
+  iran:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/iran.yaml
+    interval: 86400
+    path: ./ruleset/iran.yaml
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/main/steam.yaml
+    interval: 86400
+    path: ./ruleset/steam.yaml
+  game:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/game.yaml
+    interval: 86400
+    path: ./ruleset/game.yaml
+  category-games:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/category-games.yaml
+    interval: 86400
+    path: ./ruleset/category-games.yaml
+  ir:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/ir.yaml"
+    path: ./ruleset/ir.yaml
+    interval: 86400
+  C4Uprivate:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/private.yaml"
+    path: ./ruleset/C4Uprivate.yaml
+    interval: 86400
+  apps:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/apps.yaml"
+    path: ./ruleset/apps.yaml
+    interval: 86400
+  ircidr:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/ircidr.yaml"
+    path: ./ruleset/ircidr.yaml
+    interval: 86400
+  irasn:
+    type: http
+    format: yaml
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/irasn.yaml"
+    path: ./ruleset/irasn.yaml
+    interval: 86400
+  arvancloud:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/arvancloud.yaml"
+    path: ./ruleset/arvancloud.yaml
+    interval: 86400
+  derakcloud:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/derakcloud.yaml"
+    path: ./ruleset/derakcloud.yaml
+    interval: 86400
+  iranserver:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/iranserver.yaml"
+    path: ./ruleset/iranserver.yaml
+    interval: 86400
+  parspack:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/parspack.yaml"
+    path: ./ruleset/parspack.yaml
+    interval: 86400
+  malware:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/malware.yaml"
+    path: ./ruleset/malware.yaml
+    interval: 86400
+  phishing:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/phishing.yaml"
+    path: ./ruleset/phishing.yaml
+    interval: 86400
+  cryptominers:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/cryptominers.yaml"
+    path: ./ruleset/cryptominers.yaml
+    interval: 86400
+  ads:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/refs/heads/release/category-ads-all.yaml"
+    path: ./ruleset/ads.yaml
+    interval: 86400
+  DownloadManagers:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/DownloadManagers.yaml
+    interval: 86400
+    path: ./ruleset/DownloadManagers.yaml
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/BanProgramAD.yaml
+    interval: 86400
+    path: ./ruleset/BanProgramAD.yaml
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/BanAD.yaml
+    interval: 86400
+    path: ./ruleset/BanAD.yaml
+  PrivateTracker:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/PrivateTracker.yaml
+    interval: 86400
+    path: ./ruleset/PrivateTracker.yaml
+  BanEasyList:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/BanEasyList.yaml
+    interval: 86400
+    path: ./ruleset/BanEasyList.yaml
+  Download:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/Download.yaml
+    interval: 86400
+    path: ./ruleset/Download.yaml
+  GameDownload:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/GameDownload.yaml
+    interval: 86400
+    path: ./ruleset/GameDownload.yaml
+  SteamRegionCheck:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/SteamRegionCheck.yaml
+    interval: 86400
+    path: ./ruleset/SteamRegionCheck.yaml
+  Xbox:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/Xbox.yaml
+    interval: 86400
+    path: ./ruleset/Xbox.yaml
+  YouTubeMusic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/YouTubeMusic.yaml
+    interval: 86400
+    path: ./ruleset/YouTubeMusic.yaml
+  10iumYouTube:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/YouTube.yaml
+    interval: 86400
+    path: ./ruleset/10iumYouTube.yaml
+  Ponzi:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/Ponzi.yaml
+    interval: 86400
+    path: ./ruleset/Ponzi.yaml
+  warninglist:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/warning-list.yaml
+    interval: 86400
+    path: ./ruleset/warninglist.yaml
+  google:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/google.yaml
+    interval: 86400
+    path: ./ruleset/google.yaml
+  google-play:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/google-play.yaml
+    interval: 86400
+    path: ./ruleset/google-play.yaml
+  xiaomi-ads:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/xiaomi-ads.yaml
+    interval: 86400
+    path: ./ruleset/xiaomi-ads.yaml
+  xiaomi_block_list:
+    type: http
+    format: yaml
+    behavior: domain
+    url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/xiaomi_block_list.yaml"
+    path: ./ruleset/xiaomi_block_list.yaml
+    interval: 86400
+  xiaomi_white_list:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/xiaomi_white_list.yaml"
+    path: ./ruleset/xiaomi_white_list.yaml
+    interval: 86400
+  cloudflare:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/cloudflare.yaml
+    interval: 86400
+    path: ./ruleset/cloudflare.yaml
+  github:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/github.yaml
+    interval: 86400
+    path: ./ruleset/github.yaml
+  whatsapp:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/generated/whatsapp.yaml
+    interval: 86400
+    path: ./ruleset/whatsapp.yaml
+  LiteAds:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/LiteAds.yaml"
+    path: ./ruleset/LiteAds.yaml
+    interval: 86400
+  discord:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/discord.yaml"
+    path: ./ruleset/discord.yaml
+    interval: 86400
+  instagram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/instagram.yaml
+    interval: 86400
+    path: ./ruleset/instagram.yaml
+  category-ai:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/category-ai-!cn.yaml
+    interval: 86400
+    path: ./ruleset/category-ai.yaml
+  windows:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/10ium/clash_rules/refs/heads/main/windows.yaml"
+    path: ./ruleset/windows.yaml
+    interval: 86400
+  C4Utwitter:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/twitter.yaml"
+    path: ./ruleset/C4Utwitter.yaml
+    interval: 86400
+  mihTwitter:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/Twitter.yaml"
+    path: ./ruleset/mihTwitter.yaml
+    interval: 86400
+  Domtwitter:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/twitter.yaml
+    interval: 86400
+    path: ./ruleset/Domtwitter.yaml
+  spotifyads:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/spotify-ads.yaml
+    interval: 86400
+    path: ./ruleset/spotifyads.yaml
+  DomainSpotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/V2rayDomains2Clash/refs/heads/generated/spotify.yaml
+    interval: 86400
+    path: ./ruleset/DomainSpotify.yaml
+  mihspotify:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/Spotify.yaml
+    interval: 86400
+    path: ./ruleset/mihSpotify.yaml
+  IranAds:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/IranAds.yaml
+    interval: 86400
+    path: ./ruleset/IranAds.yaml
+  ACLgoogle:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/google.yaml
+    interval: 86400
+    path: ./ruleset/ACLgoogle.yaml
+  reddit:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/reddit.yaml
+    interval: 86400
+    path: ./ruleset/reddit.yaml
+  ACLtelegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/telegram.yaml
+    interval: 86400
+    path: ./ruleset/ACLtelegram.yaml
+  openai:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/OpenAi.yaml
+    interval: 86400
+    path: ./ruleset/openai.yaml
+  ACLTwitter:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Twitter.yaml
+    interval: 86400
+    path: ./ruleset/ACLTwitter.yaml
+  ACLdiscord:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/discord.yaml
+    interval: 86400
+    path: ./ruleset/ACLdiscord.yaml
+  ACLsteam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/steam.yaml
+    interval: 86400
+    path: ./ruleset/ACLsteam.yaml
+  ACLtwitch:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/twitch.yaml
+    interval: 86400
+    path: ./ruleset/ACLtwitch.yaml
+  ACLinsta:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Instagram.yaml
+    interval: 86400
+    path: ./ruleset/ACLinsta.yaml
+  facebook:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/facebook.yaml
+    interval: 86400
+    path: ./ruleset/facebook.yaml
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Netflix.yaml
+    interval: 86400
+    path: ./ruleset/Netflix.yaml
+  NetflixIP:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/NetflixIP.yaml
+    interval: 86400
+    path: ./ruleset/NetflixIP.yaml
+  ACLSpotify:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Spotify.yaml
+    interval: 86400
+    path: ./ruleset/ACLSpotify.yaml
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/TikTok.yaml
+    interval: 86400
+    path: ./ruleset/TikTok.yaml
+  Dota2:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/Dota2.yaml
+    interval: 86400
+    path: ./ruleset/Dota2.yaml
+  BanEasyListChina:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyListChina.yaml
+    interval: 86400
+    path: ./ruleset/BanEasyListChina.yaml
+  ACLBanEasyList:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyList.yaml
+    interval: 86400
+    path: ./ruleset/ACLBanEasyList.yaml
+  ACLBanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanAD.yaml
+    interval: 86400
+    path: ./ruleset/ACLBanAD.yaml
+  BanEasyPrivacy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/asgharkapk/ACL4SSR/refs/heads/master/Clash/English_IR_config/clash_rule_base/yml_rulesets/BanEasyPrivacy.yaml
+    interval: 86400
+    path: ./ruleset/BanEasyPrivacy.yaml
+
+proxies: []
+proxy-groups: []
+
+ntp:
+  enable: true
+  server: "time.apple.com"
+  port: 123
+  interval: 30

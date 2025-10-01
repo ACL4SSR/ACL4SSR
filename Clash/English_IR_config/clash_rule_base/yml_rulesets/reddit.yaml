@@ -1,0 +1,5 @@
+payload:
+  # Reddit Services
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
