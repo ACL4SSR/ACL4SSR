@@ -1,5 +1,5 @@
 # 内容：内容：AI平台-国外
-# 数量：43条
+# 数量：44条
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
@@ -43,3 +43,4 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,qwen.ai
