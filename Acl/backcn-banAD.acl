@@ -427,8 +427,8 @@
 (^|\.)jebe\.xnimg\.cn$
 
 # Sina
-(^|\.)(adimg|pay|sax|sdkapp|sdkclick|trends|u1\.img|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
-(^|\.)(ad|ad\d|adbox|adm|d\d|dcads|dmp|leju|sax|sax\d|slog)\.sina\.com(\.cn|)$
+(^|\.)(adimg|sax|sdkapp|sdkclick|trends|u1\.img|wbapp|wbclick|wbpctips)\.mobile\.sina\.cn$
+(^|\.)(ad|ad\d|adbox|adm|d\d|dcads|dmp|leju|sax\d|slog)\.sina\.com(\.cn|)$
 (^|\.)(alitui|biz|game|wax)\.weibo\.com(\.cn|)$
 (^|\.)cre\.dp\.sina\.cn$
 (^|\.)gw5\.push\.mcp\.weibo\.cn$
@@ -1038,7 +1038,6 @@
 (^|\.)scupio\.com$
 (^|\.)shuiguo\.com$
 (^|\.)shuzilm\.cn$
-(^|\.)similarweb\.com$
 (^|\.)sitemeter\.com$
 (^|\.)sitescout\.com$
 (^|\.)sitetag\.us$
