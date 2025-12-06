@@ -5687,7 +5687,6 @@
 
 # Sina
 .adimg.mobile.sina.cn reject
-.pay.mobile.sina.cn reject
 .sax.mobile.sina.cn reject
 .sdkapp.mobile.sina.cn reject
 .sdkclick.mobile.sina.cn reject
@@ -5715,7 +5714,6 @@
 .dcads.sina.com.cn reject
 .dmp.sina.com.cn reject
 .leju.sina.com.cn reject
-.sax.sina.com.cn reject
 .slog.sina.com.cn reject
 .tjs.sina.com.cn reject
 .alitui.weibo.com reject
@@ -6098,10 +6096,6 @@
 .92x.tumblr.com reject
 .its-dori.tumblr.com reject
 .adm.10jqka.com.cn reject
-.eq.10jqka.com.cn reject
-.ozone.10jqka.com.cn reject
-.stat.10jqka.com.cn reject
-.vaserviece.10jqka.com.cn reject
 .ad.house365.com reject
 .adadmin.house365.com reject
 .ads.house365.com reject
@@ -6446,7 +6440,6 @@
 .serving-sys.com reject
 .shuiguo.com reject
 .shuzilm.cn reject
-.similarweb.com reject
 .sitemeter.com reject
 .sitescout.com reject
 .sitetag.us reject

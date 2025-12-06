@@ -1098,7 +1098,6 @@ payload:
   - DOMAIN-SUFFIX,dol.tianyaui.cn
   - DOMAIN-SUFFIX,dw.xcar.com.cn
   - DOMAIN-SUFFIX,e.nexac.com
-  - DOMAIN-SUFFIX,eq.10jqka.com.cn
   - DOMAIN-SUFFIX,exp.17wo.cn
   - DOMAIN-SUFFIX,game.51yund.com
   - DOMAIN-SUFFIX,ganjituiguang.ganji.com
@@ -1115,7 +1114,6 @@ payload:
   - DOMAIN-SUFFIX,mobileads.msn.com
   - DOMAIN-SUFFIX,n.cosbot.cn
   - DOMAIN-SUFFIX,newton-api.ele.me
-  - DOMAIN-SUFFIX,ozone.10jqka.com.cn
   - DOMAIN-SUFFIX,pdl.gionee.com
   - DOMAIN-SUFFIX,pica-juicy.picacomic.com
   - DOMAIN-SUFFIX,pixel.wp.com
@@ -1128,7 +1126,6 @@ payload:
   - DOMAIN-SUFFIX,res.gwifi.com.cn
   - DOMAIN-SUFFIX,ssp.kssws.ks-cdn.com
   - DOMAIN-SUFFIX,sta.ganji.com
-  - DOMAIN-SUFFIX,stat.10jqka.com.cn
   - DOMAIN-SUFFIX,stat.it168.com
   - DOMAIN-SUFFIX,stats.chinaz.com
   - DOMAIN-SUFFIX,stats.developingperspective.com
@@ -1136,4 +1133,3 @@ payload:
   - DOMAIN-SUFFIX,tracker.yhd.com
   - DOMAIN-SUFFIX,tralog.ganji.com
   - DOMAIN-SUFFIX,up.qingdaonews.com
-  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn
