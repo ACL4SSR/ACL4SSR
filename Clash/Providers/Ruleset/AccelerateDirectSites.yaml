@@ -1,6 +1,6 @@
 payload:
   # 内容：AccelerateDirectSites
-  # 数量：244条
+  # 数量：245条
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
@@ -23,6 +23,7 @@ payload:
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,algocasts.io
+  - DOMAIN-SUFFIX,asklink.com
   - DOMAIN-SUFFIX,babytree.com
   - DOMAIN-SUFFIX,babytreeimg.com
   - DOMAIN-SUFFIX,baicizhan.com

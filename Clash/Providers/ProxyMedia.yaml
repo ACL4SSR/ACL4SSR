@@ -1,7 +1,7 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2025-08-10 14:28:58
-  # 数量：410条
+  # 更新：2025-12-06 10:28:17
+  # 数量：414条
 
   # ABC
   - DOMAIN-SUFFIX,edgedatg.com
@@ -21,6 +21,7 @@ payload:
   - DOMAIN,copilot-proxy.githubusercontent.com
   - DOMAIN,gemini.google.com
   - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,notebooklm.google.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,anthropic.com
@@ -28,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
@@ -42,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,mistral.ai
@@ -51,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,x.ai
 
   # AbemaTV
   # USER-AGENT,AbemaTV*

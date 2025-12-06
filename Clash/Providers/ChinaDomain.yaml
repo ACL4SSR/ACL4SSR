@@ -68,6 +68,7 @@ payload:
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
   - DOMAIN-SUFFIX,alibabausercontent.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alicloudccp.com
@@ -500,6 +501,7 @@ payload:
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,algocasts.io
+  - DOMAIN-SUFFIX,asklink.com
   - DOMAIN-SUFFIX,babytree.com
   - DOMAIN-SUFFIX,babytreeimg.com
   - DOMAIN-SUFFIX,baicizhan.com
