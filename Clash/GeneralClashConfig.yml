@@ -337,6 +337,7 @@ cfw-bypass:
   - "*.xiami.net"
   - "*.ykimg.com"
   - "*.youku.com"
+  - "*.qwen.ai"
   # Baidu
   - "*.baidu.com"
   - "*.baidubcr.com"

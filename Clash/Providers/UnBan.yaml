@@ -42,3 +42,18 @@ payload:
   # Koodo Mobile
   - DOMAIN-SUFFIX,koodomobile.com
   - DOMAIN-SUFFIX,koodomobile.ca
+
+  # 群晖ddns
+  - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,DiskStation.me
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,myDS.me
+  - DOMAIN-SUFFIX,DSCloud.biz
+  - DOMAIN-SUFFIX,DSCloud.me
+  - DOMAIN-SUFFIX,DSCloud.mobi
+  - DOMAIN-SUFFIX,DSmyNAS.com
+  - DOMAIN-SUFFIX,DSmyNAS.net
+  - DOMAIN-SUFFIX,DSmyNAS.org
+  - DOMAIN-SUFFIX,FamilyDS.com
+  - DOMAIN-SUFFIX,FamilyDS.net
+  - DOMAIN-SUFFIX,FamilyDS.org
