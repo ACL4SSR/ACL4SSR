@@ -1,6 +1,4 @@
 payload:
   # 内容：AppleNews
   # 数量：3条
-  # USER-AGENT,AppleNews*
-  # USER-AGENT,com.apple.news*
-  - DOMAIN,gspe1-ssl.ls.apple.com
+  #   #   - DOMAIN,gspe1-ssl.ls.apple.com

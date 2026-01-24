@@ -3,9 +3,6 @@
 # 数量：45条
 
 # Bilibili 哔哩哔哩
-USER-AGENT,Bilibili*
-USER-AGENT,bili*
-USER-AGENT,bili-inter*
 DOMAIN,apiintl.biliapi.net
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-SUFFIX,acg.tv
@@ -26,8 +23,6 @@ DOMAIN-SUFFIX,im9.com
 DOMAIN-SUFFIX,smtcdns.net
 
 # Iqiyi 爱奇艺
-USER-AGENT,QYPlayer*
-USER-AGENT,iQIYI*
 DOMAIN,intel-cache.m.iqiyi.com
 DOMAIN,intel-cache.video.iqiyi.com
 DOMAIN,intl-rcd.iqiyi.com
@@ -48,8 +43,6 @@ URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
 DOMAIN-SUFFIX,api.mob.app.letv.com
 
 # MOO
-USER-AGENT,MOO*
-USER-AGENT,TencentMidasConnect*
 
 # TencentVideo 腾讯视频
 DOMAIN-SUFFIX,v.smtcdns.com
