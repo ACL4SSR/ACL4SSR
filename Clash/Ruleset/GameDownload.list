@@ -1,5 +1,5 @@
 # 内容：GameDownload
-# 数量：20条
+# 数量：21条
 DOMAIN,ssl-lvlt.cdn.ea.com
 DOMAIN,origin-a.akamaihd.net
 DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
@@ -18,5 +18,6 @@ DOMAIN,xvcf1.xboxlive.com
 DOMAIN,xvcf2.xboxlive.com
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com 
+DOMAIN-SUFFIX,dl.playstation.net
 DOMAIN-SUFFIX,dyn.riotcdn.net
 DOMAIN-SUFFIX,cdn.ubi.com
