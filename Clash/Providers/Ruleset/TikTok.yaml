@@ -1,7 +1,8 @@
 payload:
   # 内容：TikTok
   # 数量：11条
-  #   - DOMAIN-KEYWORD,tiktokcdn
+  #   
+  - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-SUFFIX,byteoversea.com
   - DOMAIN-SUFFIX,ibytedtos.com
   - DOMAIN-SUFFIX,ipstatp.com

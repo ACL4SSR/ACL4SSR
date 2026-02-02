@@ -1,7 +1,8 @@
 payload:
   # 内容：Wechat 微信
   # 数量：22条
-  #   #   - DOMAIN-SUFFIX,qlogo.cn
+  #   #   
+  - DOMAIN-SUFFIX,qlogo.cn
   - DOMAIN-SUFFIX,qpic.cn
   - DOMAIN-SUFFIX,weixin.qq.com
   - DOMAIN-SUFFIX,wxapp.tc.qq.com

@@ -1,7 +1,8 @@
 payload:
   # 内容：Bilibili 哔哩哔哩
   # 数量：23条
-  #   #   #   - DOMAIN,apiintl.biliapi.net
+  #   #   #   
+  - DOMAIN,apiintl.biliapi.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com

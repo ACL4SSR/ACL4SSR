@@ -1,5 +1,6 @@
 payload:
   # 内容：Deezer
   # 数量：3条
-  #   - DOMAIN-SUFFIX,deezer.com
+  #   
+  - DOMAIN-SUFFIX,deezer.com
   - DOMAIN-SUFFIX,dzcdn.net

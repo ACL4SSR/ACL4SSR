@@ -1,4 +1,5 @@
 payload:
   # 内容：Pandora
   # 数量：2条
-  #   - DOMAIN-SUFFIX,pandora.com
+  #   
+  - DOMAIN-SUFFIX,pandora.com

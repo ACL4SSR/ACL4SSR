@@ -1,7 +1,8 @@
 payload:
   # 内容：ViuTV
   # 数量：16条
-  #   - DOMAIN,api.viu.now.com
+  #   
+  - DOMAIN,api.viu.now.com
   - DOMAIN,d1k2us671qcoau.cloudfront.net
   - DOMAIN,d2anahhhmp1ffz.cloudfront.net
   - DOMAIN,dfp6rglgjqszk.cloudfront.net

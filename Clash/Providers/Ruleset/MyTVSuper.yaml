@@ -1,7 +1,8 @@
 payload:
   # 内容：MyTVSuper
   # 数量：7条
-  #   - DOMAIN-KEYWORD,nowtv100
+  #   
+  - DOMAIN-KEYWORD,nowtv100
   - DOMAIN-KEYWORD,rthklive
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net

@@ -1,6 +1,7 @@
 payload:
   # 内容：Niconico
   # 数量：4条
-  #   - DOMAIN-SUFFIX,dmc.nico
+  #   
+  - DOMAIN-SUFFIX,dmc.nico
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nimg.jp

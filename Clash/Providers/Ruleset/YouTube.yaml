@@ -1,7 +1,8 @@
 payload:
   # 内容：YouTube
   # 数量：17条
-  #   #   #   - DOMAIN-KEYWORD,youtube
+  #   #   #   
+  - DOMAIN-KEYWORD,youtube
   - DOMAIN,youtubei.googleapis.com
   - DOMAIN,yt3.ggpht.com
   - DOMAIN-SUFFIX,googlevideo.com

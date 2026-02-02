@@ -1,4 +1,5 @@
 payload:
   # 内容：AppleNews
   # 数量：3条
-  #   #   - DOMAIN,gspe1-ssl.ls.apple.com
+  #   #   
+  - DOMAIN,gspe1-ssl.ls.apple.com

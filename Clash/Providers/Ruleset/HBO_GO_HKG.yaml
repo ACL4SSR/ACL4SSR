@@ -1,7 +1,8 @@
 payload:
   # 内容：HBO_GO_HKG
   # 数量：20条
-  #   - DOMAIN-KEYWORD,hbogoasia
+  #   
+  - DOMAIN-KEYWORD,hbogoasia
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,bcbolthboa-a.akamaihd.net
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net

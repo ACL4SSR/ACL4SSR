@@ -1,7 +1,8 @@
 payload:
   # 内容：AbemaTV
   # 数量：6条
-  #   - DOMAIN-KEYWORD,abematv.akamaized.net
+  #   
+  - DOMAIN-KEYWORD,abematv.akamaized.net
   - DOMAIN-SUFFIX,abema.io
   - DOMAIN-SUFFIX,abema.tv
   - DOMAIN-SUFFIX,ameba.jp

@@ -1,7 +1,8 @@
 payload:
   # 内容：EncoreTVB
   # 数量：6条
-  #   - DOMAIN,bcbolt446c5271-a.akamaihd.net
+  #   
+  - DOMAIN,bcbolt446c5271-a.akamaihd.net
   - DOMAIN,content.jwplatform.com
   - DOMAIN,edge.api.brightcove.com
   - DOMAIN,videos-f.jwpsrv.com
