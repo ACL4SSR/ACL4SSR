@@ -20,3 +20,8 @@ DOMAIN-SUFFIX,sourcegraph.com
 DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,neon.com
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,linear.app
