@@ -1,10 +1,11 @@
 # 内容：Google
-# 数量：24条
+# 数量：25条
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl

@@ -1,7 +1,5 @@
 # 内容：Wechat 微信
 # 数量：22条
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,weixin.qq.com

@@ -1,14 +1,14 @@
 payload:
   # 内容：OneDrive
-  # 数量：18条
-  # USER-AGENT,OneDrive*
-  # USER-AGENT,OneDriveiOSApp*
+  # 数量：19条
+  #   #   
   # PROCESS-NAME,OneDrive
   # PROCESS-NAME,OneDriveUpdater
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,onedrive
   - DOMAIN-KEYWORD,skydrive
   - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com
   - DOMAIN-SUFFIX,oneclient.sfx.ms
   - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onedrive.live.com
