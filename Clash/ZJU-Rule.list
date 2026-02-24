@@ -1,0 +1,14 @@
+# RVPN
+DOMAIN-SUFFIX,rvpn.zju.edu.cn
+DOMAIN-SUFFIX,webvpn.zju.edu.cn
+DOMAIN-SUFFIX,vpn.zju.edu.cn
+
+IP-CIDR,210.32.174.2/32,no-resolve
+IP-CIDR,61.175.193.50/32,no-resolve
+IP-CIDR,124.160.105.200/32,no-resolve
+IP-CIDR,218.108.88.254/32,no-resolve
+IP-CIDR,210.32.129.102/32,no-resolve
+IP-CIDR,210.32.174.64/32,no-resolve
+IP-CIDR,210.32.3.87/32,no-resolve
+IP-CIDR,10.3.9.92/31,no-resolve
+IP-CIDR,10.3.9.94/32,no-resolve

@@ -1,0 +1,103 @@
+# ZJU 内网
+# 校内直连，校外通过内网穿透或 RVPN 访问
+
+# 域名
+DOMAIN-SUFFIX,zju.edu.cn
+
+# CC98
+DOMAIN-KEYWORD,cc98
+
+# NexusHD
+DOMAIN-KEYWORD,nexushd
+
+# ICSR WIKI
+DOMAIN-SUFFIX,icsr.wiki
+
+# ZJU School-Bus
+DOMAIN-SUFFIX,zjusec.com
+DOMAIN-SUFFIX,zjusec.net
+DOMAIN-SUFFIX,zjusec.top
+
+# ZJU SCT
+DOMAIN-SUFFIX,zjusct.io
+
+# ZJU EVA
+DOMAIN-SUFFIX,zjueva.net
+
+# ZJU QSC
+DOMAIN-SUFFIX,zjuqsc.com
+
+# 通过 IP 认证的资源
+# 请勿添加可通过统一身份认证访问的国外资源，此类资源无需内网环境，可通过代理加速访问
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,cnki.net
+DOMAIN-SUFFIX,gtadata.com
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,inoteexpress.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,cnpereading.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,cas.org
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,pkulaw.com
+DOMAIN-SUFFIX,sslibrary.com
+DOMAIN-SUFFIX,serialssolutions.com
+DOMAIN-SUFFIX,duxiu.com
+DOMAIN-SUFFIX,wanfangdata.com.cn
+DOMAIN-SUFFIX,koolearn.com
+DOMAIN-SUFFIX,cssci.nju.edu.cn
+DOMAIN-SUFFIX,science.org
+DOMAIN-SUFFIX,aps.org
+DOMAIN-SUFFIX,incopat.com
+
+# NSTL
+DOMAIN-SUFFIX,oup.com
+DOMAIN-SUFFIX,ajtmh.org
+DOMAIN-SUFFIX,futuremedicine.com
+DOMAIN-SUFFIX,tandfonline.com
+DOMAIN-SUFFIX,genetics.org
+DOMAIN-SUFFIX,healthaffairs.org
+DOMAIN-SUFFIX,rsna.org
+DOMAIN-SUFFIX,iospress.com
+DOMAIN-SUFFIX,allenpress.com
+DOMAIN-SUFFIX,asabe.org
+DOMAIN-SUFFIX,geoscienceworld.org
+DOMAIN-SUFFIX,sagepub.com
+DOMAIN-SUFFIX,ajnr.org
+DOMAIN-SUFFIX,ajhp.org
+DOMAIN-SUFFIX,annals.org
+DOMAIN-SUFFIX,esajournals.org
+DOMAIN-SUFFIX,informs.org
+DOMAIN-SUFFIX,cshlpress.com
+DOMAIN-SUFFIX,nrcresearchpress.cn
+DOMAIN-SUFFIX,royalsocietypublishing.org
+DOMAIN-SUFFIX,oxfordjournals.org
+DOMAIN-SUFFIX,aspbjournals.org
+DOMAIN-SUFFIX,sciencesocieties.org
+DOMAIN-SUFFIX,degruyter.com
+DOMAIN-SUFFIX,cshprotocols.org
+DOMAIN-SUFFIX,liebertonline.com
+DOMAIN-SUFFIX,polymerjournals.com
+DOMAIN-SUFFIX,csiro.au
+DOMAIN-SUFFIX,iop.org
+DOMAIN-SUFFIX,electrochem.org
+DOMAIN-SUFFIX,ametsoc.org
+DOMAIN-SUFFIX,portlandpress.com
+DOMAIN-SUFFIX,nrcresearchpress.com
+DOMAIN-SUFFIX,arabidopsis.org
+DOMAIN-SUFFIX,springerlink.com
+DOMAIN-SUFFIX,highwire.org
+DOMAIN-SUFFIX,ovid.com
+DOMAIN-SUFFIX,rsc.org
+DOMAIN-SUFFIX,bmj.org
+DOMAIN-SUFFIX,aip.org
+DOMAIN-SUFFIX,springer.com
+DOMAIN-SUFFIX,iwaponline.com
+DOMAIN-SUFFIX,rsnajnls.org
+DOMAIN-SUFFIX,karger.com
+DOMAIN-SUFFIX,plantcell.org
+DOMAIN-SUFFIX,jamanetwork.com
+DOMAIN-SUFFIX,nejm.org
+DOMAIN-SUFFIX,icevirtuallibrary.com
+DOMAIN-SUFFIX,cdnsciencepub.com

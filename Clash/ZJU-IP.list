@@ -1,0 +1,13 @@
+# 校内 IP
+IP-CIDR,10.0.0.0/8
+IP-CIDR,58.196.192.0/19,no-resolve
+IP-CIDR,58.196.224.0/20,no-resolve
+IP-CIDR,58.200.100.0/24,no-resolve
+IP-CIDR,210.32.0.0/20,no-resolve
+IP-CIDR,210.32.128.0/19,no-resolve
+IP-CIDR,210.32.160.0/21,no-resolve
+IP-CIDR,210.32.168.0/22,no-resolve
+IP-CIDR,210.32.172.0/23,no-resolve
+IP-CIDR,210.32.174.0/24,no-resolve
+IP-CIDR,210.32.176.0/20,no-resolve
+IP-CIDR,222.205.0.0/17,no-resolve

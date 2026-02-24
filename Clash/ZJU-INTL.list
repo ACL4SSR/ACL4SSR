@@ -1,0 +1,16 @@
+# ZJU INTL 相关
+
+# UIUC
+DOMAIN-KEYWORD,illinois
+DOMAIN-KEYWORD,shibboleth
+# DOMAIN-KEYWORD,sso
+DOMAIN-KEYWORD,uiuc
+DOMAIN-SUFFIX,canvas-user-content.com
+DOMAIN-SUFFIX,duosecurity.com
+DOMAIN-SUFFIX,insops.net
+# gradescope
+DOMAIN-SUFFIX,gradescope.com
+# prairielearn
+DOMAIN-SUFFIX,us.prairielearn.com
+# zoom
+DOMAIN-SUFFIX,zoom.us
