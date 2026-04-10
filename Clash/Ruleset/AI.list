@@ -1,11 +1,12 @@
 # 内容：内容：AI平台-国外
-# 数量：49条
+# 数量：50条
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
 DOMAIN,api.githubcopilot.com
+DOMAIN,apis.google.com
 DOMAIN,api.groq.com
 DOMAIN,api.together.xyz
 DOMAIN,bard.google.com
