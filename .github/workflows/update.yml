@@ -1,0 +1,104 @@
+name: Update GFWList Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-slim
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Parse GFWList
+        run: python scripts/gfwlist_parser.py
+
+      - name: Download mihomo
+        run: |
+          MAX_RETRIES=5
+          RETRY_DELAY=10
+          for ((i=1; i<=MAX_RETRIES; i++)); do
+            echo "Attempt $i/$MAX_RETRIES to download mihomo..."
+            if TAG=$(curl -s --fail https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'); then
+              echo "Latest mihomo version: $TAG"
+              if curl -L --fail -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"; then
+                echo "Download succeeded"
+                if tar -xzf mihomo.tar.gz; then
+                  chmod +x mihomo
+                  rm -f mihomo.tar.gz
+                  echo "mihomo extracted and ready"
+                  exit 0
+                else
+                  echo "Failed to extract mihomo.tar.gz"
+                fi
+              else
+                echo "Download failed (HTTP error)"
+              fi
+            else
+              echo "Failed to fetch latest release info"
+            fi
+            if [ $i -lt $MAX_RETRIES ]; then
+              echo "Retrying in $RETRY_DELAY seconds..."
+              sleep $RETRY_DELAY
+            fi
+          done
+          echo "ERROR: All download attempts failed"
+          exit 1
+
+      - name: Convert to mrs format
+        run: |
+          mkdir -p Clash/mrs
+          convert_file() {
+            local input_file=$1
+            local output_file=$2
+            local MAX_RETRIES=3
+            for ((i=1; i<=MAX_RETRIES; i++)); do
+              echo "[Attempt $i/$MAX_RETRIES] Converting $input_file"
+              if ./mihomo -f "$input_file" -in clash -out mrs -o "$output_file"; then
+                echo "Success: $input_file -> $output_file"
+                return 0
+              else
+                echo "Warning: Conversion failed for $input_file (Attempt $i/$MAX_RETRIES)"
+                if [ $i -lt $MAX_RETRIES ]; then
+                  sleep 3
+                fi
+              fi
+            done
+            echo "ERROR: Failed to convert $input_file after $MAX_RETRIES attempts"
+            return 1
+          }
+          
+          for file in Clash/Providers/*.yaml; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .yaml)
+              convert_file "$file" "Clash/mrs/${filename}.mrs"
+            fi
+          done
+          
+          for file in Clash/Ruleset/*.list; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .list)
+              convert_file "$file" "Clash/mrs/${filename}.mrs"
+            fi
+          done
+          
+          echo "Conversion completed"
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: '[AutoUpdate] Update GFWList rules and mrs files - $(date -u +"%Y-%m-%dT%H:%M:%SZ")'
+          push: true
+          branch: ${{ github.head_ref || github.ref_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
