@@ -114,12 +114,19 @@ jobs:
           # 清理临时文件
           rm -f Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml
           rm -f Clash/Ruleset/*_domain.list Clash/Ruleset/*_ip.list
+          # 清理 mihomo 二进制文件
+          rm -f mihomo
           echo "Temporary files cleaned up"
+
+      - name: Get current datetime
+        id: datetime
+        run: echo "datetime=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: '[AutoUpdate] Update GFWList rules and mrs files - $(date -u +"%Y-%m-%dT%H:%M:%SZ")'
+          message: '[AutoUpdate] Update GFWList rules and mrs files - ${{ env.DATETIME }}'
           push: true
         env:
+          DATETIME: ${{ steps.datetime.outputs.datetime }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

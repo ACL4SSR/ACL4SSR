@@ -278,6 +278,49 @@ def main():
     print(f"IP blacklist entries: {len(ip_blacklist)}")
     print(f"IP whitelist entries: {len(ip_whitelist)}")
 
+    existing_unban_domains = []
+    existing_unban_ips = []
+
+    if os.path.exists('Clash/Providers/UnBan.yaml'):
+        with open('Clash/Providers/UnBan.yaml', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('- DOMAIN-SUFFIX,'):
+                    existing_unban_domains.append(line.replace('- DOMAIN-SUFFIX,', '', 1))
+                elif line.startswith('- IP-CIDR') or line.startswith('  - IP-CIDR'):
+                    parts = line.replace('  - ', '').split(',')
+                    if len(parts) >= 2:
+                        existing_unban_ips.append(parts[1])
+
+    if os.path.exists('Clash/Ruleset/UnBan.list'):
+        with open('Clash/Ruleset/UnBan.list', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith('DOMAIN-SUFFIX,'):
+                    existing_unban_domains.append(line.replace('DOMAIN-SUFFIX,', '', 1))
+                elif line.startswith('IP-CIDR'):
+                    parts = line.split(',')
+                    if len(parts) >= 2:
+                        existing_unban_ips.append(parts[1])
+
+    if existing_unban_domains:
+        new_count = 0
+        for d in existing_unban_domains:
+            if d and d not in domain_whitelist:
+                domain_whitelist.append(d)
+                new_count += 1
+        if new_count > 0:
+            print(f"Merged {new_count} existing UnBan domains")
+
+    if existing_unban_ips:
+        new_count = 0
+        for ip in existing_unban_ips:
+            if ip and ip not in ip_whitelist:
+                ip_whitelist.append(ip)
+                new_count += 1
+        if new_count > 0:
+            print(f"Merged {new_count} existing UnBan IPs")
+
     generate_acl_file(domain_blacklist, ip_blacklist, 'Acl/fullgfwlist.acl', "GFWList Blacklist")
     print("Generated: Acl/fullgfwlist.acl")
 
