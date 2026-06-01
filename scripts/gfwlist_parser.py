@@ -216,6 +216,20 @@ def generate_clash_provider_yaml(domain_list, ip_list, filename, title="payload"
     for rule in ip_rules:
         content += f"  - {rule}\n"
     write_file(filename, content)
+    
+    # 生成分离的临时文件用于 mrs 转换
+    base_name = filename.replace('.yaml', '')
+    # 域名规则 - YAML 格式
+    domain_yaml = f"{title}:\n"
+    for domain in unique_domains:
+        domain_yaml += f"  - DOMAIN-SUFFIX,{domain}\n"
+    write_file(f"{base_name}_domain.yaml", domain_yaml)
+    
+    # IP 规则 - YAML 格式
+    ip_yaml = f"{title}:\n"
+    for rule in ip_rules:
+        ip_yaml += f"  - {rule}\n"
+    write_file(f"{base_name}_ip.yaml", ip_yaml)
 
 def generate_clash_ruleset_list(domain_list, ip_list, filename, title="GFWList"):
     unique_domains = sorted(set(domain_list))
@@ -227,6 +241,20 @@ def generate_clash_ruleset_list(domain_list, ip_list, filename, title="GFWList")
     for rule in ip_rules:
         content += f"{rule}\n"
     write_file(filename, content)
+    
+    # 生成分离的临时文件用于 mrs 转换
+    base_name = filename.replace('.list', '')
+    # 域名规则 - text 格式
+    domain_text = ""
+    for domain in unique_domains:
+        domain_text += f"DOMAIN-SUFFIX,{domain}\n"
+    write_file(f"{base_name}_domain.list", domain_text)
+    
+    # IP 规则 - text 格式
+    ip_text = ""
+    for rule in ip_rules:
+        ip_text += f"{rule}\n"
+    write_file(f"{base_name}_ip.list", ip_text)
 
 def main():
     print("Fetching GFWList...")
