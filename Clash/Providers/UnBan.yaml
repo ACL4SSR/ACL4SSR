@@ -1,59 +1,52 @@
 payload:
-  # Unbreak 白名单 不应该被广告链接的网站
-
-  # Epicgames
-  - DOMAIN-SUFFIX,ol.epicgames.com
-
-  # Getui
-  - DOMAIN-SUFFIX,dizhensubao.getui.com
-
-  # Google
-  - DOMAIN,dl.google.com
-  - DOMAIN-SUFFIX,googletraveladservices.com
-
-  # Mozilla
-  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
-
-  # Origin
-  - DOMAIN,origin-a.akamaihd.net
-
-  # Tencent
-  - DOMAIN,fairplay.l.qq.com
-  - DOMAIN,livew.l.qq.com
-  - DOMAIN,vd.l.qq.com
-
-  # Strava
-
-  # Umeng
-  - DOMAIN,errlog.umeng.com
-  - DOMAIN,msg.umeng.com
-  - DOMAIN,msg.umengcloud.com
-
-  # Miui 小米
-  - DOMAIN,tracking.miui.com
-
-  # General
-  - DOMAIN,app.adjust.com
-  - DOMAIN,bdtj.tagtic.cn
-
-  # Hypixel Network
-  - DOMAIN,rewards.hypixel.net
-
-  # Koodo Mobile
-  - DOMAIN-SUFFIX,koodomobile.com
-  - DOMAIN-SUFFIX,koodomobile.ca
-
-  # 群晖ddns
-  - DOMAIN-SUFFIX,synology.me
-  - DOMAIN-SUFFIX,DiskStation.me
-  - DOMAIN-SUFFIX,i234.me
-  - DOMAIN-SUFFIX,myDS.me
   - DOMAIN-SUFFIX,DSCloud.biz
   - DOMAIN-SUFFIX,DSCloud.me
   - DOMAIN-SUFFIX,DSCloud.mobi
   - DOMAIN-SUFFIX,DSmyNAS.com
   - DOMAIN-SUFFIX,DSmyNAS.net
   - DOMAIN-SUFFIX,DSmyNAS.org
+  - DOMAIN-SUFFIX,DiskStation.me
   - DOMAIN-SUFFIX,FamilyDS.com
   - DOMAIN-SUFFIX,FamilyDS.net
   - DOMAIN-SUFFIX,FamilyDS.org
+  - DOMAIN-SUFFIX,adservice.google.com
+  - DOMAIN-SUFFIX,c.pki.goog
+  - DOMAIN-SUFFIX,cdn-china.ampproject.org
+  - DOMAIN-SUFFIX,cdn.ampproject.org
+  - DOMAIN-SUFFIX,checkin.gstatic.com
+  - DOMAIN-SUFFIX,ci.android.com
+  - DOMAIN-SUFFIX,clientservices.googleapis.com
+  - DOMAIN-SUFFIX,cn.investing.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,csi.gstatic.com
+  - DOMAIN-SUFFIX,dizhensubao.getui.com
+  - DOMAIN-SUFFIX,dl.google.com
+  - DOMAIN-SUFFIX,firebase-settings.crashlytics.com
+  - DOMAIN-SUFFIX,fonts.googleapis.com
+  - DOMAIN-SUFFIX,fonts.gstatic.com
+  - DOMAIN-SUFFIX,g0.gstatic.com
+  - DOMAIN-SUFFIX,g1.gstatic.com
+  - DOMAIN-SUFFIX,g2.gstatic.com
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN-SUFFIX,i.pki.goog
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,imasdk.googleapis.com
+  - DOMAIN-SUFFIX,koodomobile.ca
+  - DOMAIN-SUFFIX,koodomobile.com
+  - DOMAIN-SUFFIX,myDS.me
+  - DOMAIN-SUFFIX,o.pki.goog
+  - DOMAIN-SUFFIX,ocsp.pki.goog
+  - DOMAIN-SUFFIX,ol.epicgames.com
+  - DOMAIN-SUFFIX,redirector.gvt1.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,ssl.gstatic.com
+  - DOMAIN-SUFFIX,static.typepad.com
+  - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,tools.google.com
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+  - DOMAIN-SUFFIX,update.googleapis.com
+  - DOMAIN-SUFFIX,www.ampproject.org
+  - DOMAIN-SUFFIX,www.gov.tw
+  - DOMAIN-SUFFIX,www.gstatic.com
+  - DOMAIN-SUFFIX,www.typepad.com
