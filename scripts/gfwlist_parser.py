@@ -103,9 +103,9 @@ def generate_acl_file(domains, filename, title="GFWList Rules"):
     content = header + '\n'.join(rules) + '\n'
     write_file(filename, content)
 
-def generate_clash_provider_yaml(domains, filename, title="Proxy"):
+def generate_clash_provider_yaml(domains, filename, title="payload"):
     unique_domains = sorted(set(domains))
-    content = f"{title}:\n  - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ProxyGFWlist.list\n"
+    content = f"{title}:\n"
     for domain in unique_domains:
         content += f"  - DOMAIN-SUFFIX,{domain}\n"
     write_file(filename, content)

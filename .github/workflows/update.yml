@@ -31,7 +31,7 @@ jobs:
             echo "Attempt $i/$MAX_RETRIES to download mihomo..."
             if TAG=$(curl -s --fail https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'); then
               echo "Latest mihomo version: $TAG"
-              if curl -L --fail -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"; then
+              if curl -L --fail -o mihomo.tar.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.tar.gz"; then
                 echo "Download succeeded"
                 if tar -xzf mihomo.tar.gz; then
                   chmod +x mihomo
