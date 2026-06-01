@@ -16,9 +16,13 @@ def is_ip(s):
             if all(0 <= int(p) <= 255 for p in parts):
                 return True
     if ':' in s:
-        valid_chars = set('0123456789abcdefABCDEF:')
-        if all(c in valid_chars for c in s):
+        ipv6_pattern = r'^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$|^(::)$|^::1$'
+        if re.match(ipv6_pattern, s):
             return True
+        if s.startswith('::ffff:'):
+            ipv4_in_v6_pattern = r'^::ffff:(\d{1,3}\.){3}\d{1,3}$'
+            if re.match(ipv4_in_v6_pattern, s):
+                return True
         return False
     return False
 
