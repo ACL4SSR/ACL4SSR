@@ -15,7 +15,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
-          persist-credentials: false
           fetch-depth: 0
 
       - name: Set up Python
@@ -122,6 +121,5 @@ jobs:
         with:
           message: '[AutoUpdate] Update GFWList rules and mrs files - $(date -u +"%Y-%m-%dT%H:%M:%SZ")'
           push: true
-          branch: ${{ github.head_ref || github.ref_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
