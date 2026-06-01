@@ -263,7 +263,9 @@ def split_yaml_file(filepath):
         unique_ips = sorted(set(ips))
         ip_yaml = "payload:\n"
         for rule_type, ip in unique_ips:
-            ip_yaml += f"  - {rule_type},{ip}\n"
+            # 去掉 no-resolve 参数，只保留纯 IP/CIDR
+            clean_ip = ip.split(',')[0].strip()
+            ip_yaml += f"  - {clean_ip}\n"
         write_file(f"{base_name}_ip.yaml", ip_yaml)
 
 def split_list_file(filepath):
@@ -294,7 +296,9 @@ def split_list_file(filepath):
         unique_ips = sorted(set(ips))
         ip_text = ""
         for rule_type, ip in unique_ips:
-            ip_text += f"{rule_type},{ip}\n"
+            # 去掉 no-resolve 参数，只保留纯 IP/CIDR
+            clean_ip = ip.split(',')[0].strip()
+            ip_text += f"{clean_ip}\n"
         write_file(f"{base_name}_ip.list", ip_text)
 
 def generate_acl_file(domain_list, ip_list, filename, title="GFWList Rules"):
@@ -346,7 +350,9 @@ def generate_clash_provider_yaml(domain_list, ip_list, filename, title="payload"
     if ip_rules:
         ip_yaml = f"{title}:\n"
         for rule in ip_rules:
-            ip_yaml += f"  - {rule}\n"
+            # 去掉规则类型前缀和 no-resolve 参数，只保留纯 IP/CIDR
+            clean_rule = rule.split(',')[1].strip() if ',' in rule else rule
+            ip_yaml += f"  - {clean_rule}\n"
         write_file(f"{base_name}_ip.yaml", ip_yaml)
 
 def generate_clash_ruleset_list(domain_list, ip_list, filename, title="GFWList"):
@@ -373,7 +379,9 @@ def generate_clash_ruleset_list(domain_list, ip_list, filename, title="GFWList")
     if ip_rules:
         ip_text = ""
         for rule in ip_rules:
-            ip_text += f"{rule}\n"
+            # 去掉规则类型前缀和 no-resolve 参数，只保留纯 IP/CIDR
+            clean_rule = rule.split(',')[1].strip() if ',' in rule else rule
+            ip_text += f"{clean_rule}\n"
         write_file(f"{base_name}_ip.list", ip_text)
 
 def main():
