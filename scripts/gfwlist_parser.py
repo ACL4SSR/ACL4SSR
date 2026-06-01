@@ -3,6 +3,7 @@ import base64
 import re
 import os
 import sys
+from glob import glob
 
 def is_ip(s):
     if not s:
@@ -187,6 +188,115 @@ def format_ip_cidr_acl_rules(ip_rules):
             rules.append(ip)
     return rules
 
+def parse_yaml_rule_line(line):
+    line = line.strip()
+    if not line:
+        return None, None
+    rule = None
+    if line.startswith('- '):
+        rule = line[2:]
+    elif line.startswith('  - '):
+        rule = line[4:]
+    else:
+        return None, None
+    if ',' in rule:
+        return rule.split(',', 1)
+    return rule, ''
+
+def parse_list_rule_line(line):
+    line = line.strip()
+    if not line or line.startswith('#'):
+        return None, None
+    if ',' in line:
+        return line.split(',', 1)
+    return line, ''
+
+def is_domain_rule_type(rule_type):
+    return rule_type in ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'DOMAIN-REGEX')
+
+def is_ip_rule_type(rule_type):
+    return rule_type in ('IP-CIDR', 'IP-CIDR6', 'IP-SUFFIX', 'IP-ASN')
+
+def split_existing_rule_files():
+    print("Splitting existing rule files for mrs conversion...")
+
+    for filepath in glob('Clash/Providers/*.yaml'):
+        if '_domain' in filepath or '_ip' in filepath:
+            continue
+        split_yaml_file(filepath)
+
+    for filepath in glob('Clash/Providers/Ruleset/*.yaml'):
+        if '_domain' in filepath or '_ip' in filepath:
+            continue
+        split_yaml_file(filepath)
+
+    for filepath in glob('Clash/Ruleset/*.list'):
+        if '_domain' in filepath or '_ip' in filepath:
+            continue
+        split_list_file(filepath)
+
+def split_yaml_file(filepath):
+    domains = []
+    ips = []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                rule_type, rule_value = parse_yaml_rule_line(line)
+                if not rule_type or not rule_value:
+                    continue
+                if is_domain_rule_type(rule_type):
+                    domains.append((rule_type, rule_value.strip()))
+                elif is_ip_rule_type(rule_type):
+                    ips.append((rule_type, rule_value.strip()))
+    except Exception as e:
+        print(f"Warning: Failed to read {filepath}: {e}")
+        return
+
+    base_name = os.path.splitext(filepath)[0]
+    if domains:
+        unique_domains = sorted(set(domains))
+        domain_yaml = "payload:\n"
+        for rule_type, d in unique_domains:
+            domain_yaml += f"  - {rule_type},{d}\n"
+        write_file(f"{base_name}_domain.yaml", domain_yaml)
+    if ips:
+        unique_ips = sorted(set(ips))
+        ip_yaml = "payload:\n"
+        for rule_type, ip in unique_ips:
+            ip_yaml += f"  - {rule_type},{ip}\n"
+        write_file(f"{base_name}_ip.yaml", ip_yaml)
+
+def split_list_file(filepath):
+    domains = []
+    ips = []
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                rule_type, rule_value = parse_list_rule_line(line)
+                if not rule_type or not rule_value:
+                    continue
+                if is_domain_rule_type(rule_type):
+                    domains.append((rule_type, rule_value.strip()))
+                elif is_ip_rule_type(rule_type):
+                    ips.append((rule_type, rule_value.strip()))
+    except Exception as e:
+        print(f"Warning: Failed to read {filepath}: {e}")
+        return
+
+    base_name = os.path.splitext(filepath)[0]
+    if domains:
+        unique_domains = sorted(set(domains))
+        domain_text = ""
+        for rule_type, d in unique_domains:
+            domain_text += f"{rule_type},{d}\n"
+        write_file(f"{base_name}_domain.list", domain_text)
+    if ips:
+        unique_ips = sorted(set(ips))
+        ip_text = ""
+        for rule_type, ip in unique_ips:
+            ip_text += f"{rule_type},{ip}\n"
+        write_file(f"{base_name}_ip.list", ip_text)
+
 def generate_acl_file(domain_list, ip_list, filename, title="GFWList Rules"):
     header = f"""#**********************************************************************
 # {title}
@@ -335,6 +445,8 @@ def main():
 
     generate_clash_ruleset_list(domain_whitelist, ip_whitelist, 'Clash/Ruleset/UnBan.list', 'GFWList 白名单')
     print("Generated: Clash/Ruleset/UnBan.list")
+
+    split_existing_rule_files()
 
 if __name__ == "__main__":
     main()

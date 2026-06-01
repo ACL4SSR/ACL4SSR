@@ -82,8 +82,8 @@ jobs:
             return 1
           }
           
-          # 处理我们生成的分离文件
-          for file in Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml; do
+          # 处理所有分离文件（包括生成的和已存在的）
+          for file in Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml Clash/Providers/Ruleset/*_domain.yaml Clash/Providers/Ruleset/*_ip.yaml; do
             if [ -f "$file" ]; then
               filename=$(basename "$file")
               if [[ "$filename" == *"_domain.yaml" ]]; then
@@ -113,6 +113,7 @@ jobs:
           
           # 清理临时文件
           rm -f Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml
+          rm -f Clash/Providers/Ruleset/*_domain.yaml Clash/Providers/Ruleset/*_ip.yaml
           rm -f Clash/Ruleset/*_domain.list Clash/Ruleset/*_ip.list
           # 清理 mihomo 二进制文件
           rm -f mihomo
