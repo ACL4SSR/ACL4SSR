@@ -43,9 +43,15 @@ def is_cidr(s):
                     return True
         return False
     if ':' in ip_part:
-        if all(c in set('0123456789abcdefABCDEF:') for c in ip_part):
+        ipv6_pattern = r'^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$|^(::)$|^::1$'
+        if re.match(ipv6_pattern, ip_part):
             if 0 <= suffix_val <= 128:
                 return True
+        if ip_part.startswith('::ffff:'):
+            ipv4_in_v6_pattern = r'^::ffff:(\d{1,3}\.){3}\d{1,3}$'
+            if re.match(ipv4_in_v6_pattern, ip_part):
+                if 0 <= suffix_val <= 128:
+                    return True
         return False
     return False
 
