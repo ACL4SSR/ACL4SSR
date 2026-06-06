@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4186条
+# 数量：4187条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -2676,7 +2676,6 @@ DOMAIN-SUFFIX,pachosting.com
 DOMAIN-SUFFIX,pacom.mil
 DOMAIN-SUFFIX,pacopacomama.com
 DOMAIN-SUFFIX,page.link
-DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,paimon.moe
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,pandafan.pub
@@ -3288,6 +3287,7 @@ DOMAIN-SUFFIX,surfeasy.com
 DOMAIN-SUFFIX,surfeasy.com.au
 DOMAIN-SUFFIX,surfshark.com
 DOMAIN-SUFFIX,surrenderat20.net
+DOMAIN-SUFFIX,suyingtv.com
 DOMAIN-SUFFIX,swagbucks.com
 DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swissinfo.ch
@@ -3971,6 +3971,7 @@ DOMAIN-SUFFIX,wowhead.com
 DOMAIN-SUFFIX,wowporn.com
 DOMAIN-SUFFIX,woyaolian.org
 DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,wplace.live
 DOMAIN-SUFFIX,wpoforum.com
 DOMAIN-SUFFIX,writesonic.com
 DOMAIN-SUFFIX,wsj.com
