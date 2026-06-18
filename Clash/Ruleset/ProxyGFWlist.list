@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4187条
+# 数量：4188条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -3121,6 +3121,7 @@ DOMAIN-SUFFIX,sinoants.com
 DOMAIN-SUFFIX,sinoca.com
 DOMAIN-SUFFIX,sinocast.com
 DOMAIN-SUFFIX,sinoinsider.com
+DOMAIN-SUFFIX,sinyalee.com
 DOMAIN-SUFFIX,sipml5.org
 DOMAIN-SUFFIX,sis001.com
 DOMAIN-SUFFIX,site.new
