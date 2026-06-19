@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4188条
+# 数量：4191条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -93,6 +93,7 @@ DOMAIN-SUFFIX,about.gitlab.com
 DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,abplive.com
 DOMAIN-SUFFIX,acast.com
+DOMAIN-SUFFIX,accountboy.com
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,acevpn.com
 DOMAIN-SUFFIX,acg.mn
@@ -2396,6 +2397,7 @@ DOMAIN-SUFFIX,monlamit.org
 DOMAIN-SUFFIX,monocloud.me
 DOMAIN-SUFFIX,monster.com
 DOMAIN-SUFFIX,moodyz.com
+DOMAIN-SUFFIX,moomoo.com
 DOMAIN-SUFFIX,moon.fm
 DOMAIN-SUFFIX,moonbbs.com
 DOMAIN-SUFFIX,moonbingo.com
@@ -4042,6 +4044,7 @@ DOMAIN-SUFFIX,xn--noss43i.com
 DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xn--u2u927b.com
+DOMAIN-SUFFIX,xn--vuqv2cf7wzyig79c.com
 DOMAIN-SUFFIX,xnpool.com
 DOMAIN-SUFFIX,xnxx.com
 DOMAIN-SUFFIX,xpud.org
