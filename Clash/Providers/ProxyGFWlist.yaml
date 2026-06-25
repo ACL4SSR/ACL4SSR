@@ -1371,6 +1371,7 @@ payload:
   - DOMAIN-SUFFIX,genius.com
   - DOMAIN-SUFFIX,geph.io
   - DOMAIN-SUFFIX,get.app
+  - DOMAIN-SUFFIX,get.dappcdn.com
   - DOMAIN-SUFFIX,get.dev
   - DOMAIN-SUFFIX,get.how
   - DOMAIN-SUFFIX,get.page
