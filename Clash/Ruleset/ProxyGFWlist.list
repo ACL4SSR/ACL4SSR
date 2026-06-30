@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4294条
+# 数量：4295条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -1111,6 +1111,7 @@ DOMAIN-SUFFIX,expatshield.com
 DOMAIN-SUFFIX,expecthim.com
 DOMAIN-SUFFIX,expekt.com
 DOMAIN-SUFFIX,exploader.net
+DOMAIN-SUFFIX,expressnews.com
 DOMAIN-SUFFIX,expressvpn.com
 DOMAIN-SUFFIX,exrates.me
 DOMAIN-SUFFIX,extmatrix.com
