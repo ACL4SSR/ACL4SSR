@@ -727,6 +727,7 @@ payload:
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,cixiaoya.club
   - DOMAIN-SUFFIX,ck101.com
+  - DOMAIN-SUFFIX,clashyun.com
   - DOMAIN-SUFFIX,classicalguitarblog.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
@@ -3390,6 +3391,7 @@ payload:
   - DOMAIN-SUFFIX,syncback.com
   - DOMAIN-SUFFIX,synergyse.com
   - DOMAIN-SUFFIX,syosetu.com
+  - DOMAIN-SUFFIX,sysub.com
   - DOMAIN-SUFFIX,t-g.com
   - DOMAIN-SUFFIX,t.co
   - DOMAIN-SUFFIX,t.me
