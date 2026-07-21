@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4297条
+# 数量：4299条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -728,6 +728,7 @@ DOMAIN-SUFFIX,civilmedia.tw
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,cixiaoya.club
 DOMAIN-SUFFIX,ck101.com
+DOMAIN-SUFFIX,clashyun.com
 DOMAIN-SUFFIX,classicalguitarblog.net
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -3391,6 +3392,7 @@ DOMAIN-SUFFIX,synapse.org
 DOMAIN-SUFFIX,syncback.com
 DOMAIN-SUFFIX,synergyse.com
 DOMAIN-SUFFIX,syosetu.com
+DOMAIN-SUFFIX,sysub.com
 DOMAIN-SUFFIX,t-g.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,t.me
