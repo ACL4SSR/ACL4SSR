@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4300条
+# 数量：4301条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -3608,6 +3608,7 @@ DOMAIN-SUFFIX,to-porno.com
 DOMAIN-SUFFIX,togetter.com
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tokyo-porn-tube.com
 DOMAIN-SUFFIX,tokyocn.com
 DOMAIN-SUFFIX,tomp3.cc
