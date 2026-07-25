@@ -715,6 +715,7 @@ payload:
   - DOMAIN-SUFFIX,cia.gov
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,ciciai.com
+  - DOMAIN-SUFFIX,circle19.org
   - DOMAIN-SUFFIX,cirosantilli.com
   - DOMAIN-SUFFIX,citizencn.com
   - DOMAIN-SUFFIX,citizenlab.ca
@@ -2125,6 +2126,7 @@ payload:
   - DOMAIN-SUFFIX,kantie.org
   - DOMAIN-SUFFIX,kaotic.com
   - DOMAIN-SUFFIX,karayou.com
+  - DOMAIN-SUFFIX,kards.com
   - DOMAIN-SUFFIX,kathmandupost.com
   - DOMAIN-SUFFIX,kawaiikawaii.jp
   - DOMAIN-SUFFIX,kawase.com

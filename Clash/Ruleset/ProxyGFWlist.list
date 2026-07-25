@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4301条
+# 数量：4303条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -716,6 +716,7 @@ DOMAIN-SUFFIX,ci-en.jp
 DOMAIN-SUFFIX,cia.gov
 DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,circle19.org
 DOMAIN-SUFFIX,cirosantilli.com
 DOMAIN-SUFFIX,citizencn.com
 DOMAIN-SUFFIX,citizenlab.ca
@@ -2126,6 +2127,7 @@ DOMAIN-SUFFIX,kanshifang.com
 DOMAIN-SUFFIX,kantie.org
 DOMAIN-SUFFIX,kaotic.com
 DOMAIN-SUFFIX,karayou.com
+DOMAIN-SUFFIX,kards.com
 DOMAIN-SUFFIX,kathmandupost.com
 DOMAIN-SUFFIX,kawaiikawaii.jp
 DOMAIN-SUFFIX,kawase.com
