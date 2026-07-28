@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4303条
+# 数量：4304条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -3652,6 +3652,7 @@ DOMAIN-SUFFIX,trtworld.com
 DOMAIN-SUFFIX,truebuddha-md.org
 DOMAIN-SUFFIX,trustwallet.com
 DOMAIN-SUFFIX,truthsocial.com
+DOMAIN-SUFFIX,tryai.dev
 DOMAIN-SUFFIX,tryheart.jp
 DOMAIN-SUFFIX,tsdr.uspto.gov
 DOMAIN-SUFFIX,tt1069.com
