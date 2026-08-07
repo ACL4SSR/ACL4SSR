@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4304条
+# 数量：4303条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -300,7 +300,6 @@ DOMAIN-SUFFIX,atlanta168.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,auctions.yahoo.co.jp
 DOMAIN-SUFFIX,audacy.com
-DOMAIN-SUFFIX,auntology.fandom.com
 DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,av.movie
 DOMAIN-SUFFIX,av01.tv
@@ -1154,6 +1153,7 @@ DOMAIN-SUFFIX,falundafaindia.org
 DOMAIN-SUFFIX,falunhr.org
 DOMAIN-SUFFIX,famunion.com
 DOMAIN-SUFFIX,fanbox.cc
+DOMAIN-SUFFIX,fandom.com
 DOMAIN-SUFFIX,fangeqiang.com
 DOMAIN-SUFFIX,fanglizhi.info
 DOMAIN-SUFFIX,fangong.org
@@ -1849,7 +1849,6 @@ DOMAIN-SUFFIX,holyspiritspeaks.org
 DOMAIN-SUFFIX,home.saxo
 DOMAIN-SUFFIX,homedepot.com
 DOMAIN-SUFFIX,homeservershow.com
-DOMAIN-SUFFIX,hongkong.fandom.com
 DOMAIN-SUFFIX,hongkongfp.com
 DOMAIN-SUFFIX,hongzhi.li
 DOMAIN-SUFFIX,honven.xyz
