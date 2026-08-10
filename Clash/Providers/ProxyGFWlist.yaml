@@ -132,6 +132,7 @@ payload:
   - DOMAIN-SUFFIX,agro.hk
   - DOMAIN-SUFFIX,ai.dev
   - DOMAIN-SUFFIX,ai.studio
+  - DOMAIN-SUFFIX,aihub.top
   - DOMAIN-SUFFIX,aiosearch.com
   - DOMAIN-SUFFIX,aiph.net
   - DOMAIN-SUFFIX,airconsole.com
@@ -344,6 +345,7 @@ payload:
   - DOMAIN-SUFFIX,barnabu.co.uk
   - DOMAIN-SUFFIX,bartender.dowjones.com
   - DOMAIN-SUFFIX,barton.de
+  - DOMAIN-SUFFIX,basemaps.arcgis.com
   - DOMAIN-SUFFIX,bastillepost.com
   - DOMAIN-SUFFIX,bayvoice.net
   - DOMAIN-SUFFIX,bb-chat.tv
@@ -1091,6 +1093,7 @@ payload:
   - DOMAIN-SUFFIX,eromangadouzin.com
   - DOMAIN-SUFFIX,eromon.net
   - DOMAIN-SUFFIX,esg.t91y.com
+  - DOMAIN-SUFFIX,esim.redteago.com
   - DOMAIN-SUFFIX,eslite.com
   - DOMAIN-SUFFIX,esurance.com
   - DOMAIN-SUFFIX,etherdelta.com
@@ -1113,6 +1116,7 @@ payload:
   - DOMAIN-SUFFIX,expatshield.com
   - DOMAIN-SUFFIX,expecthim.com
   - DOMAIN-SUFFIX,expekt.com
+  - DOMAIN-SUFFIX,experience.arcgis.com
   - DOMAIN-SUFFIX,exploader.net
   - DOMAIN-SUFFIX,expressnews.com
   - DOMAIN-SUFFIX,expressvpn.com
