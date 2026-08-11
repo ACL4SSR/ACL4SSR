@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4307条
+# 数量：4308条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -943,6 +943,7 @@ DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disp.cc
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,dit-inc.us
+DOMAIN-SUFFIX,divdyn.com
 DOMAIN-SUFFIX,diyin.org
 DOMAIN-SUFFIX,dizhuzhishang.com
 DOMAIN-SUFFIX,dl-laby.jp
