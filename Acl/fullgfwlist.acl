@@ -3118,6 +3118,7 @@
 (^|\.)s-cute.com$
 (^|\.)s.yimg.com$
 (^|\.)s3-ap-northeast-1.amazonaws.com$
+(^|\.)s3.dualstack.us-west-2.amazonaws.com$
 (^|\.)s4miniarchive.com$
 (^|\.)sacks.com$
 (^|\.)sacom.hk$
@@ -4065,6 +4066,7 @@
 (^|\.)willw.net$
 (^|\.)wilsoncenter.org$
 (^|\.)windscribe.com$
+(^|\.)windy.com$
 (^|\.)wingamestore.com$
 (^|\.)wingy.site$
 (^|\.)wionews.com$
