@@ -1,78 +1,95 @@
 # NAS 第三方套件直连列表
-DOMAIN-KEYWORD,imnks
-DOMAIN-KEYWORD,synology
-DOMAIN-KEYWORD,-synology
-DOMAIN-KEYWORD,quickconnect
-DOMAIN-SUFFIX,diskstation.me
-DOMAIN-SUFFIX,dscloud.biz
-DOMAIN-SUFFIX,dscloud.me
-DOMAIN-SUFFIX,dscloud.mobi
-DOMAIN-SUFFIX,dsmunas.com
-DOMAIN-SUFFIX,dsmunas.net
-DOMAIN-SUFFIX,dsmunas.org
-DOMAIN-SUFFIX,familyds.com
-DOMAIN-SUFFIX,familyds.net
-DOMAIN-SUFFIX,familyds.org
-DOMAIN-SUFFIX,i234.me
-DOMAIN-SUFFIX,myds.com
-DOMAIN-SUFFIX,quickconnect.to
-DOMAIN-SUFFIX,synodns.com
-DOMAIN-SUFFIX,synology.cn
-DOMAIN-SUFFIX,synology.com
-DOMAIN-SUFFIX,synology.me
-DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-KEYWORD,imnks,DIRECT
+DOMAIN-KEYWORD,synology,DIRECT
+DOMAIN-KEYWORD,-synology,DIRECT
+DOMAIN-KEYWORD,quickconnect,DIRECT
 
-# bt/pt网站列表
-DOMAIN-SUFFIX,hdzone.me
-DOMAIN-SUFFIX,greatposterwall.com
-DOMAIN-SUFFIX,hdfun.me
-DOMAIN-SUFFIX,pttime.org
+DOMAIN-SUFFIX,diskstation.me,DIRECT
+DOMAIN-SUFFIX,dscloud.biz,DIRECT
+DOMAIN-SUFFIX,dscloud.me,DIRECT
+DOMAIN-SUFFIX,dscloud.mobi,DIRECT
+DOMAIN-SUFFIX,dscloud.mobile,DIRECT
+
+DOMAIN-SUFFIX,dsmunas.com,DIRECT
+DOMAIN-SUFFIX,dsmunas.net,DIRECT
+DOMAIN-SUFFIX,dsmunas.org,DIRECT
+
+DOMAIN-SUFFIX,dsmynas.com,DIRECT
+DOMAIN-SUFFIX,dsmynas.net,DIRECT
+DOMAIN-SUFFIX,dsmynas.org,DIRECT
+
+DOMAIN-SUFFIX,familyds.com,DIRECT
+DOMAIN-SUFFIX,familyds.net,DIRECT
+DOMAIN-SUFFIX,familyds.org,DIRECT
+
+DOMAIN-SUFFIX,i234.me,DIRECT
+DOMAIN-SUFFIX,myds.com,DIRECT
+DOMAIN-SUFFIX,myds.me,DIRECT
+
+DOMAIN-SUFFIX,quickconnect.to,DIRECT
+
+DOMAIN-SUFFIX,synodns.com,DIRECT
+DOMAIN-SUFFIX,synology.cn,DIRECT
+DOMAIN-SUFFIX,synology.com,DIRECT
+DOMAIN-SUFFIX,synology.me,DIRECT
+
+DOMAIN,checkip.synology.com,DIRECT
+DOMAIN,checkipv6.synology.com,DIRECT
+DOMAIN-SUFFIX,dyndns.org,DIRECT
+DOMAIN,checkip.dyndns.org,DIRECT
+
+
+# Synology 更新 / 套件服务器
+DOMAIN-KEYWORD,download.synology,DIRECT
+DOMAIN-KEYWORD,update.synology,DIRECT
+DOMAIN-KEYWORD,package.synology,DIRECT
+DOMAIN-KEYWORD,global.synology,DIRECT
+
+
+# Let's Encrypt证书
+DOMAIN-KEYWORD,letsencrypt,DIRECT
+DOMAIN-SUFFIX,acme-v02.api.letsencrypt.org,DIRECT
+
+
+# BT/PT网站列表
+DOMAIN-SUFFIX,hdzone.me,DIRECT
+DOMAIN-SUFFIX,greatposterwall.com,DIRECT
+DOMAIN-SUFFIX,hdfun.me,DIRECT
+DOMAIN-SUFFIX,pttime.org,DIRECT
+
 
 # 自定义直连列表
-DOMAIN-SUFFIX,diyp.112114.xyz
-DOMAIN-KEYWORD,letsencrypt
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,Qbittorrent
-DOMAIN-KEYWORD,gitlab
-DOMAIN-KEYWORD,ntp
-DOMAIN-KEYWORD,nict
-DOMAIN,ntp.nict.jp
-DOMAIN,tvpng.neocities.org
-DOMAIN-KEYWORD,yinhuadm
+DOMAIN-SUFFIX,diyp.112114.xyz,DIRECT
+
+DOMAIN-KEYWORD,gitlab,DIRECT
+
+DOMAIN-KEYWORD,ntp,DIRECT
+DOMAIN-KEYWORD,nict,DIRECT
+DOMAIN,ntp.nict.jp,DIRECT
+
+DOMAIN,tvpng.neocities.org,DIRECT
+
+DOMAIN-KEYWORD,yinhuadm,DIRECT
+
 
 # 晴天tv
-DOMAIN-KEYWORD,weixingdianshiptv
-DOMAIN-KEYWORD,generationnexxt.com
+DOMAIN-KEYWORD,weixingdianshiptv,DIRECT
+DOMAIN-KEYWORD,generationnexxt.com,DIRECT
+
 
 # steam 下载直连
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamserver.net
+DOMAIN,steamcdn-a.akamaihd.net,DIRECT
+DOMAIN-SUFFIX,steamserver.net,DIRECT
+
 
 # emby
-DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ipify.org,DIRECT
+
 
 # hp
-DOMAIN-KEYWORD,hpsmart
-
-# 野火TV
-DOMAIN-KEYWORD,163189
-DOMAIN-KEYWORD,112114
-DOMAIN-KEYWORD,diyp8
-DOMAIN-KEYWORD,rr.nu
-DOMAIN-SUFFIX,dpdns.org
-
-#pt、bt
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,btschool.club
-DOMAIN-KEYWORD,tracker
+DOMAIN-KEYWORD,hpsmart,DIRECT
 
 
-DOMAIN-SUFFIX,checkip.synology.com
-DOMAIN-SUFFIX,checkipv6.synology.com
-DOMAIN-SUFFIX,ddns.synology.com
-
-PROCESS-NAME,ddnsd
-PROCESS-NAME,curl
-IP-CIDR6,240e:3b4:230:b5f0::/64,no-resolve
-IP-CIDR6,2604:a880:2:d0::/64,no-resolve
+# 时间同步
+DOMAIN-KEYWORD,time,DIRECT
+DOMAIN-SUFFIX,pool.ntp.org,DIRECT
