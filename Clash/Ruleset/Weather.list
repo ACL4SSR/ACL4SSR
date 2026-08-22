@@ -1,0 +1,5 @@
+# 内容：Weather
+# 数量：5条
+DOMAIN-SUFFIX,wunderground.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-KEYWORD,weather

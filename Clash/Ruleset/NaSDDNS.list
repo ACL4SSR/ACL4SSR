@@ -48,3 +48,37 @@ IP-CIDR,52.200.32.0/24,no-resolve
 IP-CIDR,52.86.69.0/24,no-resolve
 IP-CIDR,54.159.2.0/24,no-resolve
 IP-CIDR,54.166.1.0/24,no-resolve
+
+# > DDNS 服务商
+DOMAIN-SUFFIX,ddns.oray.com
+DOMAIN-SUFFIX,myqnapcloud.io
+DOMAIN-KEYWORD,myqnapcloud
+
+# > 公网 IP 检测服务
+DOMAIN-SUFFIX,ip.threep.top
+DOMAIN-SUFFIX,ip.3322.net
+DOMAIN-SUFFIX,ip.atomo.cn
+DOMAIN-SUFFIX,ip.ddnspod.com
+DOMAIN-SUFFIX,4.ipw.cn
+DOMAIN-SUFFIX,ipv4.ip.mir6.com
+DOMAIN-SUFFIX,ipplus360.com
+DOMAIN-SUFFIX,test.ipw.cn
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ifconfig.es
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,ipinfo.io
+DOMAIN-SUFFIX,ipecho.net
+DOMAIN-SUFFIX,ident.me
+DOMAIN-SUFFIX,eth0.me
+DOMAIN-SUFFIX,ipaddr.site
+DOMAIN-SUFFIX,ipaddress.sh
+DOMAIN-SUFFIX,l2.io
+DOMAIN-SUFFIX,tnx.nl
+DOMAIN-SUFFIX,wgetip.com
+DOMAIN-SUFFIX,ip.tyk.nu
+DOMAIN-SUFFIX,curlmyip.net
+DOMAIN-SUFFIX,ipcalf.com
+DOMAIN-SUFFIX,checkip.amazonaws.com
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,nsupdate.info
+DOMAIN-SUFFIX,ipify.org
