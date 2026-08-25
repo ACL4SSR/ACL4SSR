@@ -1,95 +1,43 @@
-# NAS 第三方套件直连列表
-DOMAIN-KEYWORD,imnks
-DOMAIN-KEYWORD,synology
-DOMAIN-KEYWORD,-synology
-DOMAIN-KEYWORD,quickconnect
+# NAS 更新 / 套件 / 账户 / DDNS / IP检测 / QuickConnect 直连列表
 
-DOMAIN-SUFFIX,diskstation.me
-DOMAIN-SUFFIX,dscloud.biz
-DOMAIN-SUFFIX,dscloud.me
-DOMAIN-SUFFIX,dscloud.mobi
-DOMAIN-SUFFIX,dscloud.mobile
-
-DOMAIN-SUFFIX,dsmunas.com
-DOMAIN-SUFFIX,dsmunas.net
-DOMAIN-SUFFIX,dsmunas.org
-
-DOMAIN-SUFFIX,dsmynas.com
-DOMAIN-SUFFIX,dsmynas.net
-DOMAIN-SUFFIX,dsmynas.org
-
-DOMAIN-SUFFIX,familyds.com
-DOMAIN-SUFFIX,familyds.net
-DOMAIN-SUFFIX,familyds.org
-
-DOMAIN-SUFFIX,i234.me
-DOMAIN-SUFFIX,myds.com
-DOMAIN-SUFFIX,myds.me
-
-DOMAIN-SUFFIX,quickconnect.to
-
-DOMAIN-SUFFIX,synodns.com
-DOMAIN-SUFFIX,synology.cn
+# 主域名后缀匹配（覆盖大部分子域名）
 DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,synology.cn
 DOMAIN-SUFFIX,synology.me
 
+# QuickConnect
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,quickconnect.cn
+
+# 更新 / 下载 / 套件（关键词匹配）
+DOMAIN-KEYWORD,global.download.synology
+DOMAIN-KEYWORD,global.synologydownload
+DOMAIN-KEYWORD,update.synology
+DOMAIN-KEYWORD,update7.synology
+DOMAIN-KEYWORD,autoupdate.synology
+DOMAIN-KEYWORD,autoupdate7.synology
+DOMAIN-KEYWORD,payment.synology
+DOMAIN-KEYWORD,cndl.synology
+DOMAIN-KEYWORD,download.synology
+DOMAIN-KEYWORD,pkgautoupdate7.synology
+DOMAIN-KEYWORD,pkgupdate7.synology
+DOMAIN-KEYWORD,pkgautoupdate.synologyupdate
+DOMAIN-KEYWORD,dataupdate.synology
+DOMAIN-KEYWORD,dataupdate7.synology
+DOMAIN-KEYWORD,dataautoupdate7.synology
+
+# 账户验证
+DOMAIN-KEYWORD,account.synology
+DOMAIN-KEYWORD,identity.synology
+
+# DDNS
+DOMAIN-KEYWORD,ddns.synology
+
+# IP检测
 DOMAIN,checkip.synology.com
 DOMAIN,checkipv6.synology.com
-DOMAIN-SUFFIX,dyndns.org
+DOMAIN,checkport.synology.com
 DOMAIN,checkip.dyndns.org
 
-
-# Synology 更新 / 套件服务器
-DOMAIN-KEYWORD,download.synology
-DOMAIN-KEYWORD,update.synology
-DOMAIN-KEYWORD,package.synology
-DOMAIN-KEYWORD,global.synology
-
-
-# Let's Encrypt证书
-DOMAIN-KEYWORD,letsencrypt
-DOMAIN-SUFFIX,acme-v02.api.letsencrypt.org
-
-
-# BT/PT网站列表
-DOMAIN-SUFFIX,hdzone.me
-DOMAIN-SUFFIX,greatposterwall.com
-DOMAIN-SUFFIX,hdfun.me
-DOMAIN-SUFFIX,pttime.org
-
-
-# 自定义直连列表
-DOMAIN-SUFFIX,diyp.112114.xyz
-
-DOMAIN-KEYWORD,gitlab
-
-DOMAIN-KEYWORD,ntp
-DOMAIN-KEYWORD,nict
-DOMAIN,ntp.nict.jp
-
-DOMAIN,tvpng.neocities.org
-
-DOMAIN-KEYWORD,yinhuadm
-
-
-# 晴天tv
-DOMAIN-KEYWORD,weixingdianshiptv
-DOMAIN-KEYWORD,generationnexxt.com
-
-
-# steam 下载直连
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamserver.net
-
-
-# emby
-DOMAIN-SUFFIX,ipify.org
-
-
-# hp
-DOMAIN-KEYWORD,hpsmart
-
-
-# 时间同步
-DOMAIN-KEYWORD,time
-DOMAIN-SUFFIX,pool.ntp.org
+# 网站
+DOMAIN-KEYWORD,www.synology
