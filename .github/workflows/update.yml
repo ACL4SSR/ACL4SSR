@@ -1,0 +1,156 @@
+name: Update GFWList Rules
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-slim
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: master
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Parse GFWList
+        run: python scripts/gfwlist_parser.py
+
+      - name: Download mihomo
+        run: |
+          MAX_RETRIES=5
+          RETRY_DELAY=10
+          for ((i=1; i<=MAX_RETRIES; i++)); do
+            echo "Attempt $i/$MAX_RETRIES to download mihomo..."
+            if TAG=$(curl -s --fail https://api.github.com/repos/MetaCubeX/mihomo/releases/latest | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/'); then
+              echo "Latest mihomo version: $TAG"
+              if curl -L --fail -o mihomo.gz "https://github.com/MetaCubeX/mihomo/releases/download/${TAG}/mihomo-linux-amd64-${TAG}.gz"; then
+                echo "Download succeeded"
+                if gzip -d mihomo.gz; then
+                  chmod +x mihomo
+                  rm -f mihomo.gz
+                  echo "mihomo extracted and ready"
+                  exit 0
+                else
+                  echo "Failed to extract mihomo.gz"
+                fi
+              else
+                echo "Download failed (HTTP error)"
+              fi
+            else
+              echo "Failed to fetch latest release info"
+            fi
+            if [ $i -lt $MAX_RETRIES ]; then
+              echo "Retrying in $RETRY_DELAY seconds..."
+              sleep $RETRY_DELAY
+            fi
+          done
+          echo "ERROR: All download attempts failed"
+          exit 1
+
+      - name: Convert to mrs format
+        run: |
+          mkdir -p Clash/mrs
+          convert_file() {
+            local type=$1
+            local format=$2
+            local input_file=$3
+            local output_file=$4
+            local MAX_RETRIES=3
+            for ((i=1; i<=MAX_RETRIES; i++)); do
+              echo "[Attempt $i/$MAX_RETRIES] Converting $input_file ($type)"
+              if ./mihomo convert-ruleset "$type" "$format" "$input_file" "$output_file"; then
+                echo "Success: $input_file -> $output_file"
+                return 0
+              else
+                echo "Warning: Conversion failed for $input_file (Attempt $i/$MAX_RETRIES)"
+                if [ $i -lt $MAX_RETRIES ]; then
+                  sleep 3
+                fi
+              fi
+            done
+            echo "ERROR: Failed to convert $input_file after $MAX_RETRIES attempts"
+            return 1
+          }
+          
+          # 检查 YAML 文件是否有有效内容（排除 payload: 和空行/注释行）
+          has_yaml_content() {
+            local file=$1
+            local content_lines=$(sed '/^payload:$/d; /^#/d; /^$/d' "$file" | wc -l)
+            [ "$content_lines" -gt 0 ]
+          }
+          
+          # 检查 LIST 文件是否有有效内容（排除注释和空行）
+          has_list_content() {
+            local file=$1
+            local content_lines=$(sed '/^#/d; /^$/d' "$file" | wc -l)
+            [ "$content_lines" -gt 0 ]
+          }
+          
+          # 处理所有分离文件（包括生成的和已存在的）
+          for file in Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml Clash/Providers/Ruleset/*_domain.yaml Clash/Providers/Ruleset/*_ip.yaml; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              if has_yaml_content "$file"; then
+                if [[ "$filename" == *"_domain.yaml" ]]; then
+                  base=$(basename "$file" _domain.yaml)
+                  convert_file "domain" "yaml" "$file" "Clash/mrs/${base}_domain.mrs"
+                elif [[ "$filename" == *"_ip.yaml" ]]; then
+                  base=$(basename "$file" _ip.yaml)
+                  convert_file "ipcidr" "yaml" "$file" "Clash/mrs/${base}_ip.mrs"
+                fi
+              else
+                echo "Skipping empty or invalid file: $file"
+              fi
+            fi
+          done
+          
+          for file in Clash/Ruleset/*_domain.list Clash/Ruleset/*_ip.list; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              if has_list_content "$file"; then
+                if [[ "$filename" == *"_domain.list" ]]; then
+                  base=$(basename "$file" _domain.list)
+                  convert_file "domain" "text" "$file" "Clash/mrs/${base}_domain.mrs"
+                elif [[ "$filename" == *"_ip.list" ]]; then
+                  base=$(basename "$file" _ip.list)
+                  convert_file "ipcidr" "text" "$file" "Clash/mrs/${base}_ip.mrs"
+                fi
+              else
+                echo "Skipping empty or invalid file: $file"
+              fi
+            fi
+          done
+          
+          echo "Conversion completed"
+          
+          # 清理临时文件
+          rm -f Clash/Providers/*_domain.yaml Clash/Providers/*_ip.yaml
+          rm -f Clash/Providers/Ruleset/*_domain.yaml Clash/Providers/Ruleset/*_ip.yaml
+          rm -f Clash/Ruleset/*_domain.list Clash/Ruleset/*_ip.list
+          # 清理 mihomo 二进制文件
+          rm -f mihomo
+          echo "Temporary files cleaned up"
+
+      - name: Get current datetime
+        id: datetime
+        run: echo "datetime=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: '[AutoUpdate] Update GFWList rules and mrs files - ${{ env.DATETIME }}'
+          push: true
+        env:
+          DATETIME: ${{ steps.datetime.outputs.datetime }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

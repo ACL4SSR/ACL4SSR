@@ -1,7 +1,5 @@
 # 内容：HBO
 # 数量：7条
-USER-AGENT,HBO%20NOW*
-USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
