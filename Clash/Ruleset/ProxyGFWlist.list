@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4324条
+# 数量：4327条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -1344,6 +1344,7 @@ DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,fututrustee.com
+DOMAIN-SUFFIX,fuyin116.com
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
 DOMAIN-SUFFIX,fxnetworks.com
@@ -2504,6 +2505,7 @@ DOMAIN-SUFFIX,mthruf.com
 DOMAIN-SUFFIX,mubi.com
 DOMAIN-SUFFIX,mullvad.net
 DOMAIN-SUFFIX,multiply.com
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,music.amazon.com
 DOMAIN-SUFFIX,musixmatch.com
 DOMAIN-SUFFIX,muzi.com
@@ -3960,6 +3962,7 @@ DOMAIN-SUFFIX,waffle1999.com
 DOMAIN-SUFFIX,wainao.me
 DOMAIN-SUFFIX,walletconnect.com
 DOMAIN-SUFFIX,walletconnect.org
+DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wallmama.com
 DOMAIN-SUFFIX,wallpapercasa.com
 DOMAIN-SUFFIX,wallsttv.com
