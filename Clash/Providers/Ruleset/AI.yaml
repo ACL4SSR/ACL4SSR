@@ -1,12 +1,13 @@
 payload:
   # 内容：内容：AI平台-国外
-  # 数量：47条
+  # 数量：50条
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,openai
   - DOMAIN,ai.google.dev
   - DOMAIN,aistudio.google.com
   - DOMAIN,api.githubcopilot.com
+  - DOMAIN,apis.google.com
   - DOMAIN,api.groq.com
   - DOMAIN,api.together.xyz
   - DOMAIN,bard.google.com
@@ -32,6 +33,7 @@ payload:
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,identrust.com
@@ -47,4 +49,5 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,stitch.withgoogle.com
   - DOMAIN-SUFFIX,x.ai
