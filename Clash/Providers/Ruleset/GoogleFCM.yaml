@@ -10,6 +10,15 @@ payload:
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
   - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1.mobile-gtalk.l.google.com
+  - DOMAIN,alt2.mobile-gtalk.l.google.com
+  - DOMAIN,alt3.mobile-gtalk.l.google.com
+  - DOMAIN,alt4.mobile-gtalk.l.google.com
+  - DOMAIN,alt5.mobile-gtalk.l.google.com
+  - DOMAIN,alt6.mobile-gtalk.l.google.com
+  - DOMAIN,alt7.mobile-gtalk.l.google.com
+  - DOMAIN,alt8.mobile-gtalk.l.google.com
+  - DOMAIN,mobile-gtalk.l.google.com
   - IP-CIDR,64.233.177.188/32,no-resolve
   - IP-CIDR,64.233.186.188/32,no-resolve
   - IP-CIDR,64.233.187.188/32,no-resolve

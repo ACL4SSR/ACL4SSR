@@ -30,3 +30,22 @@ payload:
   - DOMAIN-SUFFIX,tools.google.com
   - DOMAIN-SUFFIX,tools.l.google.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
+  - DOMAIN-SUFFIX,ci.android.com
+  - DOMAIN-SUFFIX,g2.gstatic.com
+  - DOMAIN-SUFFIX,g1.gstatic.com
+  - DOMAIN-SUFFIX,g0.gstatic.com
+  - DOMAIN-SUFFIX,checkin.gstatic.com
+  - DOMAIN-SUFFIX,i.pki.goog
+  - DOMAIN-SUFFIX,c.pki.goog
+  - DOMAIN-SUFFIX,o.pki.goog
+  - DOMAIN-SUFFIX,clientservices.googleapis.com
+  - DOMAIN-SUFFIX,imasdk.googleapis.com
+  - DOMAIN-SUFFIX,fonts.googleapis.com
+  - DOMAIN-SUFFIX,update.googleapis.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,csi.gstatic.com
+  - DOMAIN-SUFFIX,fonts.gstatic.com
+  - DOMAIN-SUFFIX,ssl.gstatic.com
+  - DOMAIN-SUFFIX,www.gstatic.com
+  - DOMAIN-SUFFIX,redirector.gvt1.com
