@@ -214,6 +214,15 @@ def parse_list_rule_line(line):
 def is_domain_rule_type(rule_type):
     return rule_type in ('DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'DOMAIN-REGEX')
 
+def format_mrs_domain_rule(rule_type, rule_value):
+    """Translate supported Clash domain rules to MRS domain patterns."""
+    if rule_type == 'DOMAIN':
+        return rule_value
+    if rule_type == 'DOMAIN-SUFFIX':
+        # MRS uses +. to match both the suffix and its root domain.
+        return f'+.{rule_value}'
+    return f'{rule_type},{rule_value}'
+
 def is_ip_rule_type(rule_type):
     return rule_type in ('IP-CIDR', 'IP-CIDR6', 'IP-SUFFIX', 'IP-ASN')
 
@@ -257,7 +266,7 @@ def split_yaml_file(filepath):
         unique_domains = sorted(set(domains))
         domain_yaml = "payload:\n"
         for rule_type, d in unique_domains:
-            domain_yaml += f"  - {rule_type},{d}\n"
+            domain_yaml += f"  - {format_mrs_domain_rule(rule_type, d)}\n"
         write_file(f"{base_name}_domain.yaml", domain_yaml)
     if ips:
         unique_ips = sorted(set(ips))
@@ -290,7 +299,7 @@ def split_list_file(filepath):
         unique_domains = sorted(set(domains))
         domain_text = ""
         for rule_type, d in unique_domains:
-            domain_text += f"{rule_type},{d}\n"
+            domain_text += f"{format_mrs_domain_rule(rule_type, d)}\n"
         write_file(f"{base_name}_domain.list", domain_text)
     if ips:
         unique_ips = sorted(set(ips))
@@ -343,7 +352,7 @@ def generate_clash_provider_yaml(domain_list, ip_list, filename, title="payload"
     if unique_domains:
         domain_yaml = f"{title}:\n"
         for domain in unique_domains:
-            domain_yaml += f"  - DOMAIN-SUFFIX,{domain}\n"
+            domain_yaml += f"  - {format_mrs_domain_rule('DOMAIN-SUFFIX', domain)}\n"
         write_file(f"{base_name}_domain.yaml", domain_yaml)
     
     # IP 规则 - YAML 格式
@@ -372,7 +381,7 @@ def generate_clash_ruleset_list(domain_list, ip_list, filename, title="GFWList")
     if unique_domains:
         domain_text = ""
         for domain in unique_domains:
-            domain_text += f"DOMAIN-SUFFIX,{domain}\n"
+            domain_text += f"{format_mrs_domain_rule('DOMAIN-SUFFIX', domain)}\n"
         write_file(f"{base_name}_domain.list", domain_text)
     
     # IP 规则 - text 格式
