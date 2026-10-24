@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4367条
+# 数量：4369条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -805,6 +805,7 @@ DOMAIN-SUFFIX,comparitech.com
 DOMAIN-SUFFIX,compileheart.com
 DOMAIN-SUFFIX,connect.facebook.net
 DOMAIN-SUFFIX,conoha.jp
+DOMAIN-SUFFIX,console.typesafe.ai
 DOMAIN-SUFFIX,contests.twilio.com
 DOMAIN-SUFFIX,cool18.com
 DOMAIN-SUFFIX,coolaler.com
@@ -1363,6 +1364,7 @@ DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g6hentai.com
+DOMAIN-SUFFIX,ga.jspm.io
 DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gagaoolala.com
