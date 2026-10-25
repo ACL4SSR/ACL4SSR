@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,10musume.com
   - DOMAIN-SUFFIX,123av.com
   - DOMAIN-SUFFIX,123av.me
+  - DOMAIN-SUFFIX,123av.org
   - DOMAIN-SUFFIX,12bet.com
   - DOMAIN-SUFFIX,12vpn.com
   - DOMAIN-SUFFIX,12vpn.net
@@ -2175,6 +2176,7 @@ payload:
   - DOMAIN-SUFFIX,kichiku-doujinko.com
   - DOMAIN-SUFFIX,kik.com
   - DOMAIN-SUFFIX,killwall.com
+  - DOMAIN-SUFFIX,kimootoko.net
   - DOMAIN-SUFFIX,kindle4rss.com
   - DOMAIN-SUFFIX,kindleren.com
   - DOMAIN-SUFFIX,kingdomsalvation.org
@@ -2458,6 +2460,7 @@ payload:
   - DOMAIN-SUFFIX,minhhue.net
   - DOMAIN-SUFFIX,miningpoolhub.com
   - DOMAIN-SUFFIX,ministrybooks.org
+  - DOMAIN-SUFFIX,minkch.com
   - DOMAIN-SUFFIX,minzhuzhongguo.org
   - DOMAIN-SUFFIX,miraheze.org
   - DOMAIN-SUFFIX,mirdc.org.tw
@@ -2520,6 +2523,7 @@ payload:
   - DOMAIN-SUFFIX,mosavi.io
   - DOMAIN-SUFFIX,motherless.com
   - DOMAIN-SUFFIX,movements.org
+  - DOMAIN-SUFFIX,movie.eroterest.net
   - DOMAIN-SUFFIX,moviefap.com
   - DOMAIN-SUFFIX,mpettis.com
   - DOMAIN-SUFFIX,mpfinance.com
@@ -2653,6 +2657,9 @@ payload:
   - DOMAIN-SUFFIX,niu.moe
   - DOMAIN-SUFFIX,niusnews.com
   - DOMAIN-SUFFIX,njactb.org
+  - DOMAIN-SUFFIX,njav.com
+  - DOMAIN-SUFFIX,njav.tv
+  - DOMAIN-SUFFIX,njavtv.com
   - DOMAIN-SUFFIX,nlfreevpn.com
   - DOMAIN-SUFFIX,nmsl.website
   - DOMAIN-SUFFIX,nnews.eu
@@ -2905,6 +2912,7 @@ payload:
   - DOMAIN-SUFFIX,plurk.com
   - DOMAIN-SUFFIX,plus.codes
   - DOMAIN-SUFFIX,pmatehunter.com
+  - DOMAIN-SUFFIX,po-kaki-to.com
   - DOMAIN-SUFFIX,po2b.com
   - DOMAIN-SUFFIX,podbean.com
   - DOMAIN-SUFFIX,podcast.co
@@ -4359,6 +4367,7 @@ payload:
   - DOMAIN-SUFFIX,zophar.net
   - DOMAIN-SUFFIX,zorrovpn.com
   - DOMAIN-SUFFIX,zozotown.com
+  - DOMAIN-SUFFIX,zozovideo.com
   - DOMAIN-SUFFIX,zpn.im
   - DOMAIN-SUFFIX,zspeeder.me
   - DOMAIN-SUFFIX,zuo.la
