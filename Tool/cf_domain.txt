@@ -106,7 +106,6 @@ doosan.com:443#亚洲域名 | 韩国斗山
 staticdelivery.nexusmods.com:443#域名优选 | HKG nexusmods
 chrono24.com:2053#域名优选 | HKG chrono24
 www.hypixel.net:443 #域名优选 | HKG hypixel
-chrono24.com:443 #域名优选 | HKG chrono24
 newsroom.avalara.com:443 #域名优选 | HKG avalara
 themeisle.com:443 #域名优选 | HKG themeisle
 skk.moe:443 #域名优选 | HKG skk
