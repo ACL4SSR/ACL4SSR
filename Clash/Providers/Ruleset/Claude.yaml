@@ -1,5 +1,8 @@
 payload:
   # 内容：Claude
-  # 数量：2条
+  # 数量：5条
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - PROCESS-NAME,claude
