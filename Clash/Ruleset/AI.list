@@ -52,4 +52,5 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,antigravity-unleash.goog
-DOMAIN-SUFFIX,googleapis.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
