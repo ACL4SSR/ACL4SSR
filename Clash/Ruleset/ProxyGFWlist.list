@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4388条
+# 数量：4390条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -1027,6 +1027,7 @@ DOMAIN-SUFFIX,dt18.com
 DOMAIN-SUFFIX,dtiblog.com
 DOMAIN-SUFFIX,dtic.mil
 DOMAIN-SUFFIX,dubox.com
+DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,duck.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duckmylife.com
@@ -1378,9 +1379,9 @@ DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gagaoolala.com
 DOMAIN-SUFFIX,galenwu.com
-DOMAIN-SUFFIX,game735.com
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gamez.com.tw
+DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,ganjing.com
 DOMAIN-SUFFIX,ganjingworld.com
 DOMAIN-SUFFIX,gaoming.net
@@ -3340,6 +3341,7 @@ DOMAIN-SUFFIX,sosreader.com
 DOMAIN-SUFFIX,sotwe.com
 DOMAIN-SUFFIX,soubory.com
 DOMAIN-SUFFIX,soulcaliburhentai.net
+DOMAIN-SUFFIX,soulogic.com
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,soundofhope.org
 DOMAIN-SUFFIX,soundon.fm
