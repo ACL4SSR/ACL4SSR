@@ -16,10 +16,6 @@
 [proxy_list]
 
 # GFWList
-(^|\.)*.pimg.tw$
-(^|\.)*.sf.net$
-(^|\.)*.tuzaijidi.com$
-(^|\.)*.wordpress.com$
 (^|\.)*2.bahamut.com.tw$
 (^|\.)000webhost.com$
 (^|\.)0rz.tw$
@@ -2911,6 +2907,7 @@
 (^|\.)picsart.com$
 (^|\.)picuki.com$
 (^|\.)pigav.com$
+(^|\.)pimg.tw$
 (^|\.)pin-cong.com$
 (^|\.)pin6.com$
 (^|\.)pincong.rocks$
@@ -3260,6 +3257,7 @@
 (^|\.)sex3.com$
 (^|\.)sex8.cc$
 (^|\.)sexinsex.net$
+(^|\.)sf.net$
 (^|\.)sfshibao.com$
 (^|\.)sftuk.org$
 (^|\.)sgqt0j.launches.appsflyersdk.com$
@@ -4194,6 +4192,7 @@
 (^|\.)woolyss.com$
 (^|\.)woopie.jp$
 (^|\.)woopie.tv$
+(^|\.)wordpress.com$
 (^|\.)work2icu.org$
 (^|\.)workatruna.com$
 (^|\.)workerempowerment.org$
