@@ -1472,7 +1472,7 @@
 
 # Adblock Rules
 # 内容：EasyList + EasyListChina + EasyPrivacy列表
-# 数量：89364条
+# 数量：89367条
 (^|\.)0\.myikas\.com$
 (^|\.)0\.net\.easyjet\.com$
 (^|\.)000491b06a\.com$
@@ -18199,6 +18199,7 @@
 (^|\.)charlottemice\.com$
 (^|\.)charmedwater\.com$
 (^|\.)charmingarea\.com$
+(^|\.)charmingkite\.com$
 (^|\.)charmingpoliteinjunction\.com$
 (^|\.)charmingtiger\.me$
 (^|\.)charms\.pugster\.com$
@@ -58329,6 +58330,7 @@
 (^|\.)prelude69\.com$
 (^|\.)premierbuyer\.edm\.globalsources\.com$
 (^|\.)premiercio\.actonservice\.com$
+(^|\.)premieseafarevg\.cfd$
 (^|\.)premiumads\.net$
 (^|\.)premiumapp\.byjus\.com$
 (^|\.)premiumvertising\.com$
@@ -61515,6 +61517,7 @@
 (^|\.)rentfavourablecashmere\.com$
 (^|\.)renting\.aldautomotive\.es$
 (^|\.)reo682syw4\.com$
+(^|\.)reobtucqfsjbq\.website$
 (^|\.)reoiledgratin\.cfd$
 (^|\.)reoilgarbler\.cfd$
 (^|\.)reomittold\.com$
