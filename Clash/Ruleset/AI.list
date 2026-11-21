@@ -1,5 +1,5 @@
 # 内容：内容：AI平台-国外
-# 数量：47条
+# 数量：48条
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
