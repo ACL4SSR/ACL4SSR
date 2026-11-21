@@ -1,12 +1,11 @@
 # 内容：AmazonIp
-# 数量：1755条
+# 数量：1754条
 IP-CIDR,1.178.1.0/24,no-resolve
 IP-CIDR,1.178.4.0/22,no-resolve
 IP-CIDR,1.178.8.0/22,no-resolve
 IP-CIDR,1.178.16.0/20,no-resolve
 IP-CIDR,1.178.64.0/23,no-resolve
 IP-CIDR,1.178.72.0/21,no-resolve
-IP-CIDR,1.178.86.0/24,no-resolve
 IP-CIDR,1.178.88.0/21,no-resolve
 IP-CIDR,1.178.100.0/22,no-resolve
 IP-CIDR,1.178.172.0/23,no-resolve

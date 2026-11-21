@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyList列表，只包含ABP中的 EasyList 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylist.txt
-  # 更新：2026-11-21 23:13:53
-  # 数量：43537条
+  # 更新：2026-11-21 23:27:54
+  # 数量：43538条
 
   - DOMAIN-SUFFIX,000491b06a.com
   - DOMAIN-SUFFIX,0017c6c37c.com
@@ -26925,6 +26925,7 @@ payload:
   - DOMAIN-SUFFIX,oxlueigiwmyxh.com
   - DOMAIN-SUFFIX,oxmanwashier.cyou
   - DOMAIN-SUFFIX,oxmhrrzmoqnco.online
+  - DOMAIN-SUFFIX,oxqyskqacubxl.website
   - DOMAIN-SUFFIX,oxrdktkaktdod.online
   - DOMAIN-SUFFIX,oxromskyinhfv.site
   - DOMAIN-SUFFIX,oxrqbdaslqcek.space

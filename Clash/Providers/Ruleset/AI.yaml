@@ -1,6 +1,6 @@
 payload:
   # 内容：内容：AI平台-国外
-  # 数量：54条
+  # 数量：55条
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,claude
@@ -39,6 +39,7 @@ payload:
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
