@@ -2,8 +2,8 @@ payload:
   # 广告列表 adblock rules
   # 内容：EasyList列表，只包含ABP中的 EasyList 内容
   # 来源：https://easylist-downloads.adblockplus.org/easylist.txt
-  # 更新：2026-11-21 22:18:11
-  # 数量：43526条
+  # 更新：2026-11-21 22:30:08
+  # 数量：43533条
 
   - DOMAIN-SUFFIX,000491b06a.com
   - DOMAIN-SUFFIX,0017c6c37c.com
@@ -13458,6 +13458,7 @@ payload:
   - DOMAIN-SUFFIX,fnyulqyamnceb.space
   - DOMAIN-SUFFIX,fnzidpnvumkrm.site
   - DOMAIN-SUFFIX,foaltax.com
+  - DOMAIN-SUFFIX,focallysufism.com
   - DOMAIN-SUFFIX,focipalaeic.com
   - DOMAIN-SUFFIX,focusameneducation.com
   - DOMAIN-SUFFIX,focusednative.pro
@@ -20258,6 +20259,7 @@ payload:
   - DOMAIN-SUFFIX,kj5rep8xw1wtyp.cfd
   - DOMAIN-SUFFIX,kjbeseujnss.com
   - DOMAIN-SUFFIX,kjbulizcoofpf.site
+  - DOMAIN-SUFFIX,kjctsxcqsevth.online
   - DOMAIN-SUFFIX,kjdegeotelm.com
   - DOMAIN-SUFFIX,kjebbhtwbgulr.website
   - DOMAIN-SUFFIX,kjetdxtcammhc.com
@@ -22043,6 +22045,7 @@ payload:
   - DOMAIN-SUFFIX,lpcci9ue6qb5je4e.rest
   - DOMAIN-SUFFIX,lpceoltaesyyl.online
   - DOMAIN-SUFFIX,lpciuhqwcgdfp.space
+  - DOMAIN-SUFFIX,lpcmyzlvyhmko.online
   - DOMAIN-SUFFIX,lpcqrynsjihwr.site
   - DOMAIN-SUFFIX,lpcqyjyhfhets.space
   - DOMAIN-SUFFIX,lpfvuqqyplupy.site
@@ -36038,6 +36041,7 @@ payload:
   - DOMAIN-SUFFIX,tornvoiduneven.com
   - DOMAIN-SUFFIX,torqueknorria.click
   - DOMAIN-SUFFIX,torrent-protection.com
+  - DOMAIN-SUFFIX,torselfist.com
   - DOMAIN-SUFFIX,torsescoltish.qpon
   - DOMAIN-SUFFIX,torsesripuplugworm.cyou
   - DOMAIN-SUFFIX,toruftuiov.com
@@ -38592,6 +38596,7 @@ payload:
   - DOMAIN-SUFFIX,villainous-track.pro
   - DOMAIN-SUFFIX,vilmmnuzwgpnq.site
   - DOMAIN-SUFFIX,vilytaku.com
+  - DOMAIN-SUFFIX,vimanahuacaperiwig.cfd
   - DOMAIN-SUFFIX,vimforborn.cyou
   - DOMAIN-SUFFIX,vimmajbrih.in
   - DOMAIN-SUFFIX,vimpokbpdvctc.site
@@ -40382,6 +40387,7 @@ payload:
   - DOMAIN-SUFFIX,wrageriglus.com
   - DOMAIN-SUFFIX,wraithsunegal.cfd
   - DOMAIN-SUFFIX,wramupymnrcwo.online
+  - DOMAIN-SUFFIX,wrangaltica.com
   - DOMAIN-SUFFIX,wrangleclaspinteract.com
   - DOMAIN-SUFFIX,wrannyundrawn.com
   - DOMAIN-SUFFIX,wrapstupendous.com
@@ -42819,6 +42825,7 @@ payload:
   - DOMAIN-SUFFIX,zimvlqwrtadmi.space
   - DOMAIN-SUFFIX,zinekrtshkgkl.website
   - DOMAIN-SUFFIX,zinitelophich.com
+  - DOMAIN-SUFFIX,zinnrakakurnm.online
   - DOMAIN-SUFFIX,zinovu.com
   - DOMAIN-SUFFIX,ziodiuptkyked.website
   - DOMAIN-SUFFIX,ziodjoorfijuu.online

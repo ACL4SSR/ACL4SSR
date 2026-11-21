@@ -1,6 +1,6 @@
 # 内容：中国媒体列表
-# 更新：2026-11-21 19:18:28
-# 数量：38条
+# 更新：2026-11-21 22:28:11
+# 数量：39条
 
 # Bilibili 哔哩哔哩
 DOMAIN,apiintl.biliapi.net
@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliimg.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
