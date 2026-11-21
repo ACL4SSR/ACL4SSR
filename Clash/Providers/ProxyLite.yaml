@@ -179,9 +179,11 @@ payload:
   - DOMAIN,geminiweb-pa.clients.google.com
   - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,notebooklm-pa.googleapis.com
   - DOMAIN,notebooklm.google.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.azure.com

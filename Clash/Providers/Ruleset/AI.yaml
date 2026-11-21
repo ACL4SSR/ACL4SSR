@@ -1,7 +1,8 @@
 payload:
   # 内容：内容：AI平台-国外
-  # 数量：52条
+  # 数量：54条
   - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,openai
   - DOMAIN,ai.google.dev
@@ -16,6 +17,7 @@ payload:
   - DOMAIN,geminiweb-pa.clients.google.com
   - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,notebooklm-pa.googleapis.com
   - DOMAIN,notebooklm.google.com
   - DOMAIN,sydney.bing.com
   - DOMAIN-SUFFIX,ai.azure.com
