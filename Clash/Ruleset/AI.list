@@ -1,5 +1,5 @@
 # 内容：内容：AI平台-国外
-# 数量：55条
+# 数量：62条
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,antigravity
 DOMAIN-KEYWORD,claude
@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gemini.google.com
