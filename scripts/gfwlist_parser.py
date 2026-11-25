@@ -149,6 +149,8 @@ def parse_gfwlist(content):
             if domain:
                 domain_blacklist.append(domain)
 
+    # Clash 的 DOMAIN-SUFFIX 已匹配子域，黑名单里的 *. 前缀去掉即可。
+    domain_blacklist = [domain.removeprefix('*.') for domain in domain_blacklist]
     return domain_blacklist, domain_whitelist, ip_blacklist, ip_whitelist
 
 def format_domain_suffix_rules(domains):

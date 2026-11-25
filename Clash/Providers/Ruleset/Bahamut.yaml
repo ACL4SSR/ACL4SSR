@@ -1,7 +1,6 @@
 payload:
   # 内容：Bahamut
-  # 数量：6条
-  #   
+  # 数量：5条
   - DOMAIN,bahamut.akamaized.net
   - DOMAIN,gamer-cds.cdn.hinet.net
   - DOMAIN,gamer2-cds.cdn.hinet.net
