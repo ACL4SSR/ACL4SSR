@@ -1471,7 +1471,7 @@
 
 # Adblock Rules
 # 内容：EasyList + EasyListChina + EasyPrivacy列表
-# 数量：90073条
+# 数量：90075条
 (^|\.)0\.myikas\.com$
 (^|\.)0\.net\.easyjet\.com$
 (^|\.)000491b06a\.com$
@@ -41027,6 +41027,7 @@
 (^|\.)jvaydgfiwmxkk\.online$
 (^|\.)jvbvng\.notino\.it$
 (^|\.)jvdbmydbujxrb\.online$
+(^|\.)jvfruptohszes\.online$
 (^|\.)jvfyzambiefys\.space$
 (^|\.)jvhhjiikwjrpx\.site$
 (^|\.)jviyau\.pelicanwater\.com$
@@ -90400,6 +90401,7 @@
 (^|\.)zenaps\.com$
 (^|\.)zendplace\.pro$
 (^|\.)zenedge\.actonservice\.com$
+(^|\.)zenithspice\.com$
 (^|\.)zeniththunder\.com$
 (^|\.)zenithurbanflirtatious\.com$
 (^|\.)zenlkqmjfnnwd\.website$
