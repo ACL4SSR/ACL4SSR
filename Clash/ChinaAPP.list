@@ -1,0 +1,391 @@
+# ChinaAPP
+# 国内应用直连进程清单（Android、Windows、macOS）；按应用精确匹配，不收录 AI 助手、聊天工具和通用浏览器。
+# 更新：2026-11-28 13:10:19
+# 数量：299条
+
+# === 政务与金融 ===
+# 政务、办税与社保
+PROCESS-NAME,com.service.android.gov.cn
+PROCESS-NAME,cn.cyberIdentity.certification
+PROCESS-NAME,cn.gov.tax.its
+PROCESS-NAME,cn.gov.chinatax.gt4.app
+PROCESS-NAME,cn.hsa.app
+PROCESS-NAME,com.esscard.esscardapp
+PROCESS-NAME,com.ylzinfo.chinahrss
+PROCESS-NAME,com.tmri.app.main
+PROCESS-NAME,com.hicorenational.antifraud
+
+# 手机银行（按银行名称拼音）
+PROCESS-NAME,com.bankofbeijing.mobilebanking
+PROCESS-NAME,cn.com.cbhb.mbank.per
+PROCESS-NAME,com.icbc
+PROCESS-NAME,com.cebbank.mobile.cemb
+PROCESS-NAME,com.cgbchina.xpt
+PROCESS-NAME,com.hfbank.mobile
+PROCESS-NAME,com.hxb.mobile.client
+PROCESS-NAME,com.chinamworld.main
+PROCESS-NAME,com.bankcomm.Bankcomm
+PROCESS-NAME,cn.com.cmbc.newmbank
+PROCESS-NAME,com.android.bankabc
+PROCESS-NAME,com.pingan.paces.ccms
+PROCESS-NAME,cn.com.spdb.mobilebank.per
+PROCESS-NAME,cn.com.shbank.mper
+PROCESS-NAME,com.cib.cibmb
+PROCESS-NAME,com.yitong.mbank.psbc
+PROCESS-NAME,cmb.pb
+PROCESS-NAME,com.czbank.mbank
+PROCESS-NAME,com.chinamworld.bocmbci
+PROCESS-NAME,com.ecitic.bank.mobile
+
+# 支付、证券与基金
+PROCESS-NAME,com.unionpay
+PROCESS-NAME,cn.gov.pbc.dcep
+PROCESS-NAME,com.hexin.plat.android
+PROCESS-NAME,hexin.exe
+PROCESS-NAME,com.eastmoney.android.berlin
+PROCESS-NAME,com.eastmoney.android.fund
+PROCESS-NAME,com.gf.client
+PROCESS-NAME,com.jd.jrapp
+
+# === 综合厂商 ===
+# 腾讯
+PROCESS-NAME,com.tencent.qqlive
+PROCESS-NAME,com.tencent.qqlivepad
+PROCESS-NAME,com.ktcp.video
+PROCESS-NAME,QQLive.exe
+PROCESS-NAME,QQLive
+PROCESS-NAME,com.tencent.qqmusic
+PROCESS-NAME,QQMusic.exe
+PROCESS-NAME,QQMusic
+PROCESS-NAME,com.tencent.news
+PROCESS-NAME,com.tencent.qqsports
+
+# 阿里巴巴
+PROCESS-NAME,com.taobao.taobao
+PROCESS-NAME,com.tmall.wireless
+PROCESS-NAME,com.taobao.idlefish
+PROCESS-NAME,com.alibaba.wireless
+PROCESS-NAME,com.wudaokou.hippo
+PROCESS-NAME,me.ele
+PROCESS-NAME,com.eg.android.AlipayGphone
+PROCESS-NAME,com.alibaba.aliyun
+PROCESS-NAME,com.youku.phone
+PROCESS-NAME,com.cibn.tv
+PROCESS-NAME,YoukuDesktop.exe
+
+# 字节跳动 · 抖音与内容
+PROCESS-NAME,com.ss.android.ugc.aweme
+PROCESS-NAME,com.ss.android.ugc.aweme.lite
+PROCESS-NAME,com.ss.android.ugc.live
+PROCESS-NAME,com.ss.android.yumme.video
+PROCESS-NAME,com.ss.android.ugc.livelite
+PROCESS-NAME,Douyin.exe
+PROCESS-PATH-REGEX,(?:^|/)抖音\.app/Contents/MacOS/[^/]+$
+PROCESS-NAME,抖音 Helper
+PROCESS-NAME,com.ss.android.ugc.livepro
+PROCESS-NAME,com.ss.android.ugc.lifeservices
+PROCESS-NAME,com.ss.android.article.news
+PROCESS-NAME,com.ss.android.article.lite
+PROCESS-NAME,com.ss.android.article.video
+PROCESS-NAME,com.ss.android.auto
+PROCESS-NAME,com.phoenix.read
+PROCESS-NAME,com.kylin.read
+PROCESS-NAME,com.dragon.read
+PROCESS-NAME,com.xs.fm
+PROCESS-NAME,com.xs.fm.lite
+PROCESS-NAME,com.luna.music
+
+# 字节跳动 · 创作工具
+PROCESS-NAME,com.lemon.lv
+PROCESS-NAME,JianyingPro.exe
+PROCESS-NAME,VideoFusion-macOS
+PROCESS-NAME,com.xt.retouch
+
+# 小米
+PROCESS-NAME,com.xiaomi.smarthome
+PROCESS-NAME,com.xiaomi.shop
+PROCESS-NAME,com.xiaomi.youpin
+PROCESS-NAME,com.mipay.wallet
+PROCESS-NAME,com.mi.health
+PROCESS-NAME,小米互联服务
+
+# 华为与荣耀
+PROCESS-NAME,com.huawei.health
+PROCESS-NAME,com.hihonor.health
+
+# OPPO、一加与 vivo
+PROCESS-NAME,com.oppo.store
+PROCESS-NAME,com.vivo.space
+
+# 联想与中兴
+PROCESS-NAME,com.lenovo.club.app
+PROCESS-NAME,com.zte.smarthome
+
+# === 购物、生活与出行 ===
+# 电商与零售
+PROCESS-NAME,com.jingdong.app.mall
+PROCESS-NAME,com.xunmeng.pinduoduo
+PROCESS-NAME,com.achievo.vipshop
+PROCESS-NAME,cn.samsclub.app
+PROCESS-NAME,cn.walmart.app
+PROCESS-NAME,com.vmall.client
+PROCESS-NAME,com.koudai.weidian.buyer
+PROCESS-NAME,com.koolearn.zhenxuan
+PROCESS-NAME,com.moutai.mall
+
+# 潮流与二手交易
+PROCESS-NAME,com.shizhuang.duapp
+PROCESS-NAME,com.hupu.shihuo
+PROCESS-NAME,com.jiuwu
+PROCESS-NAME,com.wuba.zhuanzhuan
+PROCESS-NAME,aihuishou.aihuishouapp
+PROCESS-NAME,com.aihuishou.opt
+
+# 本地生活、房产与汽车
+PROCESS-NAME,com.sankuai.meituan
+PROCESS-NAME,com.meituan.retail.v.android
+PROCESS-NAME,com.dianping.v1
+PROCESS-NAME,com.wuba
+PROCESS-NAME,com.lianjia.beike
+PROCESS-NAME,com.anjuke.android.app
+PROCESS-NAME,com.pingan.carowner
+PROCESS-NAME,cn.TuHu.android
+PROCESS-NAME,com.ganji.android.haoche_c
+PROCESS-NAME,com.ccb.longjiLife
+
+# 演出与电影票务
+PROCESS-NAME,cn.damai
+PROCESS-NAME,com.sankuai.movie
+PROCESS-NAME,com.taobao.movie.android
+PROCESS-NAME,com.showstartfans.activity
+
+# 运营商与公共缴费
+PROCESS-NAME,com.greenpoint.android.mc10086.activity
+PROCESS-NAME,com.sinovatech.unicom.ui
+PROCESS-NAME,com.ct.client
+PROCESS-NAME,com.sgcc.wsgw.cn
+
+# 智能家居
+PROCESS-NAME,com.midea.ai.appliances
+PROCESS-NAME,com.haier.uhome.uplus
+PROCESS-NAME,com.videogo
+PROCESS-NAME,EzvizStudio.exe
+
+# 地图、交通与物流
+PROCESS-NAME,com.autonavi.minimap
+PROCESS-NAME,com.baidu.BaiduMap
+PROCESS-NAME,com.tencent.map
+PROCESS-NAME,com.MobileTicket
+PROCESS-NAME,com.sdu.didi.psnger
+PROCESS-NAME,com.umetrip.android.msky.app
+PROCESS-NAME,com.tongcheng.android
+PROCESS-NAME,ctrip.android.view
+PROCESS-NAME,com.Qunar
+PROCESS-NAME,com.cainiao.wireless
+PROCESS-NAME,com.sf.activity
+PROCESS-NAME,com.lalamove.huolala.client
+
+# === 影音、阅读与社区 ===
+# 长视频与弹幕
+PROCESS-NAME,com.qiyi.video
+PROCESS-NAME,com.qiyi.video.lite
+PROCESS-NAME,com.gitvdemo.video
+PROCESS-NAME,QyClient.exe
+PROCESS-NAME,tv.danmaku.bili
+PROCESS-NAME,tv.danmaku.bilibilihd
+PROCESS-NAME,com.xiaodianshi.tv.yst
+PROCESS-NAME,哔哩哔哩.exe
+PROCESS-PATH-REGEX,(?:^|/)哔哩哔哩\.app/Contents/MacOS/[^/]+$
+PROCESS-NAME,哔哩哔哩 Helper
+PROCESS-NAME,com.hunantv.imgo.activity
+PROCESS-NAME,com.imgo.pad
+PROCESS-NAME,com.mgtv.tv
+PROCESS-NAME,mgtv.exe
+PROCESS-NAME,com.sohu.sohuvideo
+PROCESS-NAME,com.letv.android.client
+PROCESS-NAME,com.pplive.androidphone
+PROCESS-NAME,com.m1905.mobilefree
+
+# 短视频、短剧与直播
+PROCESS-NAME,com.smile.gifmaker
+PROCESS-NAME,com.kuaishou.nebula
+PROCESS-NAME,air.tv.douyu.android
+PROCESS-NAME,com.duowan.kiwi
+PROCESS-NAME,tv.acfundanmaku.video
+PROCESS-NAME,com.baidu.haokan
+PROCESS-NAME,com.tencent.kairos
+PROCESS-NAME,com.dz.hmjc
+PROCESS-NAME,com.dzhong.fhjc
+
+# 广播电视
+PROCESS-NAME,com.cctv.yangshipin.app.androidp
+PROCESS-NAME,cn.cntv
+PROCESS-NAME,com.cctv.cctv5ultimate
+PROCESS-NAME,com.cctv4g.cctvmobiletv
+PROCESS-NAME,com.cmcc.cmvideo
+PROCESS-NAME,com.wondertek.miguaikan
+PROCESS-NAME,com.chinablue.tv
+PROCESS-NAME,com.bestv.app
+
+# 体育赛事与资讯
+PROCESS-NAME,com.hupu.games
+PROCESS-NAME,com.dongqiudi.news
+PROCESS-NAME,com.leisu.sports
+PROCESS-NAME,android.zhibo8
+PROCESS-NAME,com.letarrow.qtimes
+PROCESS-NAME,cn.gov.lottery
+
+# 健康管理
+PROCESS-NAME,com.lingan.seeyou
+
+# 运动记录与户外
+PROCESS-NAME,com.lptiyu.tanke
+PROCESS-NAME,com.zjwh.android_wh_physicalfitness
+PROCESS-NAME,com.xingzheqi.xing
+PROCESS-NAME,com.fxkj.huabei
+PROCESS-NAME,com.topgether.sixfoot
+PROCESS-NAME,org.qingzhou.cn.sportshow
+
+# 音乐与 K 歌
+PROCESS-NAME,com.netease.cloudmusic
+PROCESS-NAME,cloudmusic.exe
+PROCESS-NAME,NeteaseMusic
+PROCESS-NAME,com.kugou.android
+PROCESS-NAME,com.kugou.android.lite
+PROCESS-NAME,Kugou.exe
+PROCESS-NAME,com.kugou.android.ringtone
+PROCESS-NAME,cn.kuwo.player
+PROCESS-NAME,kwmusic.exe
+PROCESS-NAME,cmccwm.mobilemusic
+PROCESS-NAME,cn.wenyu.bodian
+PROCESS-NAME,com.tencent.karaoke
+PROCESS-NAME,com.kwai.hisense
+
+# 有声、播客与广播剧
+PROCESS-NAME,com.ximalaya.ting.android
+PROCESS-NAME,喜马拉雅.exe
+PROCESS-PATH-REGEX,(?:^|/)喜马拉雅\.app/Contents/MacOS/[^/]+$
+PROCESS-NAME,app.podcast.cosmos
+PROCESS-NAME,com.shinyv.cnr
+PROCESS-NAME,bubei.tingshu
+PROCESS-NAME,cn.missevan
+PROCESS-NAME,com.hm.hmct2025
+
+# 小说、阅读与漫画
+PROCESS-NAME,com.tencent.weread
+PROCESS-NAME,com.qq.reader
+PROCESS-NAME,com.qidian.QDReader
+PROCESS-NAME,com.shuqi.controller
+PROCESS-NAME,com.kmxs.reader
+PROCESS-NAME,com.jjwxc.reader
+PROCESS-NAME,com.ushaqi.zhuishushenqi
+PROCESS-NAME,com.dianzhong.reader
+PROCESS-NAME,com.zhihu.vip.android
+PROCESS-NAME,com.bilibili.comic
+PROCESS-NAME,com.qq.ac.android
+PROCESS-NAME,com.netease.a13.avg
+PROCESS-NAME,com.shidianguji.android
+
+# 社区
+PROCESS-NAME,com.xingin.xhs
+PROCESS-NAME,com.sina.weibo
+
+# === 教育、办公与工具 ===
+# 教育服务与课程
+PROCESS-NAME,cn.com.chsi.chsiapp
+PROCESS-NAME,com.eduyun.app.factory.ykt
+PROCESS-NAME,com.chaoxing.mobile
+PROCESS-NAME,com.able.wisdomtree
+PROCESS-NAME,cn.ixuecheng
+PROCESS-NAME,cn.xuexi.android
+PROCESS-NAME,com.iflytek.elpmobile.smartlearning
+PROCESS-NAME,com.luojilab.player
+PROCESS-NAME,io.dushu.fandengreader
+PROCESS-NAME,com.sinyee.babybus.story
+
+# 语言学习与考试
+PROCESS-NAME,com.jiongji.andriod.card
+PROCESS-NAME,cn.com.langeasy.LangEasyLexis
+PROCESS-NAME,com.eusoft.ting.en
+PROCESS-NAME,com.iflytek.chinese.mandarin_simulation_test
+PROCESS-NAME,com.fenbi.android.servant
+PROCESS-NAME,com.handsgo.jiakao.android
+PROCESS-NAME,com.jxedt
+
+# 网盘与同步
+PROCESS-NAME,com.baidu.netdisk
+PROCESS-NAME,BaiduNetdisk.exe
+PROCESS-NAME,BaiduNetdisk_mac
+PROCESS-NAME,BaiduNetdisk_mac Helper
+PROCESS-NAME,baiduNetdiskSync
+PROCESS-NAME,com.alicloud.databox
+PROCESS-NAME,aDrive.exe
+PROCESS-NAME,com.chinamobile.mcloud
+
+# 办公与远程控制
+PROCESS-NAME,cn.wps.moffice_eng
+PROCESS-NAME,wpsoffice
+PROCESS-NAME,wps.exe
+PROCESS-NAME,wpscloudsvr.exe
+PROCESS-NAME,wpscloudsvr
+PROCESS-NAME,youqu.android.todesk
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,ToDesk_Service.exe
+PROCESS-NAME,ToDesk
+PROCESS-NAME,ToDesk_Service
+PROCESS-NAME,AweSun
+
+# 输入法与应用商店
+PROCESS-NAME,com.sohu.inputmethod.sogou
+PROCESS-NAME,com.sohu.inputmethod.sogou.xiaomi
+PROCESS-NAME,SogouCloud.exe
+PROCESS-NAME,SGTool.exe
+PROCESS-NAME,SogouInput
+PROCESS-NAME,com.coolapk.market
+
+# 安全防护
+PROCESS-NAME,360tray.exe
+PROCESS-NAME,HipsMain.exe
+PROCESS-NAME,HipsDaemon.exe
+
+# 摄影与修图
+PROCESS-NAME,com.mt.mtxx.mtxx
+PROCESS-NAME,com.meitu.meiyancamera
+PROCESS-NAME,com.meitu.wink
+PROCESS-NAME,com.xhey.xcamera
+PROCESS-NAME,com.tencent.zebra
+
+# === 游戏 ===
+# Windows 游戏平台（仅匹配平台自身）
+PROCESS-NAME,WeGame.exe
+PROCESS-NAME,QQGame.exe
+PROCESS-NAME,完美世界竞技平台.exe
+PROCESS-NAME,5EClient.exe
+
+# 游戏资讯
+PROCESS-NAME,com.max.xiaoheihe
+
+# 腾讯 · 国服手游
+PROCESS-NAME,com.tencent.tmgp.sgame
+PROCESS-NAME,com.tencent.tmgp.dfm
+PROCESS-NAME,com.tencent.tmgp.codev
+PROCESS-NAME,com.tencent.tmgp.pubgmhd
+PROCESS-NAME,com.tencent.jkchess
+PROCESS-NAME,com.tencent.tmgp.cf
+PROCESS-NAME,com.tencent.tmgp.speedmobile
+PROCESS-NAME,com.tencent.KiHan
+
+# 网易 · 国服手游
+PROCESS-NAME,com.netease.my
+PROCESS-NAME,com.netease.party
+PROCESS-NAME,com.netease.dwrg
+PROCESS-NAME,com.netease.onmyoji
+
+# 米哈游 · 国服游戏
+PROCESS-NAME,com.miHoYo.Yuanshen
+PROCESS-NAME,YuanShen.exe
+PROCESS-NAME,com.miHoYo.hkrpg
+PROCESS-NAME,com.miHoYo.Nap
+
+# 乐元素 · 手游
+PROCESS-NAME,com.happyelements.AndroidAnimal

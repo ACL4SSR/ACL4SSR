@@ -19,7 +19,6 @@ payload:
   - DOMAIN-KEYWORD,guanggao
   - DOMAIN-KEYWORD,omgmta
   - DOMAIN-KEYWORD,omniture
-  - DOMAIN-KEYWORD,openx
   - DOMAIN-KEYWORD,partnerad
   - DOMAIN-KEYWORD,pingfore
   - DOMAIN-KEYWORD,socdm
@@ -333,7 +332,6 @@ payload:
   - DOMAIN-SUFFIX,switchadhub.com
   - DOMAIN-SUFFIX,sycbbs.com
   - DOMAIN-SUFFIX,synacast.com
-  - DOMAIN-SUFFIX,sysdig.com
   - DOMAIN-SUFFIX,talkingdata.com
   - DOMAIN-SUFFIX,talkingdata.net
   - DOMAIN-SUFFIX,tansuotv.com
@@ -532,6 +530,9 @@ payload:
   - DOMAIN-SUFFIX,nend.net
   - DOMAIN-SUFFIX,netshelter.net
   - DOMAIN-SUFFIX,nexage.com
+  - DOMAIN-SUFFIX,openx.net
+  - DOMAIN-SUFFIX,openxenterprise.com
+  - DOMAIN-SUFFIX,openxmarket.asia
   - DOMAIN-SUFFIX,owneriq.net
   - DOMAIN-SUFFIX,pixels.asia
   - DOMAIN-SUFFIX,plista.com

@@ -1,7 +1,6 @@
 payload:
   # 内容：OneDrive
-  # 数量：19条
-  #   #   
+  # 数量：17条
   # PROCESS-NAME,OneDrive
   # PROCESS-NAME,OneDriveUpdater
   - DOMAIN-KEYWORD,1drv

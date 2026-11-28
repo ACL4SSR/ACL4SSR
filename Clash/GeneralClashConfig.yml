@@ -603,6 +603,7 @@ cfw-bypass:
   - "steamstatic.com.8686c.com"
   # Tencent
   - "*.foxmail.com"
+  - "*.gcloudsvcs.com"
   - "*.gtimg.com"
   - "*.idqqimg.com"
   - "*.igamecj.com"
@@ -912,6 +913,11 @@ cfw-bypass:
   - "*.zhuihd.com"
   - "*.cmbchina.com"
   - "*.95516.com"
+  - "*.made-in-china.com"
+  - "*.micstatic.com"
+  - "*.focuschina.com"
+  - "*.vemic.com"
+  - "*.trademessenger.com"
   - "localhost"
   - 127.*
   - 10.*

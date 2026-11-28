@@ -1,5 +1,6 @@
 # 内容：GFWList 白名单
-# 数量：51条
+# 数量：52条
+DOMAIN-SUFFIX,*.tokenplus.app
 DOMAIN-SUFFIX,DSCloud.biz
 DOMAIN-SUFFIX,DSCloud.me
 DOMAIN-SUFFIX,DSCloud.mobi

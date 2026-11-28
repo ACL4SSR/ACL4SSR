@@ -395,6 +395,7 @@ payload:
 
   # Tencent
   - DOMAIN-SUFFIX,foxmail.com
+  - DOMAIN-SUFFIX,gcloudsvcs.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,idqqimg.com
   - DOMAIN-SUFFIX,igamecj.com
@@ -725,3 +726,8 @@ payload:
   - DOMAIN-SUFFIX,zhuihd.com
   - DOMAIN-SUFFIX,cmbchina.com
   - DOMAIN-SUFFIX,95516.com
+  - DOMAIN-SUFFIX,made-in-china.com
+  - DOMAIN-SUFFIX,micstatic.com
+  - DOMAIN-SUFFIX,focuschina.com
+  - DOMAIN-SUFFIX,vemic.com
+  - DOMAIN-SUFFIX,trademessenger.com

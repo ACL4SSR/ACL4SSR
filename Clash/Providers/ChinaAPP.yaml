@@ -1,0 +1,392 @@
+# ChinaAPP
+# 国内应用直连进程清单（Android、Windows、macOS）；按应用精确匹配，不收录 AI 助手、聊天工具和通用浏览器。
+# 更新：2026-11-28 13:10:19
+# 数量：299条
+
+payload:
+  # === 政务与金融 ===
+  # 政务、办税与社保
+  - PROCESS-NAME,com.service.android.gov.cn  # 国家政务服务平台
+  - PROCESS-NAME,cn.cyberIdentity.certification  # 国家网络身份认证
+  - PROCESS-NAME,cn.gov.tax.its  # 个人所得税
+  - PROCESS-NAME,cn.gov.chinatax.gt4.app  # 电子税务局
+  - PROCESS-NAME,cn.hsa.app  # 国家医保服务平台
+  - PROCESS-NAME,com.esscard.esscardapp  # 电子社保卡
+  - PROCESS-NAME,com.ylzinfo.chinahrss  # 掌上12333
+  - PROCESS-NAME,com.tmri.app.main  # 交管12123
+  - PROCESS-NAME,com.hicorenational.antifraud  # 国家反诈中心
+
+  # 手机银行（按银行名称拼音）
+  - PROCESS-NAME,com.bankofbeijing.mobilebanking  # 北京银行
+  - PROCESS-NAME,cn.com.cbhb.mbank.per  # 渤海银行
+  - PROCESS-NAME,com.icbc  # 工商银行
+  - PROCESS-NAME,com.cebbank.mobile.cemb  # 光大银行
+  - PROCESS-NAME,com.cgbchina.xpt  # 广发银行
+  - PROCESS-NAME,com.hfbank.mobile  # 恒丰银行
+  - PROCESS-NAME,com.hxb.mobile.client  # 华夏银行
+  - PROCESS-NAME,com.chinamworld.main  # 建设银行
+  - PROCESS-NAME,com.bankcomm.Bankcomm  # 交通银行
+  - PROCESS-NAME,cn.com.cmbc.newmbank  # 民生银行
+  - PROCESS-NAME,com.android.bankabc  # 农业银行
+  - PROCESS-NAME,com.pingan.paces.ccms  # 平安银行
+  - PROCESS-NAME,cn.com.spdb.mobilebank.per  # 浦发银行
+  - PROCESS-NAME,cn.com.shbank.mper  # 上海银行
+  - PROCESS-NAME,com.cib.cibmb  # 兴业银行
+  - PROCESS-NAME,com.yitong.mbank.psbc  # 邮储银行
+  - PROCESS-NAME,cmb.pb  # 招商银行
+  - PROCESS-NAME,com.czbank.mbank  # 浙商银行
+  - PROCESS-NAME,com.chinamworld.bocmbci  # 中国银行
+  - PROCESS-NAME,com.ecitic.bank.mobile  # 中信银行
+
+  # 支付、证券与基金
+  - PROCESS-NAME,com.unionpay  # 云闪付
+  - PROCESS-NAME,cn.gov.pbc.dcep  # 数字人民币
+  - PROCESS-NAME,com.hexin.plat.android  # 同花顺
+  - PROCESS-NAME,hexin.exe  # 同花顺 Windows
+  - PROCESS-NAME,com.eastmoney.android.berlin  # 东方财富
+  - PROCESS-NAME,com.eastmoney.android.fund  # 天天基金
+  - PROCESS-NAME,com.gf.client  # 广发证券易淘金
+  - PROCESS-NAME,com.jd.jrapp  # 京东金融
+
+  # === 综合厂商 ===
+  # 腾讯
+  - PROCESS-NAME,com.tencent.qqlive  # 腾讯视频
+  - PROCESS-NAME,com.tencent.qqlivepad  # 腾讯视频 HD
+  - PROCESS-NAME,com.ktcp.video  # 腾讯视频·云视听（电视）
+  - PROCESS-NAME,QQLive.exe  # 腾讯视频 Windows
+  - PROCESS-NAME,QQLive  # 腾讯视频 macOS
+  - PROCESS-NAME,com.tencent.qqmusic  # QQ 音乐
+  - PROCESS-NAME,QQMusic.exe  # QQ 音乐 Windows
+  - PROCESS-NAME,QQMusic  # QQ 音乐 macOS
+  - PROCESS-NAME,com.tencent.news  # 腾讯新闻
+  - PROCESS-NAME,com.tencent.qqsports  # 腾讯体育
+
+  # 阿里巴巴
+  - PROCESS-NAME,com.taobao.taobao  # 淘宝
+  - PROCESS-NAME,com.tmall.wireless  # 天猫
+  - PROCESS-NAME,com.taobao.idlefish  # 闲鱼
+  - PROCESS-NAME,com.alibaba.wireless  # 1688
+  - PROCESS-NAME,com.wudaokou.hippo  # 盒马
+  - PROCESS-NAME,me.ele  # 淘宝闪购
+  - PROCESS-NAME,com.eg.android.AlipayGphone  # 支付宝
+  - PROCESS-NAME,com.alibaba.aliyun  # 阿里云
+  - PROCESS-NAME,com.youku.phone  # 优酷
+  - PROCESS-NAME,com.cibn.tv  # 酷喵影视（优酷电视端）
+  - PROCESS-NAME,YoukuDesktop.exe  # 优酷 Windows
+
+  # 字节跳动 · 抖音与内容
+  - PROCESS-NAME,com.ss.android.ugc.aweme  # 抖音
+  - PROCESS-NAME,com.ss.android.ugc.aweme.lite  # 抖音极速版
+  - PROCESS-NAME,com.ss.android.ugc.live  # 抖音火山版
+  - PROCESS-NAME,com.ss.android.yumme.video  # 抖音精选
+  - PROCESS-NAME,com.ss.android.ugc.livelite  # 抖音商城
+  - PROCESS-NAME,Douyin.exe  # 抖音 Windows
+  - PROCESS-PATH-REGEX,(?:^|/)抖音\.app/Contents/MacOS/[^/]+$  # 抖音 macOS 主程序目录
+  - PROCESS-NAME,抖音 Helper  # 抖音 macOS 网络子进程
+  - PROCESS-NAME,com.ss.android.ugc.livepro  # 抖音直播伴侣
+  - PROCESS-NAME,com.ss.android.ugc.lifeservices  # 抖省省
+  - PROCESS-NAME,com.ss.android.article.news  # 今日头条
+  - PROCESS-NAME,com.ss.android.article.lite  # 今日头条极速版
+  - PROCESS-NAME,com.ss.android.article.video  # 西瓜视频
+  - PROCESS-NAME,com.ss.android.auto  # 懂车帝
+  - PROCESS-NAME,com.phoenix.read  # 红果短剧
+  - PROCESS-NAME,com.kylin.read  # 红果免费漫剧
+  - PROCESS-NAME,com.dragon.read  # 番茄小说
+  - PROCESS-NAME,com.xs.fm  # 番茄畅听
+  - PROCESS-NAME,com.xs.fm.lite  # 番茄音乐
+  - PROCESS-NAME,com.luna.music  # 汽水音乐
+
+  # 字节跳动 · 创作工具
+  - PROCESS-NAME,com.lemon.lv  # 剪映
+  - PROCESS-NAME,JianyingPro.exe  # 剪映 Windows
+  - PROCESS-NAME,VideoFusion-macOS  # 剪映 macOS
+  - PROCESS-NAME,com.xt.retouch  # 醒图
+
+  # 小米
+  - PROCESS-NAME,com.xiaomi.smarthome  # 米家
+  - PROCESS-NAME,com.xiaomi.shop  # 小米商城
+  - PROCESS-NAME,com.xiaomi.youpin  # 小米有品
+  - PROCESS-NAME,com.mipay.wallet  # 小米钱包
+  - PROCESS-NAME,com.mi.health  # 小米运动健康
+  - PROCESS-NAME,小米互联服务  # 小米互联服务
+
+  # 华为与荣耀
+  - PROCESS-NAME,com.huawei.health  # 华为运动健康
+  - PROCESS-NAME,com.hihonor.health  # 荣耀运动健康
+
+  # OPPO、一加与 vivo
+  - PROCESS-NAME,com.oppo.store  # OPPO 商城（含一加）
+  - PROCESS-NAME,com.vivo.space  # vivo 商城
+
+  # 联想与中兴
+  - PROCESS-NAME,com.lenovo.club.app  # 联想官方商城
+  - PROCESS-NAME,com.zte.smarthome  # 中兴智慧生活
+
+  # === 购物、生活与出行 ===
+  # 电商与零售
+  - PROCESS-NAME,com.jingdong.app.mall  # 京东
+  - PROCESS-NAME,com.xunmeng.pinduoduo  # 拼多多
+  - PROCESS-NAME,com.achievo.vipshop  # 唯品会
+  - PROCESS-NAME,cn.samsclub.app  # 山姆会员商店
+  - PROCESS-NAME,cn.walmart.app  # 沃尔玛
+  - PROCESS-NAME,com.vmall.client  # 华为商城
+  - PROCESS-NAME,com.koudai.weidian.buyer  # 微店
+  - PROCESS-NAME,com.koolearn.zhenxuan  # 东方甄选
+  - PROCESS-NAME,com.moutai.mall  # i茅台
+
+  # 潮流与二手交易
+  - PROCESS-NAME,com.shizhuang.duapp  # 得物
+  - PROCESS-NAME,com.hupu.shihuo  # 识货
+  - PROCESS-NAME,com.jiuwu  # 95分
+  - PROCESS-NAME,com.wuba.zhuanzhuan  # 转转
+  - PROCESS-NAME,aihuishou.aihuishouapp  # 爱回收
+  - PROCESS-NAME,com.aihuishou.opt  # 拍机堂
+
+  # 本地生活、房产与汽车
+  - PROCESS-NAME,com.sankuai.meituan  # 美团
+  - PROCESS-NAME,com.meituan.retail.v.android  # 小象超市
+  - PROCESS-NAME,com.dianping.v1  # 大众点评
+  - PROCESS-NAME,com.wuba  # 58同城
+  - PROCESS-NAME,com.lianjia.beike  # 贝壳找房
+  - PROCESS-NAME,com.anjuke.android.app  # 安居客
+  - PROCESS-NAME,com.pingan.carowner  # 平安好车主
+  - PROCESS-NAME,cn.TuHu.android  # 途虎养车
+  - PROCESS-NAME,com.ganji.android.haoche_c  # 瓜子二手车
+  - PROCESS-NAME,com.ccb.longjiLife  # 建行生活
+
+  # 演出与电影票务
+  - PROCESS-NAME,cn.damai  # 大麦
+  - PROCESS-NAME,com.sankuai.movie  # 猫眼
+  - PROCESS-NAME,com.taobao.movie.android  # 淘票票
+  - PROCESS-NAME,com.showstartfans.activity  # 秀动
+
+  # 运营商与公共缴费
+  - PROCESS-NAME,com.greenpoint.android.mc10086.activity  # 中国移动
+  - PROCESS-NAME,com.sinovatech.unicom.ui  # 中国联通
+  - PROCESS-NAME,com.ct.client  # 中国电信
+  - PROCESS-NAME,com.sgcc.wsgw.cn  # 网上国网
+
+  # 智能家居
+  - PROCESS-NAME,com.midea.ai.appliances  # 美的美居
+  - PROCESS-NAME,com.haier.uhome.uplus  # 海尔智家
+  - PROCESS-NAME,com.videogo  # 萤石云视频
+  - PROCESS-NAME,EzvizStudio.exe  # 萤石工作室 Windows
+
+  # 地图、交通与物流
+  - PROCESS-NAME,com.autonavi.minimap  # 高德地图
+  - PROCESS-NAME,com.baidu.BaiduMap  # 百度地图
+  - PROCESS-NAME,com.tencent.map  # 腾讯地图
+  - PROCESS-NAME,com.MobileTicket  # 铁路12306
+  - PROCESS-NAME,com.sdu.didi.psnger  # 滴滴出行
+  - PROCESS-NAME,com.umetrip.android.msky.app  # 航旅纵横
+  - PROCESS-NAME,com.tongcheng.android  # 同程旅行
+  - PROCESS-NAME,ctrip.android.view  # 携程旅行
+  - PROCESS-NAME,com.Qunar  # 去哪儿旅行
+  - PROCESS-NAME,com.cainiao.wireless  # 菜鸟
+  - PROCESS-NAME,com.sf.activity  # 顺丰速运
+  - PROCESS-NAME,com.lalamove.huolala.client  # 货拉拉
+
+  # === 影音、阅读与社区 ===
+  # 长视频与弹幕
+  - PROCESS-NAME,com.qiyi.video  # 爱奇艺
+  - PROCESS-NAME,com.qiyi.video.lite  # 爱奇艺极速版
+  - PROCESS-NAME,com.gitvdemo.video  # 银河奇异果（爱奇艺电视端）
+  - PROCESS-NAME,QyClient.exe  # 爱奇艺 Windows
+  - PROCESS-NAME,tv.danmaku.bili  # 哔哩哔哩
+  - PROCESS-NAME,tv.danmaku.bilibilihd  # 哔哩哔哩 HD
+  - PROCESS-NAME,com.xiaodianshi.tv.yst  # 云视听小电视（哔哩哔哩电视端）
+  - PROCESS-NAME,哔哩哔哩.exe  # 哔哩哔哩 Windows
+  - PROCESS-PATH-REGEX,(?:^|/)哔哩哔哩\.app/Contents/MacOS/[^/]+$  # 哔哩哔哩 macOS 主程序目录
+  - PROCESS-NAME,哔哩哔哩 Helper  # 哔哩哔哩 macOS 网络子进程
+  - PROCESS-NAME,com.hunantv.imgo.activity  # 芒果 TV
+  - PROCESS-NAME,com.imgo.pad  # 芒果 TV HD
+  - PROCESS-NAME,com.mgtv.tv  # 芒果 TV 电视端
+  - PROCESS-NAME,mgtv.exe  # 芒果 TV Windows
+  - PROCESS-NAME,com.sohu.sohuvideo  # 搜狐视频
+  - PROCESS-NAME,com.letv.android.client  # 乐视视频
+  - PROCESS-NAME,com.pplive.androidphone  # PP 视频
+  - PROCESS-NAME,com.m1905.mobilefree  # 1905 电影网
+
+  # 短视频、短剧与直播
+  - PROCESS-NAME,com.smile.gifmaker  # 快手
+  - PROCESS-NAME,com.kuaishou.nebula  # 快手极速版
+  - PROCESS-NAME,air.tv.douyu.android  # 斗鱼
+  - PROCESS-NAME,com.duowan.kiwi  # 虎牙直播
+  - PROCESS-NAME,tv.acfundanmaku.video  # AcFun
+  - PROCESS-NAME,com.baidu.haokan  # 好看视频
+  - PROCESS-NAME,com.tencent.kairos  # 火龙免费漫剧
+  - PROCESS-NAME,com.dz.hmjc  # 河马剧场
+  - PROCESS-NAME,com.dzhong.fhjc  # 繁花剧场
+
+  # 广播电视
+  - PROCESS-NAME,com.cctv.yangshipin.app.androidp  # 央视频
+  - PROCESS-NAME,cn.cntv  # 央视影音
+  - PROCESS-NAME,com.cctv.cctv5ultimate  # 央视体育
+  - PROCESS-NAME,com.cctv4g.cctvmobiletv  # CCTV 手机电视
+  - PROCESS-NAME,com.cmcc.cmvideo  # 咪咕视频
+  - PROCESS-NAME,com.wondertek.miguaikan  # 咪咕视频爱看版
+  - PROCESS-NAME,com.chinablue.tv  # 浙江广电 · Z视介
+  - PROCESS-NAME,com.bestv.app  # 上海广电 · 看东方
+
+  # 体育赛事与资讯
+  - PROCESS-NAME,com.hupu.games  # 虎扑
+  - PROCESS-NAME,com.dongqiudi.news  # 懂球帝
+  - PROCESS-NAME,com.leisu.sports  # 雷速体育
+  - PROCESS-NAME,android.zhibo8  # 直播吧
+  - PROCESS-NAME,com.letarrow.qtimes  # 新球体育
+  - PROCESS-NAME,cn.gov.lottery  # 中国体育彩票
+
+  # 健康管理
+  - PROCESS-NAME,com.lingan.seeyou  # 美柚
+
+  # 运动记录与户外
+  - PROCESS-NAME,com.lptiyu.tanke  # 步道乐跑
+  - PROCESS-NAME,com.zjwh.android_wh_physicalfitness  # 运动世界
+  - PROCESS-NAME,com.xingzheqi.xing  # 行者骑行
+  - PROCESS-NAME,com.fxkj.huabei  # 滑呗
+  - PROCESS-NAME,com.topgether.sixfoot  # 六只脚
+  - PROCESS-NAME,org.qingzhou.cn.sportshow  # 运动高手秀
+
+  # 音乐与 K 歌
+  - PROCESS-NAME,com.netease.cloudmusic  # 网易云音乐
+  - PROCESS-NAME,cloudmusic.exe  # 网易云音乐 Windows
+  - PROCESS-NAME,NeteaseMusic  # 网易云音乐 macOS
+  - PROCESS-NAME,com.kugou.android  # 酷狗音乐
+  - PROCESS-NAME,com.kugou.android.lite  # 酷狗概念版
+  - PROCESS-NAME,Kugou.exe  # 酷狗音乐 Windows
+  - PROCESS-NAME,com.kugou.android.ringtone  # 酷狗铃声
+  - PROCESS-NAME,cn.kuwo.player  # 酷我音乐
+  - PROCESS-NAME,kwmusic.exe  # 酷我音乐 Windows
+  - PROCESS-NAME,cmccwm.mobilemusic  # 咪咕音乐
+  - PROCESS-NAME,cn.wenyu.bodian  # 波点音乐
+  - PROCESS-NAME,com.tencent.karaoke  # 全民K歌
+  - PROCESS-NAME,com.kwai.hisense  # 回森
+
+  # 有声、播客与广播剧
+  - PROCESS-NAME,com.ximalaya.ting.android  # 喜马拉雅
+  - PROCESS-NAME,喜马拉雅.exe  # 喜马拉雅 Windows
+  - PROCESS-PATH-REGEX,(?:^|/)喜马拉雅\.app/Contents/MacOS/[^/]+$  # 喜马拉雅 macOS 主程序目录
+  - PROCESS-NAME,app.podcast.cosmos  # 小宇宙
+  - PROCESS-NAME,com.shinyv.cnr  # 云听
+  - PROCESS-NAME,bubei.tingshu  # 懒人听书
+  - PROCESS-NAME,cn.missevan  # 猫耳FM
+  - PROCESS-NAME,com.hm.hmct2025  # 海马畅听
+
+  # 小说、阅读与漫画
+  - PROCESS-NAME,com.tencent.weread  # 微信读书
+  - PROCESS-NAME,com.qq.reader  # QQ 阅读
+  - PROCESS-NAME,com.qidian.QDReader  # 起点读书
+  - PROCESS-NAME,com.shuqi.controller  # 书旗小说
+  - PROCESS-NAME,com.kmxs.reader  # 七猫小说
+  - PROCESS-NAME,com.jjwxc.reader  # 晋江小说阅读
+  - PROCESS-NAME,com.ushaqi.zhuishushenqi  # 追书神器
+  - PROCESS-NAME,com.dianzhong.reader  # 点众小说
+  - PROCESS-NAME,com.zhihu.vip.android  # 盐言故事
+  - PROCESS-NAME,com.bilibili.comic  # 哔哩哔哩漫画
+  - PROCESS-NAME,com.qq.ac.android  # 腾讯动漫
+  - PROCESS-NAME,com.netease.a13.avg  # 易次元
+  - PROCESS-NAME,com.shidianguji.android  # 识典古籍
+
+  # 社区
+  - PROCESS-NAME,com.xingin.xhs  # 小红书
+  - PROCESS-NAME,com.sina.weibo  # 微博
+
+  # === 教育、办公与工具 ===
+  # 教育服务与课程
+  - PROCESS-NAME,cn.com.chsi.chsiapp  # 学信网
+  - PROCESS-NAME,com.eduyun.app.factory.ykt  # 智慧中小学
+  - PROCESS-NAME,com.chaoxing.mobile  # 学习通
+  - PROCESS-NAME,com.able.wisdomtree  # 知到
+  - PROCESS-NAME,cn.ixuecheng  # 学丞
+  - PROCESS-NAME,cn.xuexi.android  # 学习强国
+  - PROCESS-NAME,com.iflytek.elpmobile.smartlearning  # 智学网
+  - PROCESS-NAME,com.luojilab.player  # 得到
+  - PROCESS-NAME,io.dushu.fandengreader  # 帆书
+  - PROCESS-NAME,com.sinyee.babybus.story  # 小布咕
+
+  # 语言学习与考试
+  - PROCESS-NAME,com.jiongji.andriod.card  # 百词斩
+  - PROCESS-NAME,cn.com.langeasy.LangEasyLexis  # 不背单词
+  - PROCESS-NAME,com.eusoft.ting.en  # 每日英语听力
+  - PROCESS-NAME,com.iflytek.chinese.mandarin_simulation_test  # 畅言普通话
+  - PROCESS-NAME,com.fenbi.android.servant  # 粉笔
+  - PROCESS-NAME,com.handsgo.jiakao.android  # 驾考宝典
+  - PROCESS-NAME,com.jxedt  # 驾校一点通
+
+  # 网盘与同步
+  - PROCESS-NAME,com.baidu.netdisk  # 百度网盘
+  - PROCESS-NAME,BaiduNetdisk.exe  # 百度网盘 Windows
+  - PROCESS-NAME,BaiduNetdisk_mac  # 百度网盘 macOS
+  - PROCESS-NAME,BaiduNetdisk_mac Helper  # 百度网盘 macOS 子进程
+  - PROCESS-NAME,baiduNetdiskSync  # 百度网盘 macOS 同步扩展
+  - PROCESS-NAME,com.alicloud.databox  # 阿里云盘
+  - PROCESS-NAME,aDrive.exe  # 阿里云盘 Windows
+  - PROCESS-NAME,com.chinamobile.mcloud  # 中国移动云盘
+
+  # 办公与远程控制
+  - PROCESS-NAME,cn.wps.moffice_eng  # WPS Office
+  - PROCESS-NAME,wpsoffice  # WPS Office macOS
+  - PROCESS-NAME,wps.exe  # WPS Office Windows
+  - PROCESS-NAME,wpscloudsvr.exe  # WPS 云服务 Windows
+  - PROCESS-NAME,wpscloudsvr  # WPS 云服务 macOS
+  - PROCESS-NAME,youqu.android.todesk  # ToDesk Android
+  - PROCESS-NAME,ToDesk.exe  # ToDesk Windows
+  - PROCESS-NAME,ToDesk_Service.exe  # ToDesk Windows 服务
+  - PROCESS-NAME,ToDesk  # ToDesk macOS
+  - PROCESS-NAME,ToDesk_Service  # ToDesk macOS 服务
+  - PROCESS-NAME,AweSun  # 向日葵
+
+  # 输入法与应用商店
+  - PROCESS-NAME,com.sohu.inputmethod.sogou  # 搜狗输入法
+  - PROCESS-NAME,com.sohu.inputmethod.sogou.xiaomi  # 搜狗输入法小米版
+  - PROCESS-NAME,SogouCloud.exe  # 搜狗输入法 Windows 云服务
+  - PROCESS-NAME,SGTool.exe  # 搜狗输入法 Windows 工具
+  - PROCESS-NAME,SogouInput  # 搜狗输入法 macOS
+  - PROCESS-NAME,com.coolapk.market  # 酷安
+
+  # 安全防护
+  - PROCESS-NAME,360tray.exe  # 360 安全卫士 Windows
+  - PROCESS-NAME,HipsMain.exe  # 火绒安全 Windows
+  - PROCESS-NAME,HipsDaemon.exe  # 火绒安全 Windows 服务
+
+  # 摄影与修图
+  - PROCESS-NAME,com.mt.mtxx.mtxx  # 美图秀秀
+  - PROCESS-NAME,com.meitu.meiyancamera  # 美颜相机
+  - PROCESS-NAME,com.meitu.wink  # Wink
+  - PROCESS-NAME,com.xhey.xcamera  # 今日水印相机
+  - PROCESS-NAME,com.tencent.zebra  # 水印相机
+
+  # === 游戏 ===
+  # Windows 游戏平台（仅匹配平台自身）
+  - PROCESS-NAME,WeGame.exe  # 腾讯 WeGame
+  - PROCESS-NAME,QQGame.exe  # QQ 游戏大厅
+  - PROCESS-NAME,完美世界竞技平台.exe  # 完美世界竞技平台
+  - PROCESS-NAME,5EClient.exe  # 5E 对战平台
+
+  # 游戏资讯
+  - PROCESS-NAME,com.max.xiaoheihe  # 小黑盒
+
+  # 腾讯 · 国服手游
+  - PROCESS-NAME,com.tencent.tmgp.sgame  # 王者荣耀
+  - PROCESS-NAME,com.tencent.tmgp.dfm  # 三角洲行动
+  - PROCESS-NAME,com.tencent.tmgp.codev  # 无畏契约：源能行动
+  - PROCESS-NAME,com.tencent.tmgp.pubgmhd  # 和平精英
+  - PROCESS-NAME,com.tencent.jkchess  # 金铲铲之战
+  - PROCESS-NAME,com.tencent.tmgp.cf  # 穿越火线：枪战王者
+  - PROCESS-NAME,com.tencent.tmgp.speedmobile  # QQ 飞车手游
+  - PROCESS-NAME,com.tencent.KiHan  # 火影忍者
+
+  # 网易 · 国服手游
+  - PROCESS-NAME,com.netease.my  # 梦幻西游
+  - PROCESS-NAME,com.netease.party  # 蛋仔派对
+  - PROCESS-NAME,com.netease.dwrg  # 第五人格
+  - PROCESS-NAME,com.netease.onmyoji  # 阴阳师
+
+  # 米哈游 · 国服游戏
+  - PROCESS-NAME,com.miHoYo.Yuanshen  # 原神
+  - PROCESS-NAME,YuanShen.exe  # 原神 Windows 国服
+  - PROCESS-NAME,com.miHoYo.hkrpg  # 崩坏：星穹铁道
+  - PROCESS-NAME,com.miHoYo.Nap  # 绝区零
+
+  # 乐元素 · 手游
+  - PROCESS-NAME,com.happyelements.AndroidAnimal  # 开心消消乐

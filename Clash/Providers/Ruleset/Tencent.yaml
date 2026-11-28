@@ -1,7 +1,8 @@
 payload:
   # 内容：Tencent
-  # 数量：19条
+  # 数量：20条
   - DOMAIN-SUFFIX,foxmail.com
+  - DOMAIN-SUFFIX,gcloudsvcs.com
   - DOMAIN-SUFFIX,gtimg.com
   - DOMAIN-SUFFIX,idqqimg.com
   - DOMAIN-SUFFIX,igamecj.com

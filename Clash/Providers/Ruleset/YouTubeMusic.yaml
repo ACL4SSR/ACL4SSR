@@ -1,5 +1,4 @@
 payload:
   # 内容：YouTubeMusic
-  # 数量：5条
-  #   #   #   #   
+  # 数量：1条
   - DOMAIN,music.youtube.com
