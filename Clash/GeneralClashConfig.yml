@@ -913,6 +913,7 @@ cfw-bypass:
   - "*.zhuihd.com"
   - "*.cmbchina.com"
   - "*.95516.com"
+  - "cn.download.nvidia.com"
   - "*.made-in-china.com"
   - "*.micstatic.com"
   - "*.focuschina.com"

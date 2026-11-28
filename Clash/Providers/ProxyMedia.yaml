@@ -1,7 +1,7 @@
 payload:
   # 内容：国外媒体列表
-  # 更新：2026-11-21 22:28:17
-  # 数量：309条
+  # 更新：2026-11-28 13:52:00
+  # 数量：310条
 
   # ABC
   - DOMAIN-SUFFIX,edgedatg.com
@@ -326,6 +326,7 @@ payload:
   # SoundCloud
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,sndcdn.com
+  - DOMAIN-SUFFIX,soundcloud.cloud
   - DOMAIN-SUFFIX,soundcloud.com
 
   # Spotify

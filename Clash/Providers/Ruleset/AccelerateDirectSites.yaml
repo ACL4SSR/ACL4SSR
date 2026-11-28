@@ -1,6 +1,7 @@
 payload:
   # 内容：AccelerateDirectSites
-  # 数量：250条
+  # 数量：251条
+  - DOMAIN,cn.download.nvidia.com
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,115.com
   - DOMAIN-SUFFIX,12306.com
