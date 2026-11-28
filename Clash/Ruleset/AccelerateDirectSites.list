@@ -1,5 +1,5 @@
 # 内容：AccelerateDirectSites
-# 数量：245条
+# 数量：250条
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,12306.com
@@ -75,6 +75,7 @@ DOMAIN-SUFFIX,fantasy.tv
 DOMAIN-SUFFIX,feng.com
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,fir.im
+DOMAIN-SUFFIX,focuschina.com
 DOMAIN-SUFFIX,frdic.com
 DOMAIN-SUFFIX,fresh-ideas.cc
 DOMAIN-SUFFIX,ganji.com
@@ -129,11 +130,13 @@ DOMAIN-SUFFIX,lizhifm.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lvmama.com
 DOMAIN-SUFFIX,lxdns.com
+DOMAIN-SUFFIX,made-in-china.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,meilishuo.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,meizu.com
+DOMAIN-SUFFIX,micstatic.com
 DOMAIN-SUFFIX,migucloud.com
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,mobike.com
@@ -196,6 +199,7 @@ DOMAIN-SUFFIX,tianyaui.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tiexue.net
 DOMAIN-SUFFIX,tmiaoo.com
+DOMAIN-SUFFIX,trademessenger.com
 DOMAIN-SUFFIX,trip.com
 DOMAIN-SUFFIX,ttmeiju.com
 DOMAIN-SUFFIX,tudou.com
@@ -204,6 +208,7 @@ DOMAIN-SUFFIX,tuniucdn.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,uxengine.net
+DOMAIN-SUFFIX,vemic.com
 DOMAIN-SUFFIX,videocc.net
 DOMAIN-SUFFIX,vivo.com
 DOMAIN-SUFFIX,wandoujia.com
