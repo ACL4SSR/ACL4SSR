@@ -1,5 +1,5 @@
 # 内容：Developer 开发者常用国外网站、镜像和论坛
-# 数量：25条
+# 数量：26条
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,neon.com
 DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,quay.io
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redhat.com
