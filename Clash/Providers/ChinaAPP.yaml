@@ -1,7 +1,7 @@
 # ChinaAPP
 # 国内应用直连进程清单（Android、Windows、macOS）；按应用精确匹配，不收录 AI 助手、聊天工具和通用浏览器。
-# 更新：2026-11-28 12:59:46
-# 数量：297条
+# 更新：2026-11-28 13:10:19
+# 数量：299条
 
 payload:
   # === 政务与金融 ===
@@ -340,10 +340,12 @@ payload:
   - PROCESS-NAME,com.sohu.inputmethod.sogou  # 搜狗输入法
   - PROCESS-NAME,com.sohu.inputmethod.sogou.xiaomi  # 搜狗输入法小米版
   - PROCESS-NAME,SogouCloud.exe  # 搜狗输入法 Windows 云服务
+  - PROCESS-NAME,SGTool.exe  # 搜狗输入法 Windows 工具
   - PROCESS-NAME,SogouInput  # 搜狗输入法 macOS
   - PROCESS-NAME,com.coolapk.market  # 酷安
 
   # 安全防护
+  - PROCESS-NAME,360tray.exe  # 360 安全卫士 Windows
   - PROCESS-NAME,HipsMain.exe  # 火绒安全 Windows
   - PROCESS-NAME,HipsDaemon.exe  # 火绒安全 Windows 服务
 
